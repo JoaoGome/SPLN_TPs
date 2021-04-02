@@ -109,38 +109,38 @@ for individuo in individuos_ids:
                     notas.append(li.get_text().strip())
 
     # ir buscar os Filhos
+
     if("Filhos" in indSoup.strings):
+
         numeroFilhos = numberOf("Filhos",indSoup.strings)
         check = 0
         divTags = indSoup.find_all('div')
+
         for div in divTags:
             if(div.has_attr('class')):
+                
                 if(str(div['class'][0]) == "txt2"):
                     listaSoup = BeautifulSoup(str(div),"html.parser")
                     ulTags = listaSoup.find_all('ul')
                     for ul in ulTags:
-                        if (numeroFilhos == 1):
-                            if (not check):
-                                check += 1
-                                liSoup = BeautifulSoup(str(ul),"html.parser")
-                                liTags = liSoup.find_all('li')
-                                for li in liTags:
-                                    aSoup = BeautifulSoup(str(li),"html.parser")
-                                    aTags = aSoup.find_all('a')
-                                    for a in aTags:
-                                        filhos.append(a.get_text().strip())
-                        elif (numeroFilhos > 1):
-                            if (check < (numeroFilhos - 1)):
-                                filhosCasamento = []
-                                check += 1
-                                liSoup = BeautifulSoup(str(ul),"html.parser")
-                                liTags = liSoup.find_all('li')
-                                for li in liTags:
-                                    aSoup = BeautifulSoup(str(li),"html.parser")
-                                    aTags = aSoup.find_all('a')
-                                    for a in aTags:
-                                        filhosCasamento.append(a.get_text().strip())
-                                filhos.append(filhosCasamento)
+                        
+                        if (check < (numeroFilhos - 1) or ((numeroFilhos == 1) and not check)) :
+                            filhosCasamento = []
+                            check += 1
+                            liSoup = BeautifulSoup(str(ul),"html.parser")
+                            liTags = liSoup.find_all('li')
+                            for li in liTags:
+                                aSoup = BeautifulSoup(str(li),"html.parser")
+                                aTags = aSoup.find_all('a')
+                                for a in aTags:
+                                    filhosCasamento.append(a.get_text().strip())
+
+                            if numeroFilhos == 2 and ("Filhos do Casamento II:" in indSoup.strings):
+                                filhos.append([])
+                            filhos.append(filhosCasamento)
+                            if numeroFilhos == 2 and ("Filhos do Casamento I:" in indSoup.strings):
+                                filhos.append([])
+                        
                     
     # ir buscar os casamentos
     if ("Casamentos" in indSoup.strings):
@@ -225,6 +225,9 @@ for individuo in individuos_ids:
 
     #para guardar como json 
     
+    
+    
+
     info = {
         "Nome": "{name}".format(name=nome).strip(),
         "Data Nasc": "{data}".format(data = dataNascimento).strip(),
@@ -233,17 +236,29 @@ for individuo in individuos_ids:
         "Local Morte": "{local}".format(local = localMorte).strip(),
         "Pai": "{pai}".format(pai = pai).strip(),
         "Mãe": "{mae}".format(mae = mae).strip(),
-        "Casamentos": casamentos,
-        "Filhos": filhos,
         "Notas": notas
     }
 
+    casamentosJSON = []
+    #if len(filhos):
+        #print(filhos)
+    for i, c in enumerate(casamentos):
+        fi = []
+        if len(filhos):
+            fi = filhos[i]
+        casamentoJSON = {
+            "Conjuge": "{c}".format(c = c).strip(),
+            "Local": "",
+            "Data": "",
+            "Filhos": fi
+        }
+        casamentosJSON.append(casamentoJSON)
+
+    info["Casamentos"] = casamentosJSON
+        
+
     content.append(info)
+
 jsonO = json.dumps(content, indent=4, ensure_ascii=False)
 print(jsonO)
 
-'''
-for x in content:
-    jsonO = json.dumps(x, indent=4, ensure_ascii=False)
-    print(jsonO)
-'''
