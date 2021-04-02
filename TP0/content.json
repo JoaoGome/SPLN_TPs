@@ -1,1752 +1,2309 @@
-{
-    "Nome": "Affonso Gonçalves",
-    "Data Nasc": "",
-    "Local Nasc": " Guimarães, Gondomar, Lugar do Carvalho",
-    "Data Morte": "",
-    "Local Morte": "",
-    "Pai": "",
-    "Mãe": "",
-    "Casamentos": "[' Catarina Ferreira']",
-    "Filhos": "[' Santos Ferreira']",
-    "Notas": "[]"
-}
-{
-    "Nome": "Alberto Antunes Guimarães",
-    "Data Nasc": "18.12.1890",
-    "Local Nasc": " Braga, São Lázaro, Rua dos Congregados",
-    "Data Morte": "",
-    "Local Morte": "",
-    "Pai": "Serafim Antunes Rodrigues Guimarães",
-    "Mãe": "Rita Isabel de Freitas Fernandes",
-    "Casamentos": "[]",
-    "Filhos": "[]",
-    "Notas": "[]"
-}
-{
-    "Nome": "Ana Antunes Guimarães",
-    "Data Nasc": "01.12.1874",
-    "Local Nasc": " Guimarães, Briteiros (Salvador)",
-    "Data Morte": "",
-    "Local Morte": "",
-    "Pai": "Serafim Antunes Rodrigues Guimarães",
-    "Mãe": "Rita Isabel de Freitas Fernandes",
-    "Casamentos": "[]",
-    "Filhos": "[]",
-    "Notas": "[]"
-}
-{
-    "Nome": "Ana de Jesus Soares de Azevedo",
-    "Data Nasc": "",
-    "Local Nasc": " Vila Verde - Prado -S. Miguel",
-    "Data Morte": "",
-    "Local Morte": "",
-    "Pai": "",
-    "Mãe": "",
-    "Casamentos": "[' António José de Amorim Machado de Araujo']",
-    "Filhos": "[' Maria Narcisa da Silva Soares de Azevedo']",
-    "Notas": "[]"
-}
-{
-    "Nome": "Ana Francisco",
-    "Data Nasc": "14.05.1757",
-    "Local Nasc": " Guimarães, Donim",
-    "Data Morte": "",
-    "Local Morte": "",
-    "Pai": "Domingos Francisco Martins",
-    "Mãe": "Úrsula de Macedo",
-    "Casamentos": "[]",
-    "Filhos": "[]",
-    "Notas": "[]"
-}
-{
-    "Nome": "Ana Isabel Ferrera da Cunha",
-    "Data Nasc": "12.05.1974",
-    "Local Nasc": " Braga",
-    "Data Morte": "",
-    "Local Morte": "",
-    "Pai": "",
-    "Mãe": "",
-    "Casamentos": "[' Paulo Alexandre Pires Ribeiro Antunes Guimarães']",
-    "Filhos": "[' José Pedro Ferreira da Cunha Antunes Guimarães']",
-    "Notas": "[]"
-}
-{
-    "Nome": "Ana Maria Antunes",
-    "Data Nasc": "",
-    "Local Nasc": "",
-    "Data Morte": "06.03.1860",
-    "Local Morte": " Guimarães, Donim, Casa de Sande",
-    "Pai": "José Antunes",
-    "Mãe": "Maria Teixeira",
-    "Casamentos": "[' Manoel José Francisco']",
-    "Filhos": "[' Domingos', ' Domingos', ' Francisco', ' José Antunes Guimarães', ' Francisco Antunes Guimarães', ' João Antunes Guimarães']",
-    "Notas": "[]"
-}
-{
-    "Nome": "Ana Maria Pais dos Santos Antunes Guimarães",
-    "Data Nasc": "16.05.1963",
-    "Local Nasc": " Braga, São João do Souto",
-    "Data Morte": "",
-    "Local Morte": "",
-    "Pai": "Justino Feio Vale Antunes Guimarães",
-    "Mãe": "Maria Adelaide Rodrigues Pais dos Santos",
-    "Casamentos": "[]",
-    "Filhos": "[]",
-    "Notas": "[]"
-}
-{
-    "Nome": "Andreia Mendes",
-    "Data Nasc": "",
-    "Local Nasc": "",
-    "Data Morte": "",
-    "Local Morte": "",
-    "Pai": "",
-    "Mãe": "",
-    "Casamentos": "[' Miguel Pedro Pires Ribeiro Antunes Guimarães']",
-    "Filhos": "[]",
-    "Notas": "[]"
-}
-{
-    "Nome": "António Antunes Guimarães",
-    "Data Nasc": "30.05.1883",
-    "Local Nasc": " Guimarães, Briteiros (Salvador)",
-    "Data Morte": "22.02.1912",
-    "Local Morte": " Braga, São Lázaro",
-    "Pai": "Serafim Antunes Rodrigues Guimarães",
-    "Mãe": "Rita Isabel de Freitas Fernandes",
-    "Casamentos": "[]",
-    "Filhos": "[]",
-    "Notas": "['Assassinado pelo alferes Baptista (Infantaria 29)']"
-}
-{
-    "Nome": "António Candido Soares de Azevedo da Silva Amorim",
-    "Data Nasc": "28.09.1850",
-    "Local Nasc": " Amares, Dornelas",
-    "Data Morte": "",
-    "Local Morte": "",
-    "Pai": "Bento José da Silva",
-    "Mãe": "Maria Narcisa da Silva Soares de Azevedo",
-    "Casamentos": "[' Maria da Glória Fernandes Dias']",
-    "Filhos": "[' Palmira da Glória Fernandes dias de Amorim']",
-    "Notas": "[]"
-}
-{
-    "Nome": "António José de Amorim Machado de Araujo",
-    "Data Nasc": "",
-    "Local Nasc": " Amares - Dornelas",
-    "Data Morte": "",
-    "Local Morte": "",
-    "Pai": "",
-    "Mãe": "",
-    "Casamentos": "[' Ana de Jesus Soares de Azevedo']",
-    "Filhos": "[' Maria Narcisa da Silva Soares de Azevedo']",
-    "Notas": "[]"
-}
-{
-    "Nome": "Benta Fernandes",
-    "Data Nasc": "",
-    "Local Nasc": "",
-    "Data Morte": "",
-    "Local Morte": "",
-    "Pai": "",
-    "Mãe": "",
-    "Casamentos": "[' Jerónimo Rodrigues']",
-    "Filhos": "[' Catarina Rodrigues']",
-    "Notas": "[]"
-}
-{
-    "Nome": "Bento José da Silva",
-    "Data Nasc": "24.11.1796",
-    "Local Nasc": " Sequiade",
-    "Data Morte": "",
-    "Local Morte": "",
-    "Pai": "Francisco José da Silva",
-    "Mãe": "Mria Josefa Francisca",
-    "Casamentos": "[' Maria Narcisa da Silva Soares de Azevedo']",
-    "Filhos": "[' António Candido Soares de Azevedo da Silva Amorim']",
-    "Notas": "[]"
-}
-{
-    "Nome": "Bernardo Pereira Rebello",
-    "Data Nasc": "",
-    "Local Nasc": " Granja de Alijó",
-    "Data Morte": "",
-    "Local Morte": "",
-    "Pai": "",
-    "Mãe": "",
-    "Casamentos": "[' Mariana Ezequiel Feyo de Figueiredo Correia']",
-    "Filhos": "[' Francisco Pereira Rebelo Feio']",
-    "Notas": "[]"
-}
-{
-    "Nome": "Carolina Represas Antunes Guimarães",
-    "Data Nasc": "",
-    "Local Nasc": "",
-    "Data Morte": "",
-    "Local Morte": "",
-    "Pai": "José Luís Pires Ribeiro Antunes Guimarães",
-    "Mãe": "Sara Augusta Miranda Represas",
-    "Casamentos": "[]",
-    "Filhos": "[]",
-    "Notas": "[]"
-}
-{
-    "Nome": "Cassamiro José Ferreira",
-    "Data Nasc": "",
-    "Local Nasc": "",
-    "Data Morte": "24.08.1787",
-    "Local Morte": " Guimarães, Gondomar",
-    "Pai": "Santos Ferreira",
-    "Mãe": "Catarina Rodrigues",
-    "Casamentos": "[' Prudencia Rodrigues']",
-    "Filhos": "[' Custódia Maria Rodrigues Ferreira']",
-    "Notas": "[]"
-}
-{
-    "Nome": "Catarina Ferreira",
-    "Data Nasc": "",
-    "Local Nasc": "",
-    "Data Morte": "",
-    "Local Morte": "",
-    "Pai": "",
-    "Mãe": "",
-    "Casamentos": "[' Affonso Gonçalves']",
-    "Filhos": "[' Santos Ferreira']",
-    "Notas": "[]"
-}
-{
-    "Nome": "Catarina Martins",
-    "Data Nasc": "",
-    "Local Nasc": "",
-    "Data Morte": "1744",
-    "Local Morte": " Guimarães, Donim, lugar de Requeixo",
-    "Pai": "",
-    "Mãe": "",
-    "Casamentos": "[' Domingos Francisco o Velho']",
-    "Filhos": "[' Domingos Francisco Martins']",
-    "Notas": "[]"
-}
-{
-    "Nome": "Catarina Rodrigues",
-    "Data Nasc": "",
-    "Local Nasc": "",
-    "Data Morte": "",
-    "Local Morte": "",
-    "Pai": "Jerónimo Rodrigues",
-    "Mãe": "Benta Fernandes",
-    "Casamentos": "[' Santos Ferreira']",
-    "Filhos": "[' Cassamiro José Ferreira']",
-    "Notas": "[]"
-}
-{
-    "Nome": "Constança Antunes Guimarães",
-    "Data Nasc": "03.06.1889",
-    "Local Nasc": " Braga, São Lázaro, Ruados Congregados",
-    "Data Morte": "",
-    "Local Morte": "",
-    "Pai": "Serafim Antunes Rodrigues Guimarães",
-    "Mãe": "Rita Isabel de Freitas Fernandes",
-    "Casamentos": "[]",
-    "Filhos": "[]",
-    "Notas": "[]"
-}
-{
-    "Nome": "D. Constança Maria Pereira",
-    "Data Nasc": "",
-    "Local Nasc": " Brazil, Pernambuco",
-    "Data Morte": "",
-    "Local Morte": "",
-    "Pai": "",
-    "Mãe": "",
-    "Casamentos": "[' José Antunes Guimarães']",
-    "Filhos": "[]",
-    "Notas": "[]"
-}
-{
-    "Nome": "Custódia Maria Alvares",
-    "Data Nasc": "13.08.1735",
-    "Local Nasc": " Guimarães, Sande (São Martinho), Casal da Ribeira",
-    "Data Morte": "18.10.1794",
-    "Local Morte": " Guimarães, Sande (São Martinho)",
-    "Pai": "Manoel Alvares",
-    "Mãe": "Eulália Cardoso",
-    "Casamentos": "[' Domingos Francisco de Macedo']",
-    "Filhos": "[' Manoel José Francisco']",
-    "Notas": "[]"
-}
-{
-    "Nome": "Custódia Maria Pereira",
-    "Data Nasc": "",
-    "Local Nasc": "",
-    "Data Morte": "",
-    "Local Morte": "",
-    "Pai": "",
-    "Mãe": "",
-    "Casamentos": "[' José Alves de Sousa']",
-    "Filhos": "[' Maria Joaquina Alves Pereira de Sousa']",
-    "Notas": "[]"
-}
-{
-    "Nome": "Custódia Maria Rodrigues Ferreira",
-    "Data Nasc": "",
-    "Local Nasc": " Guimarães, Gondomar",
-    "Data Morte": "",
-    "Local Morte": "",
-    "Pai": "Cassamiro José Ferreira",
-    "Mãe": "Prudencia Rodrigues",
-    "Casamentos": "[' Custódio José Fernandes']",
-    "Filhos": "[' Jerónimo José Fernandes']",
-    "Notas": "[]"
-}
-{
-    "Nome": "Custódia Rodrigues",
-    "Data Nasc": "",
-    "Local Nasc": "",
-    "Data Morte": "",
-    "Local Morte": "",
-    "Pai": "",
-    "Mãe": "",
-    "Casamentos": "[' Marcos Fernandes']",
-    "Filhos": "[' Prudencia Rodrigues']",
-    "Notas": "[]"
-}
-{
-    "Nome": "Custódio José Fernandes",
-    "Data Nasc": "04.09.1759",
-    "Local Nasc": " Guimarães, Gondomar, Lugar da Lage",
-    "Data Morte": "",
-    "Local Morte": "",
-    "Pai": "Felis Fernandes",
-    "Mãe": "Marcelina Fernandes",
-    "Casamentos": "[' Rosa Maria Ferreira', ' Custódia Maria Rodrigues Ferreira']",
-    "Filhos": "[[' Jerónimo José Fernandes']]",
-    "Notas": "[]"
-}
-{
-    "Nome": "Domingas Fernandes",
-    "Data Nasc": "",
-    "Local Nasc": "",
-    "Data Morte": "",
-    "Local Morte": "",
-    "Pai": "",
-    "Mãe": "",
-    "Casamentos": "[' Francisco Gonçalves']",
-    "Filhos": "[' Marcelina Fernandes']",
-    "Notas": "[]"
-}
-{
-    "Nome": "Domingos",
-    "Data Nasc": "",
-    "Local Nasc": "",
-    "Data Morte": "",
-    "Local Morte": "",
-    "Pai": "Manoel José Francisco",
-    "Mãe": "Ana Maria Antunes",
-    "Casamentos": "[]",
-    "Filhos": "[]",
-    "Notas": "[]"
-}
-{
-    "Nome": "Domingos",
-    "Data Nasc": "",
-    "Local Nasc": "",
-    "Data Morte": "",
-    "Local Morte": "",
-    "Pai": "Manoel José Francisco",
-    "Mãe": "Ana Maria Antunes",
-    "Casamentos": "[]",
-    "Filhos": "[]",
-    "Notas": "[]"
-}
-{
-    "Nome": "Domingos Alves Feyo",
-    "Data Nasc": "",
-    "Local Nasc": "",
-    "Data Morte": "",
-    "Local Morte": "",
-    "Pai": "Domingos Jorge Feyo",
-    "Mãe": "Maria de Carvalho",
-    "Casamentos": "[' Luísa Teixeira Camelo']",
-    "Filhos": "[' Luís António Feyo']",
-    "Notas": "[]"
-}
-{
-    "Nome": "Domingos da Costa",
-    "Data Nasc": "",
-    "Local Nasc": "",
-    "Data Morte": "",
-    "Local Morte": " Casal da Bouça-Souto(Sª. Maria)",
-    "Pai": "",
-    "Mãe": "",
-    "Casamentos": "[' Maria de Macedo']",
-    "Filhos": "[' Manuel da Costa de Macedo']",
-    "Notas": "[]"
-}
-{
-    "Nome": "Domingos Francisco",
-    "Data Nasc": "28.02.1728",
-    "Local Nasc": " Guimarães, Donim",
-    "Data Morte": "15.03.1728",
-    "Local Morte": " Guimarães, Donim",
-    "Pai": "Domingos Francisco Martins",
-    "Mãe": "Úrsula de Macedo",
-    "Casamentos": "[]",
-    "Filhos": "[]",
-    "Notas": "[]"
-}
-{
-    "Nome": "Domingos Francisco de Macedo",
-    "Data Nasc": "10.04.1733",
-    "Local Nasc": " Guimarães, Donim",
-    "Data Morte": "18.07.1790",
-    "Local Morte": " Guimarães, Sande (São Martinho)",
-    "Pai": "Domingos Francisco Martins",
-    "Mãe": "Úrsula de Macedo",
-    "Casamentos": "[' Custódia Maria Alvares']",
-    "Filhos": "[' Manoel José Francisco']",
-    "Notas": "[]"
-}
-{
-    "Nome": "Domingos Francisco Martins",
-    "Data Nasc": "16.01.1698",
-    "Local Nasc": " Guimarães, Donim",
-    "Data Morte": "31.07.1736",
-    "Local Morte": " Guimarães, Donim, Casa de Sande",
-    "Pai": "Domingos Francisco o Velho",
-    "Mãe": "Catarina Martins",
-    "Casamentos": "[' Úrsula de Macedo']",
-    "Filhos": "[' Ana Francisco', ' Domingos Francisco', ' Domingos Francisco de Macedo']",
-    "Notas": "[]"
-}
-{
-    "Nome": "Domingos Francisco o Velho",
-    "Data Nasc": "",
-    "Local Nasc": "",
-    "Data Morte": "14.12.1731",
-    "Local Morte": " Guimarães, Donim, lugar de Requeixo",
-    "Pai": "",
-    "Mãe": "",
-    "Casamentos": "[' Catarina Martins']",
-    "Filhos": "[' Domingos Francisco Martins']",
-    "Notas": "[]"
-}
-{
-    "Nome": "Domingos Jorge Feyo",
-    "Data Nasc": "",
-    "Local Nasc": "",
-    "Data Morte": "",
-    "Local Morte": "",
-    "Pai": "",
-    "Mãe": "",
-    "Casamentos": "[' Maria de Carvalho']",
-    "Filhos": "[' Domingos Alves Feyo']",
-    "Notas": "[]"
-}
-{
-    "Nome": "Domingos José Fernandes Guimarães",
-    "Data Nasc": "25.12.1807",
-    "Local Nasc": " Guimarães, Gondomar, Casa da Lage",
-    "Data Morte": "09.07.1865",
-    "Local Morte": " Guimarães, Gondomar",
-    "Pai": "Jerónimo José Fernandes",
-    "Mãe": "Joana Teresa Rodrigues de Barros",
-    "Casamentos": "[' Maria Antónia da Conceição de Macedo e Lima de Freitas']",
-    "Filhos": "[' Rita Isabel de Freitas Fernandes']",
-    "Notas": "[]"
-}
-{
-    "Nome": "Esperança do Vale",
-    "Data Nasc": "",
-    "Local Nasc": "",
-    "Data Morte": "",
-    "Local Morte": "",
-    "Pai": "",
-    "Mãe": "",
-    "Casamentos": "[' Miguel Fernandes']",
-    "Filhos": "[' Felis Fernandes']",
-    "Notas": "[]"
-}
-{
-    "Nome": "Eulália Cardoso",
-    "Data Nasc": "16.08.1700",
-    "Local Nasc": " Guimarães, Sande (São Martinho), Casal do Monte",
-    "Data Morte": "",
-    "Local Morte": " Guimarães, Sande (São Martinho)",
-    "Pai": "",
-    "Mãe": "",
-    "Casamentos": "[' Manoel Alvares']",
-    "Filhos": "[' Custódia Maria Alvares']",
-    "Notas": "[]"
-}
-{
-    "Nome": "Fancisca Margarida da Encarnação de Macedo e Lima",
-    "Data Nasc": "",
-    "Local Nasc": "",
-    "Data Morte": "12.10.1859",
-    "Local Morte": " Guimarães, Souto (Santa Maria), lugar do Barral",
-    "Pai": "",
-    "Mãe": "",
-    "Casamentos": "[' João José Rodrigues de Feitas']",
-    "Filhos": "[' Maria Antónia da Conceição de Macedo e Lima de Freitas']",
-    "Notas": "[]"
-}
-{
-    "Nome": "Felis Fernandes",
-    "Data Nasc": "23.03.1722",
-    "Local Nasc": " Guimarães, Gondomar",
-    "Data Morte": "",
-    "Local Morte": "",
-    "Pai": "Miguel Fernandes",
-    "Mãe": "Esperança do Vale",
-    "Casamentos": "[' Marcelina Fernandes']",
-    "Filhos": "[' Custódio José Fernandes']",
-    "Notas": "[]"
-}
-{
-    "Nome": "Francisca Carolina Antunes Guimarães",
-    "Data Nasc": "02.08.1872",
-    "Local Nasc": " Guimarães, Donim",
-    "Data Morte": "",
-    "Local Morte": " Braga",
-    "Pai": "Manuel José Lopes Guimarães",
-    "Mãe": "Francisca Carolina Antunes Rodrigues Guimarães",
-    "Casamentos": "[' Miguel da Cunha Velho de Vilhena Sotomaior']",
-    "Filhos": "[]",
-    "Notas": "[]"
-}
-{
-    "Nome": "Francisca Carolina Antunes Rodrigues Guimarães",
-    "Data Nasc": "1842",
-    "Local Nasc": " América do Sul, Brasil",
-    "Data Morte": "d. 1911",
-    "Local Morte": " Dume - Braga, Quinta da Ordem",
-    "Pai": "Francisco Antunes Guimarães",
-    "Mãe": "D. Francisca Eulália Rodrigues de Araújo",
-    "Casamentos": "[' Manuel José Lopes Guimarães', ' Lourenço da Cunha Velho Sotomaior']",
-    "Filhos": "[[' Francisca Carolina Antunes Guimarães', ' Maria da Conceição Antunes Guimarães'], [' João da Cunha Velho Sotomaior']]",
-    "Notas": "[]"
-}
-{
-    "Nome": "D. Francisca Eulália Rodrigues de Araújo",
-    "Data Nasc": "",
-    "Local Nasc": " Brasil",
-    "Data Morte": "",
-    "Local Morte": " Brasil",
-    "Pai": "Serafim José Rodrigues de Araújo",
-    "Mãe": "D. Inácia da Silva Araújo",
-    "Casamentos": "[' Francisco Antunes Guimarães']",
-    "Filhos": "[' Francisco Antunes Guimarães', ' Piedade', ' Serafim Antunes Rodrigues Guimarães', ' Francisca Carolina Antunes Rodrigues Guimarães']",
-    "Notas": "[]"
-}
-{
-    "Nome": "Francisco",
-    "Data Nasc": "",
-    "Local Nasc": "",
-    "Data Morte": "",
-    "Local Morte": "",
-    "Pai": "Manoel José Francisco",
-    "Mãe": "Ana Maria Antunes",
-    "Casamentos": "[]",
-    "Filhos": "[]",
-    "Notas": "[]"
-}
-{
-    "Nome": "Francisco Antunes Guimarães",
-    "Data Nasc": "",
-    "Local Nasc": " América do Sul, Brasil, Pelotas",
-    "Data Morte": "",
-    "Local Morte": "",
-    "Pai": "Francisco Antunes Guimarães",
-    "Mãe": "D. Francisca Eulália Rodrigues de Araújo",
-    "Casamentos": "[]",
-    "Filhos": "[]",
-    "Notas": "['Advogado em Pelotas']"
-}
-{
-    "Nome": "Francisco Antunes Guimarães",
-    "Data Nasc": "13.02.1806",
-    "Local Nasc": " Guimarães, Donim, Casa de Sande",
-    "Data Morte": "",
-    "Local Morte": " América do Sul, Brasil, Pelotas",
-    "Pai": "Manoel José Francisco",
-    "Mãe": "Ana Maria Antunes",
-    "Casamentos": "['D. Francisca Eulália Rodrigues de Araújo']",
-    "Filhos": "[' Francisco Antunes Guimarães', ' Piedade', ' Serafim Antunes Rodrigues Guimarães', ' Francisca Carolina Antunes Rodrigues Guimarães']",
-    "Notas": "[]"
-}
-{
-    "Nome": "Francisco Antunes Guimarães",
-    "Data Nasc": "04.03.1887",
-    "Local Nasc": " Braga, Braga",
-    "Data Morte": "16.01.1890",
-    "Local Morte": " Braga, Braga",
-    "Pai": "Serafim Antunes Rodrigues Guimarães",
-    "Mãe": "Rita Isabel de Freitas Fernandes",
-    "Casamentos": "[]",
-    "Filhos": "[]",
-    "Notas": "['Sepultado no jazigo de Donim']"
-}
-{
-    "Nome": "Francisco Feio Vale",
-    "Data Nasc": "12.03.1881",
-    "Local Nasc": " Santarém, Abrantes",
-    "Data Morte": "07.04.1961",
-    "Local Morte": " Braga, Braga",
-    "Pai": "Luís Cândido Fernandez Vale",
-    "Mãe": "Maria Emilia Rebelo Feio",
-    "Casamentos": "[' Palmira da Glória Fernandes dias de Amorim']",
-    "Filhos": "[' Maria Fernanda de Amorim Feio Vale']",
-    "Notas": "['Coronel de Infantaria']"
-}
-{
-    "Nome": "Francisco Feyo de Figueiredo Correia",
-    "Data Nasc": "28.02.1747",
-    "Local Nasc": " Vila Real, Vila Real",
-    "Data Morte": "",
-    "Local Morte": "",
-    "Pai": "Luís António Feyo",
-    "Mãe": "Maria Teresa de Figueiredo",
-    "Casamentos": "[' Josefa Joaquina Correia de Carvalho']",
-    "Filhos": "[' Mariana Ezequiel Feyo de Figueiredo Correia']",
-    "Notas": "[]"
-}
-{
-    "Nome": "Francisco Gonçalves",
-    "Data Nasc": "",
-    "Local Nasc": "",
-    "Data Morte": "",
-    "Local Morte": "",
-    "Pai": "",
-    "Mãe": "",
-    "Casamentos": "[' Domingas Fernandes']",
-    "Filhos": "[' Marcelina Fernandes']",
-    "Notas": "[]"
-}
-{
-    "Nome": "Francisco José da Silva",
-    "Data Nasc": "",
-    "Local Nasc": "",
-    "Data Morte": "",
-    "Local Morte": "",
-    "Pai": "",
-    "Mãe": "",
-    "Casamentos": "[' Mria Josefa Francisca']",
-    "Filhos": "[' Bento José da Silva']",
-    "Notas": "[]"
-}
-{
-    "Nome": "Francisco Pereira Rebelo Feio",
-    "Data Nasc": "",
-    "Local Nasc": " Peso da Régua, Peso da Régua, Granja do Douro",
-    "Data Morte": "",
-    "Local Morte": "",
-    "Pai": "Bernardo Pereira Rebello",
-    "Mãe": "Mariana Ezequiel Feyo de Figueiredo Correia",
-    "Casamentos": "[' Maria Lúcia Adelaide de Azevedo Taveira']",
-    "Filhos": "[' Maria Emilia Rebelo Feio']",
-    "Notas": "[]"
-}
-{
-    "Nome": "Guilherme Santos Barreiro Aguiar Branco",
-    "Data Nasc": "02.05.2002",
-    "Local Nasc": " Braga",
-    "Data Morte": "",
-    "Local Morte": "",
-    "Pai": "Maria Manuela Antunes Guimarães dos Santos Barreiro",
-    "Mãe": "Vitor Aguiar Branco Sampaio",
-    "Casamentos": "[]",
-    "Filhos": "[]",
-    "Notas": "[]"
-}
-{
-    "Nome": "D. Inácia da Silva Araújo",
-    "Data Nasc": "",
-    "Local Nasc": "",
-    "Data Morte": "",
-    "Local Morte": "",
-    "Pai": "",
-    "Mãe": "",
-    "Casamentos": "[' Serafim José Rodrigues de Araújo']",
-    "Filhos": "['D. Francisca Eulália Rodrigues de Araújo']",
-    "Notas": "[]"
-}
-{
-    "Nome": "Isabel Cristina Silva Peres Samões",
-    "Data Nasc": "",
-    "Local Nasc": "",
-    "Data Morte": "",
-    "Local Morte": "",
-    "Pai": "",
-    "Mãe": "",
-    "Casamentos": "[' Paulo Alexandre Pires Ribeiro Antunes Guimarães']",
-    "Filhos": "[]",
-    "Notas": "[]"
-}
-{
-    "Nome": "Isabel de Macedo",
-    "Data Nasc": "",
-    "Local Nasc": " Quinta da Granja-Souto (Salvador)",
-    "Data Morte": "",
-    "Local Morte": "",
-    "Pai": "Valentim Gonçalves",
-    "Mãe": "Simoa de Macedo",
-    "Casamentos": "[' Salvador Francisco de Abreu']",
-    "Filhos": "[' Simão Francisco de Macedo']",
-    "Notas": "[]"
-}
-{
-    "Nome": "Isabel Lopes de Barros",
-    "Data Nasc": "",
-    "Local Nasc": "",
-    "Data Morte": "",
-    "Local Morte": " Casal da Bouça - Souto (Sª. Maria)",
-    "Pai": "",
-    "Mãe": "",
-    "Casamentos": "[' Pedro de Macedo']",
-    "Filhos": "[' Maria de Macedo']",
-    "Notas": "[]"
-}
-{
-    "Nome": "Jerónimo José Fernandes",
-    "Data Nasc": "10.11.1783",
-    "Local Nasc": " Guimarães, Gondomar, Lugar da Lage",
-    "Data Morte": "",
-    "Local Morte": "",
-    "Pai": "Custódio José Fernandes",
-    "Mãe": "Custódia Maria Rodrigues Ferreira",
-    "Casamentos": "[' Joana Teresa Rodrigues de Barros']",
-    "Filhos": "[' Domingos José Fernandes Guimarães']",
-    "Notas": "[]"
-}
-{
-    "Nome": "Jerónimo Rodrigues",
-    "Data Nasc": "",
-    "Local Nasc": "",
-    "Data Morte": "",
-    "Local Morte": "",
-    "Pai": "",
-    "Mãe": "",
-    "Casamentos": "[' Benta Fernandes']",
-    "Filhos": "[' Catarina Rodrigues']",
-    "Notas": "[]"
-}
-{
-    "Nome": "Joana Antunes Guimarães Ferreira Soares",
-    "Data Nasc": "04.02.1996",
-    "Local Nasc": " Braga",
-    "Data Morte": "",
-    "Local Morte": "",
-    "Pai": "João Hélio Ferreira Soares",
-    "Mãe": "Maria Fernanda Pires Ribeiro Antunes Guimarães",
-    "Casamentos": "[]",
-    "Filhos": "[]",
-    "Notas": "[]"
-}
-{
-    "Nome": "Joana Teresa Rodrigues de Barros",
-    "Data Nasc": "19.07.1785",
-    "Local Nasc": " Póvoa de Lanhoso, Garfe",
-    "Data Morte": "31.12.1865",
-    "Local Morte": " Guimarães, Gondomar, Casa da Lage",
-    "Pai": "",
-    "Mãe": "",
-    "Casamentos": "[' Jerónimo José Fernandes']",
-    "Filhos": "[' Domingos José Fernandes Guimarães']",
-    "Notas": "['Padrinhos: Martinho Leite de Azevedo de Menezes (por procuração) (de Guimarães). Tocou a criança Jerónimo do Vale\\r', 'Nossa Senhora']"
-}
-{
-    "Nome": "João Antunes Guimarães",
-    "Data Nasc": "13.11.1808",
-    "Local Nasc": " Guimarães, Donim, Casa de Sande",
-    "Data Morte": "02.02.1891",
-    "Local Morte": " Guimarães, Donim, Casa de Sande",
-    "Pai": "Manoel José Francisco",
-    "Mãe": "Ana Maria Antunes",
-    "Casamentos": "[' Maria Joaquina Alves Pereira de Sousa']",
-    "Filhos": "[]",
-    "Notas": "[]"
-}
-{
-    "Nome": "João Antunes Guimarães",
-    "Data Nasc": "16.02.1877",
-    "Local Nasc": " Guimarães, Briteiros (Salvador)",
-    "Data Morte": "",
-    "Local Morte": "",
-    "Pai": "Serafim Antunes Rodrigues Guimarães",
-    "Mãe": "Rita Isabel de Freitas Fernandes",
-    "Casamentos": "[]",
-    "Filhos": "[]",
-    "Notas": "[]"
-}
-{
-    "Nome": "João da Cunha Velho Sotomaior",
-    "Data Nasc": "",
-    "Local Nasc": "",
-    "Data Morte": "",
-    "Local Morte": "",
-    "Pai": "Lourenço da Cunha Velho Sotomaior",
-    "Mãe": "Francisca Carolina Antunes Rodrigues Guimarães",
-    "Casamentos": "[]",
-    "Filhos": "[]",
-    "Notas": "[]"
-}
-{
-    "Nome": "João Fernandes Pereira",
-    "Data Nasc": "",
-    "Local Nasc": "",
-    "Data Morte": "",
-    "Local Morte": "",
-    "Pai": "",
-    "Mãe": "",
-    "Casamentos": "[' Maria Joaquina de Oliveira Martins']",
-    "Filhos": "[' Rosa Martins de Oliveira']",
-    "Notas": "[]"
-}
-{
-    "Nome": "João Hélio Ferreira Soares",
-    "Data Nasc": "",
-    "Local Nasc": "",
-    "Data Morte": "",
-    "Local Morte": "",
-    "Pai": "",
-    "Mãe": "",
-    "Casamentos": "[' Maria Fernanda Pires Ribeiro Antunes Guimarães']",
-    "Filhos": "[' Joana Antunes Guimarães Ferreira Soares']",
-    "Notas": "[]"
-}
-{
-    "Nome": "João José Rodrigues de Feitas",
-    "Data Nasc": "24.06.1787",
-    "Local Nasc": " Guimarães, Souto (São Salvador), Lugar do Barral",
-    "Data Morte": "07.01.1861",
-    "Local Morte": " Guimarães, Souto (São Salvador), Lugar do Barral",
-    "Pai": "",
-    "Mãe": "",
-    "Casamentos": "[' Fancisca Margarida da Encarnação de Macedo e Lima']",
-    "Filhos": "[' Maria Antónia da Conceição de Macedo e Lima de Freitas']",
-    "Notas": "['Doutor em leis']"
-}
-{
-    "Nome": "João Martins de Oliveira Antunes Guimarães",
-    "Data Nasc": "19.02.1907",
-    "Local Nasc": " Braga, São João do Souto",
-    "Data Morte": "26.04.1957",
-    "Local Morte": " Braga, Braga, Sé",
-    "Pai": "Justino Antunes Guimarães",
-    "Mãe": "Rosa Martins de Oliveira",
-    "Casamentos": "[' Rosa dos Santos Rodrigues Viana']",
-    "Filhos": "[]",
-    "Notas": "[]"
-}
-{
-    "Nome": "José Alves de Sousa",
-    "Data Nasc": "",
-    "Local Nasc": "",
-    "Data Morte": "",
-    "Local Morte": "",
-    "Pai": "",
-    "Mãe": "",
-    "Casamentos": "[' Custódia Maria Pereira']",
-    "Filhos": "[' Maria Joaquina Alves Pereira de Sousa']",
-    "Notas": "[]"
-}
-{
-    "Nome": "José Antunes",
-    "Data Nasc": "",
-    "Local Nasc": " Guimarães, Briteiros (Salvador)",
-    "Data Morte": "29.09.1837",
-    "Local Morte": " Guimarães, Donim, Casa de Sande",
-    "Pai": "",
-    "Mãe": "",
-    "Casamentos": "[' Maria Teixeira']",
-    "Filhos": "[' Ana Maria Antunes']",
-    "Notas": "[]"
-}
-{
-    "Nome": "José Antunes Guimarães",
-    "Data Nasc": "25.10.1803",
-    "Local Nasc": " Guimarães, Donim, Casa de Sande",
-    "Data Morte": "",
-    "Local Morte": " Brazil",
-    "Pai": "Manoel José Francisco",
-    "Mãe": "Ana Maria Antunes",
-    "Casamentos": "['D. Constança Maria Pereira']",
-    "Filhos": "[]",
-    "Notas": "[]"
-}
-{
-    "Nome": "José Germano Fernandes Dias",
-    "Data Nasc": "15.11.1813",
-    "Local Nasc": " Vila Verde Lage",
-    "Data Morte": "05.01.1875",
-    "Local Morte": " Braga",
-    "Pai": "",
-    "Mãe": "",
-    "Casamentos": "[' Maria Rita da Silva']",
-    "Filhos": "[' Maria da Glória Fernandes Dias']",
-    "Notas": "[]"
-}
-{
-    "Nome": "José Luís Pires Ribeiro Antunes Guimarães",
-    "Data Nasc": "19.06.1961",
-    "Local Nasc": " Braga, Cividade, Casa da Cutelaria",
-    "Data Morte": "",
-    "Local Morte": "",
-    "Pai": "José Luís Vale Antunes Guimarães",
-    "Mãe": "Maria Teresa Pires Ribeiro Antunes Guimarães",
-    "Casamentos": "[' Sara Augusta Miranda Represas']",
-    "Filhos": "[' Carolina Represas Antunes Guimarães', ' Luís Represas Antunes Guimarães']",
-    "Notas": "['casamento dissolvido por divórcio']"
-}
-{
-    "Nome": "José Luís Vale Antunes Guimarães",
-    "Data Nasc": "25.09.1934",
-    "Local Nasc": " Braga, Cividade",
-    "Data Morte": "",
-    "Local Morte": "",
-    "Pai": "José Martins de Oliveira Antunes Guimarães",
-    "Mãe": "Maria Fernanda de Amorim Feio Vale",
-    "Casamentos": "[' Maria Teresa Pires Ribeiro Antunes Guimarães']",
-    "Filhos": "[' José Luís Pires Ribeiro Antunes Guimarães', ' Miguel Pedro Pires Ribeiro Antunes Guimarães', ' Paulo Alexandre Pires Ribeiro Antunes Guimarães', ' Maria Fernanda Pires Ribeiro Antunes Guimarães']",
-    "Notas": "[]"
-}
-{
-    "Nome": "José Martins de Oliveira Antunes Guimarães",
-    "Data Nasc": "27.04.1904",
-    "Local Nasc": " Braga, Braga",
-    "Data Morte": "14.04.1948",
-    "Local Morte": " Braga, Cividade, Casa da Cutelaria",
-    "Pai": "Justino Antunes Guimarães",
-    "Mãe": "Rosa Martins de Oliveira",
-    "Casamentos": "[' Maria Fernanda de Amorim Feio Vale']",
-    "Filhos": "[' Justino Feio Vale Antunes Guimarães', ' José Luís Vale Antunes Guimarães', ' Maria Manuela Feio Antunes Guimarães']",
-    "Notas": "[]"
-}
-{
-    "Nome": "José Pedro Ferreira da Cunha Antunes Guimarães",
-    "Data Nasc": "17.02.1992",
-    "Local Nasc": " Braga, Braga",
-    "Data Morte": "",
-    "Local Morte": "",
-    "Pai": "Paulo Alexandre Pires Ribeiro Antunes Guimarães",
-    "Mãe": "Ana Isabel Ferrera da Cunha",
-    "Casamentos": "[]",
-    "Filhos": "[]",
-    "Notas": "[]"
-}
-{
-    "Nome": "Josefa Joaquina Correia de Carvalho",
-    "Data Nasc": "",
-    "Local Nasc": "",
-    "Data Morte": "",
-    "Local Morte": "",
-    "Pai": "",
-    "Mãe": "",
-    "Casamentos": "[' Francisco Feyo de Figueiredo Correia']",
-    "Filhos": "[' Mariana Ezequiel Feyo de Figueiredo Correia']",
-    "Notas": "[]"
-}
-{
-    "Nome": "Justino Antunes Guimarães",
-    "Data Nasc": "30.09.1878",
-    "Local Nasc": " Guimarães, Briteiros (Salvador)",
-    "Data Morte": "24.07.1957",
-    "Local Morte": " Braga, Braga",
-    "Pai": "Serafim Antunes Rodrigues Guimarães",
-    "Mãe": "Rita Isabel de Freitas Fernandes",
-    "Casamentos": "[' Rosa Martins de Oliveira']",
-    "Filhos": "[' José Martins de Oliveira Antunes Guimarães', ' Maria Martins de Oliveira Antunes Guimarães', ' João Martins de Oliveira Antunes Guimarães']",
-    "Notas": "[]"
-}
-{
-    "Nome": "Justino Feio Vale Antunes Guimarães",
-    "Data Nasc": "10.03.1933",
-    "Local Nasc": " Guimarães, Donim, Casa de Sande",
-    "Data Morte": "",
-    "Local Morte": "",
-    "Pai": "José Martins de Oliveira Antunes Guimarães",
-    "Mãe": "Maria Fernanda de Amorim Feio Vale",
-    "Casamentos": "[' Maria Adelaide Rodrigues Pais dos Santos', ' Maria Clotilde Miranda Cardoso do Vale']",
-    "Filhos": "[[' Ana Maria Pais dos Santos Antunes Guimarães']]",
-    "Notas": "[]"
-}
-{
-    "Nome": "Leonor Antunes Guimarães",
-    "Data Nasc": "14.04.1881",
-    "Local Nasc": " Guimarães, Briteiros (Salvador)",
-    "Data Morte": "01.11.1890",
-    "Local Morte": " Braga, São Lázaro",
-    "Pai": "Serafim Antunes Rodrigues Guimarães",
-    "Mãe": "Rita Isabel de Freitas Fernandes",
-    "Casamentos": "[]",
-    "Filhos": "[]",
-    "Notas": "['Sepultada no jazigo de Donim']"
-}
-{
-    "Nome": "Lourenço da Cunha Velho Sotomaior",
-    "Data Nasc": "",
-    "Local Nasc": "",
-    "Data Morte": "01.08.1911",
-    "Local Morte": " Quinta da Ordem - Dume - Braga",
-    "Pai": "",
-    "Mãe": "",
-    "Casamentos": "[' Francisca Carolina Antunes Rodrigues Guimarães']",
-    "Filhos": "[' João da Cunha Velho Sotomaior']",
-    "Notas": "[]"
-}
-{
-    "Nome": "Luís António Feyo",
-    "Data Nasc": "26.12.1719",
-    "Local Nasc": " São Pedro - Vila Real",
-    "Data Morte": "",
-    "Local Morte": "",
-    "Pai": "Domingos Alves Feyo",
-    "Mãe": "Luísa Teixeira Camelo",
-    "Casamentos": "[' Maria Teresa de Figueiredo']",
-    "Filhos": "[' Francisco Feyo de Figueiredo Correia']",
-    "Notas": "[]"
-}
-{
-    "Nome": "Luís Antunes Guimarães",
-    "Data Nasc": "13.01.1880",
-    "Local Nasc": " Guimarães, Briteiros (Salvador)",
-    "Data Morte": "",
-    "Local Morte": "",
-    "Pai": "Serafim Antunes Rodrigues Guimarães",
-    "Mãe": "Rita Isabel de Freitas Fernandes",
-    "Casamentos": "[]",
-    "Filhos": "[]",
-    "Notas": "[]"
-}
-{
-    "Nome": "Luís Cândido Fernandez Vale",
-    "Data Nasc": "22.10.1854",
-    "Local Nasc": " Viana do Castelo, Valença",
-    "Data Morte": " Braga, Braga, Rua das Aguas, 55",
-    "Local Morte": "",
-    "Pai": "",
-    "Mãe": "",
-    "Casamentos": "[' Maria Emilia Rebelo Feio']",
-    "Filhos": "[' Francisco Feio Vale']",
-    "Notas": "['Médico Militar\\r', 'Cirurgiâo-mor']"
-}
-{
-    "Nome": "Luís Represas Antunes Guimarães",
-    "Data Nasc": "",
-    "Local Nasc": "",
-    "Data Morte": "",
-    "Local Morte": "",
-    "Pai": "José Luís Pires Ribeiro Antunes Guimarães",
-    "Mãe": "Sara Augusta Miranda Represas",
-    "Casamentos": "[]",
-    "Filhos": "[]",
-    "Notas": "[]"
-}
-{
-    "Nome": "Luísa Teixeira Camelo",
-    "Data Nasc": "",
-    "Local Nasc": "",
-    "Data Morte": "",
-    "Local Morte": "",
-    "Pai": "",
-    "Mãe": "",
-    "Casamentos": "[' Domingos Alves Feyo']",
-    "Filhos": "[' Luís António Feyo']",
-    "Notas": "[]"
-}
-{
-    "Nome": "Manoel Alvares",
-    "Data Nasc": "",
-    "Local Nasc": " Guimarães, Sande (São Martinho), Casa da Ribeiral",
-    "Data Morte": "",
-    "Local Morte": " Guimarães, Sande (São Martinho)",
-    "Pai": "",
-    "Mãe": "",
-    "Casamentos": "[' Eulália Cardoso']",
-    "Filhos": "[' Custódia Maria Alvares']",
-    "Notas": "[]"
-}
-{
-    "Nome": "Manoel José Francisco",
-    "Data Nasc": "12.09.1765",
-    "Local Nasc": " Guimarães, Sande (São Martinho), Lugar da Ribeira",
-    "Data Morte": "21.06.1811",
-    "Local Morte": " Viana do Castelo, Valença, Hospital de Valença",
-    "Pai": "Domingos Francisco de Macedo",
-    "Mãe": "Custódia Maria Alvares",
-    "Casamentos": "[' Ana Maria Antunes']",
-    "Filhos": "[' Domingos', ' Domingos', ' Francisco', ' José Antunes Guimarães', ' Francisco Antunes Guimarães', ' João Antunes Guimarães']",
-    "Notas": "[]"
-}
-{
-    "Nome": "Manuel da Costa de Macedo",
-    "Data Nasc": "16.05.1673",
-    "Local Nasc": " Guimarães, Souto (Santa Maria)",
-    "Data Morte": "13.12.1719",
-    "Local Morte": " Guimarães, Souto (Santa Maria), Casal da Bouça",
-    "Pai": "Domingos da Costa",
-    "Mãe": "Maria de Macedo",
-    "Casamentos": "[' Úrsula Francisca']",
-    "Filhos": "[' Úrsula de Macedo']",
-    "Notas": "[]"
-}
-{
-    "Nome": "Manuel José Lopes Guimarães",
-    "Data Nasc": "01.02.1828",
-    "Local Nasc": " Donim - Guimarães",
-    "Data Morte": "08.01.1875",
-    "Local Morte": " Donim Guimarães",
-    "Pai": "",
-    "Mãe": "",
-    "Casamentos": "[' Francisca Carolina Antunes Rodrigues Guimarães']",
-    "Filhos": "[' Francisca Carolina Antunes Guimarães', ' Maria da Conceição Antunes Guimarães']",
-    "Notas": "[]"
-}
-{
-    "Nome": "Marcelina Fernandes",
-    "Data Nasc": "07.03.1729",
-    "Local Nasc": " Guimarães, Gondomar, Lugar da Lage",
-    "Data Morte": "",
-    "Local Morte": "",
-    "Pai": "Francisco Gonçalves",
-    "Mãe": "Domingas Fernandes",
-    "Casamentos": "[' Felis Fernandes']",
-    "Filhos": "[' Custódio José Fernandes']",
-    "Notas": "[]"
-}
-{
-    "Nome": "Marcos Fernandes",
-    "Data Nasc": "",
-    "Local Nasc": " Guimarães, Gondomar, Lugar do Covo",
-    "Data Morte": "",
-    "Local Morte": "",
-    "Pai": "",
-    "Mãe": "",
-    "Casamentos": "[' Custódia Rodrigues']",
-    "Filhos": "[' Prudencia Rodrigues']",
-    "Notas": "[]"
-}
-{
-    "Nome": "Maria Adelaide Rodrigues Pais dos Santos",
-    "Data Nasc": "14.05.1943",
-    "Local Nasc": " Horta - Matriz",
-    "Data Morte": "1996",
-    "Local Morte": " Braga, São Vitor",
-    "Pai": "",
-    "Mãe": "",
-    "Casamentos": "[' Justino Feio Vale Antunes Guimarães']",
-    "Filhos": "[' Ana Maria Pais dos Santos Antunes Guimarães']",
-    "Notas": "[]"
-}
-{
-    "Nome": "Maria Antónia da Conceição de Macedo e Lima de Freitas",
-    "Data Nasc": "25.05.1819",
-    "Local Nasc": " Guimarães, Souto (São Salvador), Lugar do Barral",
-    "Data Morte": "24.08.1908",
-    "Local Morte": " Guimarães, Gondomar, Casa da lage",
-    "Pai": "João José Rodrigues de Feitas",
-    "Mãe": "Fancisca Margarida da Encarnação de Macedo e Lima",
-    "Casamentos": "[' Domingos José Fernandes Guimarães']",
-    "Filhos": "[' Rita Isabel de Freitas Fernandes']",
-    "Notas": "[]"
-}
-{
-    "Nome": "Maria Antunes Guimarães",
-    "Data Nasc": "03.01.1885",
-    "Local Nasc": " Guimarães, Briteiros (Salvador)",
-    "Data Morte": "",
-    "Local Morte": "",
-    "Pai": "Serafim Antunes Rodrigues Guimarães",
-    "Mãe": "Rita Isabel de Freitas Fernandes",
-    "Casamentos": "[]",
-    "Filhos": "[]",
-    "Notas": "[]"
-}
-{
-    "Nome": "Maria Clotilde Miranda Cardoso do Vale",
-    "Data Nasc": "19.01.1940",
-    "Local Nasc": " Guimarães, Creixomil, Quinta do Robalo",
-    "Data Morte": "",
-    "Local Morte": "",
-    "Pai": "",
-    "Mãe": "",
-    "Casamentos": "[' Justino Feio Vale Antunes Guimarães']",
-    "Filhos": "[]",
-    "Notas": "[]"
-}
-{
-    "Nome": "Maria da Conceição Antunes Guimarães",
-    "Data Nasc": "08.09.1874",
-    "Local Nasc": " Guimarães, Donim",
-    "Data Morte": "a. 19.12.1880",
-    "Local Morte": " Guimarães, Donim, Lugar da Devesa",
-    "Pai": "Manuel José Lopes Guimarães",
-    "Mãe": "Francisca Carolina Antunes Rodrigues Guimarães",
-    "Casamentos": "[]",
-    "Filhos": "[]",
-    "Notas": "['Foi sepultada \"pomposamente\" na igreja mas mais tarde trasladada para o jazigo de João Antunes Guimarães, em Donim, por vontade deste, expressa em testamento.']"
-}
-{
-    "Nome": "Maria da Glória Fernandes Dias",
-    "Data Nasc": "04.12.1849",
-    "Local Nasc": " Braga, São João do Souto",
-    "Data Morte": "",
-    "Local Morte": "",
-    "Pai": "José Germano Fernandes Dias",
-    "Mãe": "Maria Rita da Silva",
-    "Casamentos": "[' António Candido Soares de Azevedo da Silva Amorim']",
-    "Filhos": "[' Palmira da Glória Fernandes dias de Amorim']",
-    "Notas": "[]"
-}
-{
-    "Nome": "Maria de Carvalho",
-    "Data Nasc": "",
-    "Local Nasc": "",
-    "Data Morte": "",
-    "Local Morte": "",
-    "Pai": "",
-    "Mãe": "",
-    "Casamentos": "[' Domingos Jorge Feyo']",
-    "Filhos": "[' Domingos Alves Feyo']",
-    "Notas": "[]"
-}
-{
-    "Nome": "Maria de Macedo",
-    "Data Nasc": "",
-    "Local Nasc": " Casal da Bouça -Souto (S.ª Maria)",
-    "Data Morte": "",
-    "Local Morte": " Casal da Bouça- Souto (Sª. Maria)",
-    "Pai": "Pedro de Macedo",
-    "Mãe": "Isabel Lopes de Barros",
-    "Casamentos": "[' Domingos da Costa']",
-    "Filhos": "[' Manuel da Costa de Macedo']",
-    "Notas": "[]"
-}
-{
-    "Nome": "Maria Emilia Rebelo Feio",
-    "Data Nasc": "27.09.1854",
-    "Local Nasc": " Vila Real, Vila Real",
-    "Data Morte": "07.12.1955",
-    "Local Morte": " Braga, Braga",
-    "Pai": "Francisco Pereira Rebelo Feio",
-    "Mãe": "Maria Lúcia Adelaide de Azevedo Taveira",
-    "Casamentos": "[' Luís Cândido Fernandez Vale']",
-    "Filhos": "[' Francisco Feio Vale']",
-    "Notas": "[]"
-}
-{
-    "Nome": "Maria Fernanda de Amorim Feio Vale",
-    "Data Nasc": "04.09.1912",
-    "Local Nasc": " Vila Verde, Soutelo",
-    "Data Morte": "09.12.1945",
-    "Local Morte": " Braga, São Vítor",
-    "Pai": "Francisco Feio Vale",
-    "Mãe": "Palmira da Glória Fernandes dias de Amorim",
-    "Casamentos": "[' José Martins de Oliveira Antunes Guimarães']",
-    "Filhos": "[' Justino Feio Vale Antunes Guimarães', ' José Luís Vale Antunes Guimarães', ' Maria Manuela Feio Antunes Guimarães']",
-    "Notas": "[]"
-}
-{
-    "Nome": "Maria Fernanda Pires Ribeiro Antunes Guimarães",
-    "Data Nasc": "22.07.1962",
-    "Local Nasc": " Braga, Braga",
-    "Data Morte": "",
-    "Local Morte": "",
-    "Pai": "José Luís Vale Antunes Guimarães",
-    "Mãe": "Maria Teresa Pires Ribeiro Antunes Guimarães",
-    "Casamentos": "[' João Hélio Ferreira Soares']",
-    "Filhos": "[' Joana Antunes Guimarães Ferreira Soares']",
-    "Notas": "[]"
-}
-{
-    "Nome": "Maria Joaquina Alves Pereira de Sousa",
-    "Data Nasc": "22.07.1812",
-    "Local Nasc": " Fafe, Moreira de Rei, Lugar de Barbosa",
-    "Data Morte": "",
-    "Local Morte": "",
-    "Pai": "José Alves de Sousa",
-    "Mãe": "Custódia Maria Pereira",
-    "Casamentos": "[' João Antunes Guimarães']",
-    "Filhos": "[]",
-    "Notas": "[]"
-}
-{
-    "Nome": "Maria Joaquina de Oliveira Martins",
-    "Data Nasc": "",
-    "Local Nasc": "",
-    "Data Morte": "",
-    "Local Morte": " Braga",
-    "Pai": "",
-    "Mãe": "",
-    "Casamentos": "[' João Fernandes Pereira']",
-    "Filhos": "[' Rosa Martins de Oliveira']",
-    "Notas": "[]"
-}
-{
-    "Nome": "Maria Lúcia Adelaide de Azevedo Taveira",
-    "Data Nasc": "",
-    "Local Nasc": "",
-    "Data Morte": "",
-    "Local Morte": "",
-    "Pai": "",
-    "Mãe": "",
-    "Casamentos": "[' Francisco Pereira Rebelo Feio']",
-    "Filhos": "[' Maria Emilia Rebelo Feio']",
-    "Notas": "[]"
-}
-{
-    "Nome": "Maria Manuela Antunes Guimarães dos Santos Barreiro",
-    "Data Nasc": "11.06.1963",
-    "Local Nasc": " Braga",
-    "Data Morte": "",
-    "Local Morte": "",
-    "Pai": "Mario Alberto da Hora Santos Barreiro",
-    "Mãe": "Maria Manuela Feio Antunes Guimarães",
-    "Casamentos": "[' Vitor Aguiar Branco Sampaio']",
-    "Filhos": "[' Guilherme Santos Barreiro Aguiar Branco']",
-    "Notas": "[]"
-}
-{
-    "Nome": "Maria Manuela Feio Antunes Guimarães",
-    "Data Nasc": "23.10.1935",
-    "Local Nasc": " Braga, Cividade",
-    "Data Morte": "19.06.2007",
-    "Local Morte": " Braga",
-    "Pai": "José Martins de Oliveira Antunes Guimarães",
-    "Mãe": "Maria Fernanda de Amorim Feio Vale",
-    "Casamentos": "[' Mario Alberto da Hora Santos Barreiro']",
-    "Filhos": "[' Mário Manuel Antunes Guimarâes dos Santos Barreiro', ' Maria Manuela Antunes Guimarães dos Santos Barreiro']",
-    "Notas": "[]"
-}
-{
-    "Nome": "Maria Martins de Oliveira Antunes Guimarães",
-    "Data Nasc": "20.10.1905",
-    "Local Nasc": " Braga, São Vítor",
-    "Data Morte": "30.12.1946",
-    "Local Morte": " Braga, São Lázaro",
-    "Pai": "Justino Antunes Guimarães",
-    "Mãe": "Rosa Martins de Oliveira",
-    "Casamentos": "[]",
-    "Filhos": "[]",
-    "Notas": "['Foi sempre chamada Maria do Céu']"
-}
-{
-    "Nome": "Maria Narcisa da Silva Soares de Azevedo",
-    "Data Nasc": "30.10.1809",
-    "Local Nasc": " Braga - Amares",
-    "Data Morte": "20.03.1889",
-    "Local Morte": " Braga - Amares",
-    "Pai": "António José de Amorim Machado de Araujo",
-    "Mãe": "Ana de Jesus Soares de Azevedo",
-    "Casamentos": "[' Bento José da Silva']",
-    "Filhos": "[' António Candido Soares de Azevedo da Silva Amorim']",
-    "Notas": "[]"
-}
-{
-    "Nome": "Maria Rita da Silva",
-    "Data Nasc": "04.01.1822",
-    "Local Nasc": " Olivença",
-    "Data Morte": "",
-    "Local Morte": "",
-    "Pai": "",
-    "Mãe": "",
-    "Casamentos": "[' José Germano Fernandes Dias']",
-    "Filhos": "[' Maria da Glória Fernandes Dias']",
-    "Notas": "[]"
-}
-{
-    "Nome": "Maria Teixeira",
-    "Data Nasc": "",
-    "Local Nasc": " Salvador de Briteiros",
-    "Data Morte": "20.08.1814",
-    "Local Morte": " Guimarães, Briteiros, Lugar do Agro",
-    "Pai": "",
-    "Mãe": "",
-    "Casamentos": "[' José Antunes']",
-    "Filhos": "[' Ana Maria Antunes']",
-    "Notas": "[]"
-}
-{
-    "Nome": "Maria Teresa de Figueiredo",
-    "Data Nasc": "",
-    "Local Nasc": "",
-    "Data Morte": "",
-    "Local Morte": "",
-    "Pai": "",
-    "Mãe": "",
-    "Casamentos": "[' Luís António Feyo']",
-    "Filhos": "[' Francisco Feyo de Figueiredo Correia']",
-    "Notas": "[]"
-}
-{
-    "Nome": "Maria Teresa Pires Ribeiro Antunes Guimarães",
-    "Data Nasc": "31.03.1940",
-    "Local Nasc": " Braga, Maximinos",
-    "Data Morte": "",
-    "Local Morte": "",
-    "Pai": "",
-    "Mãe": "",
-    "Casamentos": "[' José Luís Vale Antunes Guimarães']",
-    "Filhos": "[' José Luís Pires Ribeiro Antunes Guimarães', ' Miguel Pedro Pires Ribeiro Antunes Guimarães', ' Paulo Alexandre Pires Ribeiro Antunes Guimarães', ' Maria Fernanda Pires Ribeiro Antunes Guimarães']",
-    "Notas": "[]"
-}
-{
-    "Nome": "Mariana Ezequiel Feyo de Figueiredo Correia",
-    "Data Nasc": "07.11.1801",
-    "Local Nasc": " Vila Real, Vila Real",
-    "Data Morte": "",
-    "Local Morte": "",
-    "Pai": "Francisco Feyo de Figueiredo Correia",
-    "Mãe": "Josefa Joaquina Correia de Carvalho",
-    "Casamentos": "[' Bernardo Pereira Rebello']",
-    "Filhos": "[' Francisco Pereira Rebelo Feio']",
-    "Notas": "[]"
-}
-{
-    "Nome": "Mario Alberto da Hora Santos Barreiro",
-    "Data Nasc": "12.11.1930",
-    "Local Nasc": " Braga, Braga",
-    "Data Morte": "",
-    "Local Morte": "",
-    "Pai": "",
-    "Mãe": "",
-    "Casamentos": "[' Maria Manuela Feio Antunes Guimarães']",
-    "Filhos": "[' Mário Manuel Antunes Guimarâes dos Santos Barreiro', ' Maria Manuela Antunes Guimarães dos Santos Barreiro']",
-    "Notas": "[]"
-}
-{
-    "Nome": "Mário Manuel Antunes Guimarâes dos Santos Barreiro",
-    "Data Nasc": "08.12.1959",
-    "Local Nasc": " Braga",
-    "Data Morte": "",
-    "Local Morte": "",
-    "Pai": "Mario Alberto da Hora Santos Barreiro",
-    "Mãe": "Maria Manuela Feio Antunes Guimarães",
-    "Casamentos": "[]",
-    "Filhos": "[]",
-    "Notas": "[]"
-}
-{
-    "Nome": "Marta Gonçalves",
-    "Data Nasc": "",
-    "Local Nasc": " Casal da Bouça- Souto (Sª. Maria)",
-    "Data Morte": "",
-    "Local Morte": "",
-    "Pai": "",
-    "Mãe": "",
-    "Casamentos": "[' Simão Francisco de Macedo']",
-    "Filhos": "[' Pedro de Macedo']",
-    "Notas": "[]"
-}
-{
-    "Nome": "Miguel da Cunha Velho de Vilhena Sotomaior",
-    "Data Nasc": "",
-    "Local Nasc": "",
-    "Data Morte": "",
-    "Local Morte": "",
-    "Pai": "",
-    "Mãe": "",
-    "Casamentos": "[' Francisca Carolina Antunes Guimarães']",
-    "Filhos": "[]",
-    "Notas": "[]"
-}
-{
-    "Nome": "Miguel Fernandes",
-    "Data Nasc": "",
-    "Local Nasc": "",
-    "Data Morte": "",
-    "Local Morte": "",
-    "Pai": "",
-    "Mãe": "",
-    "Casamentos": "[' Esperança do Vale']",
-    "Filhos": "[' Felis Fernandes']",
-    "Notas": "[]"
-}
-{
-    "Nome": "Miguel Pedro Pires Ribeiro Antunes Guimarães",
-    "Data Nasc": "19.09.1965",
-    "Local Nasc": " Braga, Maximinos",
-    "Data Morte": "",
-    "Local Morte": "",
-    "Pai": "José Luís Vale Antunes Guimarães",
-    "Mãe": "Maria Teresa Pires Ribeiro Antunes Guimarães",
-    "Casamentos": "[' Sandra Moura', ' Andreia Mendes']",
-    "Filhos": "[]",
-    "Notas": "['Casamentos dissolvidos por divórcio']"
-}
-{
-    "Nome": "Mria Josefa Francisca",
-    "Data Nasc": "",
-    "Local Nasc": "",
-    "Data Morte": "",
-    "Local Morte": "",
-    "Pai": "",
-    "Mãe": "",
-    "Casamentos": "[' Francisco José da Silva']",
-    "Filhos": "[' Bento José da Silva']",
-    "Notas": "[]"
-}
-{
-    "Nome": "Palmira da Glória Fernandes dias de Amorim",
-    "Data Nasc": "07.03.1879",
-    "Local Nasc": " Braga, Braga",
-    "Data Morte": "",
-    "Local Morte": "",
-    "Pai": "António Candido Soares de Azevedo da Silva Amorim",
-    "Mãe": "Maria da Glória Fernandes Dias",
-    "Casamentos": "[' Francisco Feio Vale']",
-    "Filhos": "[' Maria Fernanda de Amorim Feio Vale']",
-    "Notas": "[]"
-}
-{
-    "Nome": "Paulo Alexandre Pires Ribeiro Antunes Guimarães",
-    "Data Nasc": "23.08.1974",
-    "Local Nasc": " Braga",
-    "Data Morte": "",
-    "Local Morte": "",
-    "Pai": "José Luís Vale Antunes Guimarães",
-    "Mãe": "Maria Teresa Pires Ribeiro Antunes Guimarães",
-    "Casamentos": "[' Isabel Cristina Silva Peres Samões']",
-    "Filhos": "[[' José Pedro Ferreira da Cunha Antunes Guimarães']]",
-    "Notas": "[]"
-}
-{
-    "Nome": "Pedro de Macedo",
-    "Data Nasc": "",
-    "Local Nasc": " Casal da Bouça-Souto (Sª. Maria)",
-    "Data Morte": "",
-    "Local Morte": "",
-    "Pai": "Simão Francisco de Macedo",
-    "Mãe": "Marta Gonçalves",
-    "Casamentos": "[' Isabel Lopes de Barros']",
-    "Filhos": "[' Maria de Macedo']",
-    "Notas": "[]"
-}
-{
-    "Nome": "Piedade",
-    "Data Nasc": "",
-    "Local Nasc": " América do Sul, Brasil, Pelotas",
-    "Data Morte": "",
-    "Local Morte": "",
-    "Pai": "Francisco Antunes Guimarães",
-    "Mãe": "D. Francisca Eulália Rodrigues de Araújo",
-    "Casamentos": "[]",
-    "Filhos": "[]",
-    "Notas": "[]"
-}
-{
-    "Nome": "Prudencia Rodrigues",
-    "Data Nasc": "",
-    "Local Nasc": "",
-    "Data Morte": "",
-    "Local Morte": "",
-    "Pai": "Marcos Fernandes",
-    "Mãe": "Custódia Rodrigues",
-    "Casamentos": "[' Cassamiro José Ferreira']",
-    "Filhos": "[' Custódia Maria Rodrigues Ferreira']",
-    "Notas": "[]"
-}
-{
-    "Nome": "Rita Isabel de Freitas Fernandes",
-    "Data Nasc": "05.08.1855",
-    "Local Nasc": " Guimarães, Gondomar, Casa da Lage",
-    "Data Morte": "28.11.1894",
-    "Local Morte": " Lisboa, Encarnação, Rua de São Pedro de Alcantara",
-    "Pai": "Domingos José Fernandes Guimarães",
-    "Mãe": "Maria Antónia da Conceição de Macedo e Lima de Freitas",
-    "Casamentos": "[' Serafim Antunes Rodrigues Guimarães']",
-    "Filhos": "[' Ana Antunes Guimarães', ' Serafim Antunes Guimarães', ' João Antunes Guimarães', ' Justino Antunes Guimarães', ' Luís Antunes Guimarães', ' Leonor Antunes Guimarães', ' António Antunes Guimarães', ' Maria Antunes Guimarães', ' Francisco Antunes Guimarães', ' Constança Antunes Guimarães', ' Alberto Antunes Guimarães']",
-    "Notas": "['Causa da morte:\"doença orgânica do coração (mitral)']"
-}
-{
-    "Nome": "Rosa dos Santos Rodrigues Viana",
-    "Data Nasc": "",
-    "Local Nasc": "",
-    "Data Morte": "",
-    "Local Morte": "",
-    "Pai": "",
-    "Mãe": "",
-    "Casamentos": "[' João Martins de Oliveira Antunes Guimarães']",
-    "Filhos": "[]",
-    "Notas": "[]"
-}
-{
-    "Nome": "Rosa Maria Ferreira",
-    "Data Nasc": "",
-    "Local Nasc": "",
-    "Data Morte": "",
-    "Local Morte": "",
-    "Pai": "",
-    "Mãe": "",
-    "Casamentos": "[' Custódio José Fernandes']",
-    "Filhos": "[]",
-    "Notas": "[]"
-}
-{
-    "Nome": "Rosa Martins de Oliveira",
-    "Data Nasc": "16.11.1884",
-    "Local Nasc": " Vila Verde, Escariz (São Martinho)",
-    "Data Morte": "07.02.1968",
-    "Local Morte": " Braga, Cividade, Sé",
-    "Pai": "João Fernandes Pereira",
-    "Mãe": "Maria Joaquina de Oliveira Martins",
-    "Casamentos": "[' Justino Antunes Guimarães']",
-    "Filhos": "[' José Martins de Oliveira Antunes Guimarães', ' Maria Martins de Oliveira Antunes Guimarães', ' João Martins de Oliveira Antunes Guimarães']",
-    "Notas": "[]"
-}
-{
-    "Nome": "Salvador Francisco de Abreu",
-    "Data Nasc": "",
-    "Local Nasc": "",
-    "Data Morte": "23.10.1618",
-    "Local Morte": " Quinta da Granja- Souto (Salvador)",
-    "Pai": "",
-    "Mãe": "",
-    "Casamentos": "[' Isabel de Macedo']",
-    "Filhos": "[' Simão Francisco de Macedo']",
-    "Notas": "[]"
-}
-{
-    "Nome": "Sandra Moura",
-    "Data Nasc": "",
-    "Local Nasc": "",
-    "Data Morte": "",
-    "Local Morte": "",
-    "Pai": "",
-    "Mãe": "",
-    "Casamentos": "[' Miguel Pedro Pires Ribeiro Antunes Guimarães']",
-    "Filhos": "[]",
-    "Notas": "[]"
-}
-{
-    "Nome": "Santos Ferreira",
-    "Data Nasc": "",
-    "Local Nasc": "",
-    "Data Morte": "",
-    "Local Morte": "",
-    "Pai": "Affonso Gonçalves",
-    "Mãe": "Catarina Ferreira",
-    "Casamentos": "[' Catarina Rodrigues']",
-    "Filhos": "[' Cassamiro José Ferreira']",
-    "Notas": "[]"
-}
-{
-    "Nome": "Sara Augusta Miranda Represas",
-    "Data Nasc": "",
-    "Local Nasc": "",
-    "Data Morte": "",
-    "Local Morte": "",
-    "Pai": "",
-    "Mãe": "",
-    "Casamentos": "[' José Luís Pires Ribeiro Antunes Guimarães']",
-    "Filhos": "[' Carolina Represas Antunes Guimarães', ' Luís Represas Antunes Guimarães']",
-    "Notas": "[]"
-}
-{
-    "Nome": "Serafim Antunes Guimarães",
-    "Data Nasc": "06.09.1875",
-    "Local Nasc": " Guimarães, Briteiros (Salvador)",
-    "Data Morte": "",
-    "Local Morte": "",
-    "Pai": "Serafim Antunes Rodrigues Guimarães",
-    "Mãe": "Rita Isabel de Freitas Fernandes",
-    "Casamentos": "[]",
-    "Filhos": "[]",
-    "Notas": "[]"
-}
-{
-    "Nome": "Serafim Antunes Rodrigues Guimarães",
-    "Data Nasc": "1847",
-    "Local Nasc": " América do Sul, Brasil, Pelotas",
-    "Data Morte": "25.11.1930",
-    "Local Morte": " Guimarães, Briteiros (Salvador)",
-    "Pai": "Francisco Antunes Guimarães",
-    "Mãe": "D. Francisca Eulália Rodrigues de Araújo",
-    "Casamentos": "[' Rita Isabel de Freitas Fernandes']",
-    "Filhos": "[' Ana Antunes Guimarães', ' Serafim Antunes Guimarães', ' João Antunes Guimarães', ' Justino Antunes Guimarães', ' Luís Antunes Guimarães', ' Leonor Antunes Guimarães', ' António Antunes Guimarães', ' Maria Antunes Guimarães', ' Francisco Antunes Guimarães', ' Constança Antunes Guimarães', ' Alberto Antunes Guimarães']",
-    "Notas": "['Causa da morte: nefrite']"
-}
-{
-    "Nome": "Serafim José Rodrigues de Araújo",
-    "Data Nasc": "",
-    "Local Nasc": "",
-    "Data Morte": "",
-    "Local Morte": "",
-    "Pai": "",
-    "Mãe": "",
-    "Casamentos": "['D. Inácia da Silva Araújo']",
-    "Filhos": "['D. Francisca Eulália Rodrigues de Araújo']",
-    "Notas": "[]"
-}
-{
-    "Nome": "Simão Francisco de Macedo",
-    "Data Nasc": "b. 17.05.1573",
-    "Local Nasc": " Guimarães, Souto (São Salvador)",
-    "Data Morte": "",
-    "Local Morte": " Casal da Bouça- Souto (Sª. Maria)",
-    "Pai": "Salvador Francisco de Abreu",
-    "Mãe": "Isabel de Macedo",
-    "Casamentos": "[' Marta Gonçalves']",
-    "Filhos": "[' Pedro de Macedo']",
-    "Notas": "[]"
-}
-{
-    "Nome": "Simoa de Macedo",
-    "Data Nasc": "",
-    "Local Nasc": " Quinta da Granja-Souto (Salvador)",
-    "Data Morte": "",
-    "Local Morte": " Quinta da Granja -Souto (Salvador)",
-    "Pai": "",
-    "Mãe": "",
-    "Casamentos": "[' Valentim Gonçalves']",
-    "Filhos": "[' Isabel de Macedo']",
-    "Notas": "[]"
-}
-{
-    "Nome": "Úrsula de Macedo",
-    "Data Nasc": "08.02.1705",
-    "Local Nasc": " Guimarães, Souto (Santa Maria), Casal das Bouças",
-    "Data Morte": "23.02.1791",
-    "Local Morte": " Guimarães, Donim, Casa de Sande",
-    "Pai": "Manuel da Costa de Macedo",
-    "Mãe": "Úrsula Francisca",
-    "Casamentos": "[' Domingos Francisco Martins']",
-    "Filhos": "[' Ana Francisco', ' Domingos Francisco', ' Domingos Francisco de Macedo']",
-    "Notas": "[]"
-}
-{
-    "Nome": "Úrsula Francisca",
-    "Data Nasc": "",
-    "Local Nasc": " Guimarães, Souto (Santa Maria)",
-    "Data Morte": "13.12.1730",
-    "Local Morte": " Guimarães, Souto (Santa Maria)",
-    "Pai": "",
-    "Mãe": "",
-    "Casamentos": "[' Manuel da Costa de Macedo']",
-    "Filhos": "[' Úrsula de Macedo']",
-    "Notas": "['Os irmãos usavam o apelido \"Ribeiro Guimarães)']"
-}
-{
-    "Nome": "Valentim Gonçalves",
-    "Data Nasc": "",
-    "Local Nasc": "",
-    "Data Morte": "",
-    "Local Morte": "",
-    "Pai": "",
-    "Mãe": "",
-    "Casamentos": "[' Simoa de Macedo']",
-    "Filhos": "[' Isabel de Macedo']",
-    "Notas": "[]"
-}
-{
-    "Nome": "Vitor Aguiar Branco Sampaio",
-    "Data Nasc": "",
-    "Local Nasc": "",
-    "Data Morte": "",
-    "Local Morte": "",
-    "Pai": "",
-    "Mãe": "",
-    "Casamentos": "[' Maria Manuela Antunes Guimarães dos Santos Barreiro']",
-    "Filhos": "[' Guilherme Santos Barreiro Aguiar Branco']",
-    "Notas": "[]"
-}
+[
+    {
+        "Nome": "Affonso Gonçalves",
+        "Data Nasc": "",
+        "Local Nasc": "Guimarães, Gondomar, Lugar do Carvalho",
+        "Data Morte": "",
+        "Local Morte": "",
+        "Pai": "",
+        "Mãe": "",
+        "Casamentos": [
+            "Catarina Ferreira"
+        ],
+        "Filhos": [
+            "Santos Ferreira"
+        ],
+        "Notas": []
+    },
+    {
+        "Nome": "Alberto Antunes Guimarães",
+        "Data Nasc": "18.12.1890",
+        "Local Nasc": "Braga, São Lázaro, Rua dos Congregados",
+        "Data Morte": "",
+        "Local Morte": "",
+        "Pai": "Serafim Antunes Rodrigues Guimarães",
+        "Mãe": "Rita Isabel de Freitas Fernandes",
+        "Casamentos": [],
+        "Filhos": [],
+        "Notas": []
+    },
+    {
+        "Nome": "Ana Antunes Guimarães",
+        "Data Nasc": "01.12.1874",
+        "Local Nasc": "Guimarães, Briteiros (Salvador)",
+        "Data Morte": "",
+        "Local Morte": "",
+        "Pai": "Serafim Antunes Rodrigues Guimarães",
+        "Mãe": "Rita Isabel de Freitas Fernandes",
+        "Casamentos": [],
+        "Filhos": [],
+        "Notas": []
+    },
+    {
+        "Nome": "Ana de Jesus Soares de Azevedo",
+        "Data Nasc": "",
+        "Local Nasc": "Vila Verde - Prado -S. Miguel",
+        "Data Morte": "",
+        "Local Morte": "",
+        "Pai": "",
+        "Mãe": "",
+        "Casamentos": [
+            "António José de Amorim Machado de Araujo"
+        ],
+        "Filhos": [
+            "Maria Narcisa da Silva Soares de Azevedo"
+        ],
+        "Notas": []
+    },
+    {
+        "Nome": "Ana Francisco",
+        "Data Nasc": "14.05.1757",
+        "Local Nasc": "Guimarães, Donim",
+        "Data Morte": "",
+        "Local Morte": "",
+        "Pai": "Domingos Francisco Martins",
+        "Mãe": "Úrsula de Macedo",
+        "Casamentos": [],
+        "Filhos": [],
+        "Notas": []
+    },
+    {
+        "Nome": "Ana Isabel Ferrera da Cunha",
+        "Data Nasc": "12.05.1974",
+        "Local Nasc": "Braga",
+        "Data Morte": "",
+        "Local Morte": "",
+        "Pai": "",
+        "Mãe": "",
+        "Casamentos": [
+            "Paulo Alexandre Pires Ribeiro Antunes Guimarães"
+        ],
+        "Filhos": [
+            "José Pedro Ferreira da Cunha Antunes Guimarães"
+        ],
+        "Notas": []
+    },
+    {
+        "Nome": "Ana Maria Antunes",
+        "Data Nasc": "",
+        "Local Nasc": "",
+        "Data Morte": "06.03.1860",
+        "Local Morte": "Guimarães, Donim, Casa de Sande",
+        "Pai": "José Antunes",
+        "Mãe": "Maria Teixeira",
+        "Casamentos": [
+            "Manoel José Francisco"
+        ],
+        "Filhos": [
+            "Domingos",
+            "Domingos",
+            "Francisco",
+            "José Antunes Guimarães",
+            "Francisco Antunes Guimarães",
+            "João Antunes Guimarães"
+        ],
+        "Notas": []
+    },
+    {
+        "Nome": "Ana Maria Pais dos Santos Antunes Guimarães",
+        "Data Nasc": "16.05.1963",
+        "Local Nasc": "Braga, São João do Souto",
+        "Data Morte": "",
+        "Local Morte": "",
+        "Pai": "Justino Feio Vale Antunes Guimarães",
+        "Mãe": "Maria Adelaide Rodrigues Pais dos Santos",
+        "Casamentos": [],
+        "Filhos": [],
+        "Notas": []
+    },
+    {
+        "Nome": "Andreia Mendes",
+        "Data Nasc": "",
+        "Local Nasc": "",
+        "Data Morte": "",
+        "Local Morte": "",
+        "Pai": "",
+        "Mãe": "",
+        "Casamentos": [
+            "Miguel Pedro Pires Ribeiro Antunes Guimarães"
+        ],
+        "Filhos": [],
+        "Notas": []
+    },
+    {
+        "Nome": "António Antunes Guimarães",
+        "Data Nasc": "30.05.1883",
+        "Local Nasc": "Guimarães, Briteiros (Salvador)",
+        "Data Morte": "22.02.1912",
+        "Local Morte": "Braga, São Lázaro",
+        "Pai": "Serafim Antunes Rodrigues Guimarães",
+        "Mãe": "Rita Isabel de Freitas Fernandes",
+        "Casamentos": [],
+        "Filhos": [],
+        "Notas": [
+            "Assassinado pelo alferes Baptista (Infantaria 29)"
+        ]
+    },
+    {
+        "Nome": "António Candido Soares de Azevedo da Silva Amorim",
+        "Data Nasc": "28.09.1850",
+        "Local Nasc": "Amares, Dornelas",
+        "Data Morte": "",
+        "Local Morte": "",
+        "Pai": "Bento José da Silva",
+        "Mãe": "Maria Narcisa da Silva Soares de Azevedo",
+        "Casamentos": [
+            "Maria da Glória Fernandes Dias"
+        ],
+        "Filhos": [
+            "Palmira da Glória Fernandes dias de Amorim"
+        ],
+        "Notas": []
+    },
+    {
+        "Nome": "António José de Amorim Machado de Araujo",
+        "Data Nasc": "",
+        "Local Nasc": "Amares - Dornelas",
+        "Data Morte": "",
+        "Local Morte": "",
+        "Pai": "",
+        "Mãe": "",
+        "Casamentos": [
+            "Ana de Jesus Soares de Azevedo"
+        ],
+        "Filhos": [
+            "Maria Narcisa da Silva Soares de Azevedo"
+        ],
+        "Notas": []
+    },
+    {
+        "Nome": "Benta Fernandes",
+        "Data Nasc": "",
+        "Local Nasc": "",
+        "Data Morte": "",
+        "Local Morte": "",
+        "Pai": "",
+        "Mãe": "",
+        "Casamentos": [
+            "Jerónimo Rodrigues"
+        ],
+        "Filhos": [
+            "Catarina Rodrigues"
+        ],
+        "Notas": []
+    },
+    {
+        "Nome": "Bento José da Silva",
+        "Data Nasc": "24.11.1796",
+        "Local Nasc": "Sequiade",
+        "Data Morte": "",
+        "Local Morte": "",
+        "Pai": "Francisco José da Silva",
+        "Mãe": "Mria Josefa Francisca",
+        "Casamentos": [
+            "Maria Narcisa da Silva Soares de Azevedo"
+        ],
+        "Filhos": [
+            "António Candido Soares de Azevedo da Silva Amorim"
+        ],
+        "Notas": []
+    },
+    {
+        "Nome": "Bernardo Pereira Rebello",
+        "Data Nasc": "",
+        "Local Nasc": "Granja de Alijó",
+        "Data Morte": "",
+        "Local Morte": "",
+        "Pai": "",
+        "Mãe": "",
+        "Casamentos": [
+            "Mariana Ezequiel Feyo de Figueiredo Correia"
+        ],
+        "Filhos": [
+            "Francisco Pereira Rebelo Feio"
+        ],
+        "Notas": []
+    },
+    {
+        "Nome": "Carolina Represas Antunes Guimarães",
+        "Data Nasc": "",
+        "Local Nasc": "",
+        "Data Morte": "",
+        "Local Morte": "",
+        "Pai": "José Luís Pires Ribeiro Antunes Guimarães",
+        "Mãe": "Sara Augusta Miranda Represas",
+        "Casamentos": [],
+        "Filhos": [],
+        "Notas": []
+    },
+    {
+        "Nome": "Cassamiro José Ferreira",
+        "Data Nasc": "",
+        "Local Nasc": "",
+        "Data Morte": "24.08.1787",
+        "Local Morte": "Guimarães, Gondomar",
+        "Pai": "Santos Ferreira",
+        "Mãe": "Catarina Rodrigues",
+        "Casamentos": [
+            "Prudencia Rodrigues"
+        ],
+        "Filhos": [
+            "Custódia Maria Rodrigues Ferreira"
+        ],
+        "Notas": []
+    },
+    {
+        "Nome": "Catarina Ferreira",
+        "Data Nasc": "",
+        "Local Nasc": "",
+        "Data Morte": "",
+        "Local Morte": "",
+        "Pai": "",
+        "Mãe": "",
+        "Casamentos": [
+            "Affonso Gonçalves"
+        ],
+        "Filhos": [
+            "Santos Ferreira"
+        ],
+        "Notas": []
+    },
+    {
+        "Nome": "Catarina Martins",
+        "Data Nasc": "",
+        "Local Nasc": "",
+        "Data Morte": "1744",
+        "Local Morte": "Guimarães, Donim, lugar de Requeixo",
+        "Pai": "",
+        "Mãe": "",
+        "Casamentos": [
+            "Domingos Francisco o Velho"
+        ],
+        "Filhos": [
+            "Domingos Francisco Martins"
+        ],
+        "Notas": []
+    },
+    {
+        "Nome": "Catarina Rodrigues",
+        "Data Nasc": "",
+        "Local Nasc": "",
+        "Data Morte": "",
+        "Local Morte": "",
+        "Pai": "Jerónimo Rodrigues",
+        "Mãe": "Benta Fernandes",
+        "Casamentos": [
+            "Santos Ferreira"
+        ],
+        "Filhos": [
+            "Cassamiro José Ferreira"
+        ],
+        "Notas": []
+    },
+    {
+        "Nome": "Constança Antunes Guimarães",
+        "Data Nasc": "03.06.1889",
+        "Local Nasc": "Braga, São Lázaro, Ruados Congregados",
+        "Data Morte": "",
+        "Local Morte": "",
+        "Pai": "Serafim Antunes Rodrigues Guimarães",
+        "Mãe": "Rita Isabel de Freitas Fernandes",
+        "Casamentos": [],
+        "Filhos": [],
+        "Notas": []
+    },
+    {
+        "Nome": "D. Constança Maria Pereira",
+        "Data Nasc": "",
+        "Local Nasc": "Brazil, Pernambuco",
+        "Data Morte": "",
+        "Local Morte": "",
+        "Pai": "",
+        "Mãe": "",
+        "Casamentos": [
+            "José Antunes Guimarães"
+        ],
+        "Filhos": [],
+        "Notas": []
+    },
+    {
+        "Nome": "Custódia Maria Alvares",
+        "Data Nasc": "13.08.1735",
+        "Local Nasc": "Guimarães, Sande (São Martinho), Casal da Ribeira",
+        "Data Morte": "18.10.1794",
+        "Local Morte": "Guimarães, Sande (São Martinho)",
+        "Pai": "Manoel Alvares",
+        "Mãe": "Eulália Cardoso",
+        "Casamentos": [
+            "Domingos Francisco de Macedo"
+        ],
+        "Filhos": [
+            "Manoel José Francisco"
+        ],
+        "Notas": []
+    },
+    {
+        "Nome": "Custódia Maria Pereira",
+        "Data Nasc": "",
+        "Local Nasc": "",
+        "Data Morte": "",
+        "Local Morte": "",
+        "Pai": "",
+        "Mãe": "",
+        "Casamentos": [
+            "José Alves de Sousa"
+        ],
+        "Filhos": [
+            "Maria Joaquina Alves Pereira de Sousa"
+        ],
+        "Notas": []
+    },
+    {
+        "Nome": "Custódia Maria Rodrigues Ferreira",
+        "Data Nasc": "",
+        "Local Nasc": "Guimarães, Gondomar",
+        "Data Morte": "",
+        "Local Morte": "",
+        "Pai": "Cassamiro José Ferreira",
+        "Mãe": "Prudencia Rodrigues",
+        "Casamentos": [
+            "Custódio José Fernandes"
+        ],
+        "Filhos": [
+            "Jerónimo José Fernandes"
+        ],
+        "Notas": []
+    },
+    {
+        "Nome": "Custódia Rodrigues",
+        "Data Nasc": "",
+        "Local Nasc": "",
+        "Data Morte": "",
+        "Local Morte": "",
+        "Pai": "",
+        "Mãe": "",
+        "Casamentos": [
+            "Marcos Fernandes"
+        ],
+        "Filhos": [
+            "Prudencia Rodrigues"
+        ],
+        "Notas": []
+    },
+    {
+        "Nome": "Custódio José Fernandes",
+        "Data Nasc": "04.09.1759",
+        "Local Nasc": "Guimarães, Gondomar, Lugar da Lage",
+        "Data Morte": "",
+        "Local Morte": "",
+        "Pai": "Felis Fernandes",
+        "Mãe": "Marcelina Fernandes",
+        "Casamentos": [
+            "Rosa Maria Ferreira",
+            "Custódia Maria Rodrigues Ferreira"
+        ],
+        "Filhos": [
+            [
+                "Jerónimo José Fernandes"
+            ]
+        ],
+        "Notas": []
+    },
+    {
+        "Nome": "Domingas Fernandes",
+        "Data Nasc": "",
+        "Local Nasc": "",
+        "Data Morte": "",
+        "Local Morte": "",
+        "Pai": "",
+        "Mãe": "",
+        "Casamentos": [
+            "Francisco Gonçalves"
+        ],
+        "Filhos": [
+            "Marcelina Fernandes"
+        ],
+        "Notas": []
+    },
+    {
+        "Nome": "Domingos",
+        "Data Nasc": "",
+        "Local Nasc": "",
+        "Data Morte": "",
+        "Local Morte": "",
+        "Pai": "Manoel José Francisco",
+        "Mãe": "Ana Maria Antunes",
+        "Casamentos": [],
+        "Filhos": [],
+        "Notas": []
+    },
+    {
+        "Nome": "Domingos",
+        "Data Nasc": "",
+        "Local Nasc": "",
+        "Data Morte": "",
+        "Local Morte": "",
+        "Pai": "Manoel José Francisco",
+        "Mãe": "Ana Maria Antunes",
+        "Casamentos": [],
+        "Filhos": [],
+        "Notas": []
+    },
+    {
+        "Nome": "Domingos Alves Feyo",
+        "Data Nasc": "",
+        "Local Nasc": "",
+        "Data Morte": "",
+        "Local Morte": "",
+        "Pai": "Domingos Jorge Feyo",
+        "Mãe": "Maria de Carvalho",
+        "Casamentos": [
+            "Luísa Teixeira Camelo"
+        ],
+        "Filhos": [
+            "Luís António Feyo"
+        ],
+        "Notas": []
+    },
+    {
+        "Nome": "Domingos da Costa",
+        "Data Nasc": "",
+        "Local Nasc": "",
+        "Data Morte": "",
+        "Local Morte": "Casal da Bouça-Souto(Sª. Maria)",
+        "Pai": "",
+        "Mãe": "",
+        "Casamentos": [
+            "Maria de Macedo"
+        ],
+        "Filhos": [
+            "Manuel da Costa de Macedo"
+        ],
+        "Notas": []
+    },
+    {
+        "Nome": "Domingos Francisco",
+        "Data Nasc": "28.02.1728",
+        "Local Nasc": "Guimarães, Donim",
+        "Data Morte": "15.03.1728",
+        "Local Morte": "Guimarães, Donim",
+        "Pai": "Domingos Francisco Martins",
+        "Mãe": "Úrsula de Macedo",
+        "Casamentos": [],
+        "Filhos": [],
+        "Notas": []
+    },
+    {
+        "Nome": "Domingos Francisco de Macedo",
+        "Data Nasc": "10.04.1733",
+        "Local Nasc": "Guimarães, Donim",
+        "Data Morte": "18.07.1790",
+        "Local Morte": "Guimarães, Sande (São Martinho)",
+        "Pai": "Domingos Francisco Martins",
+        "Mãe": "Úrsula de Macedo",
+        "Casamentos": [
+            "Custódia Maria Alvares"
+        ],
+        "Filhos": [
+            "Manoel José Francisco"
+        ],
+        "Notas": []
+    },
+    {
+        "Nome": "Domingos Francisco Martins",
+        "Data Nasc": "16.01.1698",
+        "Local Nasc": "Guimarães, Donim",
+        "Data Morte": "31.07.1736",
+        "Local Morte": "Guimarães, Donim, Casa de Sande",
+        "Pai": "Domingos Francisco o Velho",
+        "Mãe": "Catarina Martins",
+        "Casamentos": [
+            "Úrsula de Macedo"
+        ],
+        "Filhos": [
+            "Ana Francisco",
+            "Domingos Francisco",
+            "Domingos Francisco de Macedo"
+        ],
+        "Notas": []
+    },
+    {
+        "Nome": "Domingos Francisco o Velho",
+        "Data Nasc": "",
+        "Local Nasc": "",
+        "Data Morte": "14.12.1731",
+        "Local Morte": "Guimarães, Donim, lugar de Requeixo",
+        "Pai": "",
+        "Mãe": "",
+        "Casamentos": [
+            "Catarina Martins"
+        ],
+        "Filhos": [
+            "Domingos Francisco Martins"
+        ],
+        "Notas": []
+    },
+    {
+        "Nome": "Domingos Jorge Feyo",
+        "Data Nasc": "",
+        "Local Nasc": "",
+        "Data Morte": "",
+        "Local Morte": "",
+        "Pai": "",
+        "Mãe": "",
+        "Casamentos": [
+            "Maria de Carvalho"
+        ],
+        "Filhos": [
+            "Domingos Alves Feyo"
+        ],
+        "Notas": []
+    },
+    {
+        "Nome": "Domingos José Fernandes Guimarães",
+        "Data Nasc": "25.12.1807",
+        "Local Nasc": "Guimarães, Gondomar, Casa da Lage",
+        "Data Morte": "09.07.1865",
+        "Local Morte": "Guimarães, Gondomar",
+        "Pai": "Jerónimo José Fernandes",
+        "Mãe": "Joana Teresa Rodrigues de Barros",
+        "Casamentos": [
+            "Maria Antónia da Conceição de Macedo e Lima de Freitas"
+        ],
+        "Filhos": [
+            "Rita Isabel de Freitas Fernandes"
+        ],
+        "Notas": []
+    },
+    {
+        "Nome": "Esperança do Vale",
+        "Data Nasc": "",
+        "Local Nasc": "",
+        "Data Morte": "",
+        "Local Morte": "",
+        "Pai": "",
+        "Mãe": "",
+        "Casamentos": [
+            "Miguel Fernandes"
+        ],
+        "Filhos": [
+            "Felis Fernandes"
+        ],
+        "Notas": []
+    },
+    {
+        "Nome": "Eulália Cardoso",
+        "Data Nasc": "16.08.1700",
+        "Local Nasc": "Guimarães, Sande (São Martinho), Casal do Monte",
+        "Data Morte": "",
+        "Local Morte": "Guimarães, Sande (São Martinho)",
+        "Pai": "",
+        "Mãe": "",
+        "Casamentos": [
+            "Manoel Alvares"
+        ],
+        "Filhos": [
+            "Custódia Maria Alvares"
+        ],
+        "Notas": []
+    },
+    {
+        "Nome": "Fancisca Margarida da Encarnação de Macedo e Lima",
+        "Data Nasc": "",
+        "Local Nasc": "",
+        "Data Morte": "12.10.1859",
+        "Local Morte": "Guimarães, Souto (Santa Maria), lugar do Barral",
+        "Pai": "",
+        "Mãe": "",
+        "Casamentos": [
+            "João José Rodrigues de Feitas"
+        ],
+        "Filhos": [
+            "Maria Antónia da Conceição de Macedo e Lima de Freitas"
+        ],
+        "Notas": []
+    },
+    {
+        "Nome": "Felis Fernandes",
+        "Data Nasc": "23.03.1722",
+        "Local Nasc": "Guimarães, Gondomar",
+        "Data Morte": "",
+        "Local Morte": "",
+        "Pai": "Miguel Fernandes",
+        "Mãe": "Esperança do Vale",
+        "Casamentos": [
+            "Marcelina Fernandes"
+        ],
+        "Filhos": [
+            "Custódio José Fernandes"
+        ],
+        "Notas": []
+    },
+    {
+        "Nome": "Francisca Carolina Antunes Guimarães",
+        "Data Nasc": "02.08.1872",
+        "Local Nasc": "Guimarães, Donim",
+        "Data Morte": "",
+        "Local Morte": "Braga",
+        "Pai": "Manuel José Lopes Guimarães",
+        "Mãe": "Francisca Carolina Antunes Rodrigues Guimarães",
+        "Casamentos": [
+            "Miguel da Cunha Velho de Vilhena Sotomaior"
+        ],
+        "Filhos": [],
+        "Notas": []
+    },
+    {
+        "Nome": "Francisca Carolina Antunes Rodrigues Guimarães",
+        "Data Nasc": "1842",
+        "Local Nasc": "América do Sul, Brasil",
+        "Data Morte": "d. 1911",
+        "Local Morte": "Dume - Braga, Quinta da Ordem",
+        "Pai": "Francisco Antunes Guimarães",
+        "Mãe": "D. Francisca Eulália Rodrigues de Araújo",
+        "Casamentos": [
+            "Manuel José Lopes Guimarães",
+            "Lourenço da Cunha Velho Sotomaior"
+        ],
+        "Filhos": [
+            [
+                "Francisca Carolina Antunes Guimarães",
+                "Maria da Conceição Antunes Guimarães"
+            ],
+            [
+                "João da Cunha Velho Sotomaior"
+            ]
+        ],
+        "Notas": []
+    },
+    {
+        "Nome": "D. Francisca Eulália Rodrigues de Araújo",
+        "Data Nasc": "",
+        "Local Nasc": "Brasil",
+        "Data Morte": "",
+        "Local Morte": "Brasil",
+        "Pai": "Serafim José Rodrigues de Araújo",
+        "Mãe": "D. Inácia da Silva Araújo",
+        "Casamentos": [
+            "Francisco Antunes Guimarães"
+        ],
+        "Filhos": [
+            "Francisco Antunes Guimarães",
+            "Piedade",
+            "Serafim Antunes Rodrigues Guimarães",
+            "Francisca Carolina Antunes Rodrigues Guimarães"
+        ],
+        "Notas": []
+    },
+    {
+        "Nome": "Francisco",
+        "Data Nasc": "",
+        "Local Nasc": "",
+        "Data Morte": "",
+        "Local Morte": "",
+        "Pai": "Manoel José Francisco",
+        "Mãe": "Ana Maria Antunes",
+        "Casamentos": [],
+        "Filhos": [],
+        "Notas": []
+    },
+    {
+        "Nome": "Francisco Antunes Guimarães",
+        "Data Nasc": "",
+        "Local Nasc": "América do Sul, Brasil, Pelotas",
+        "Data Morte": "",
+        "Local Morte": "",
+        "Pai": "Francisco Antunes Guimarães",
+        "Mãe": "D. Francisca Eulália Rodrigues de Araújo",
+        "Casamentos": [],
+        "Filhos": [],
+        "Notas": [
+            "Advogado em Pelotas"
+        ]
+    },
+    {
+        "Nome": "Francisco Antunes Guimarães",
+        "Data Nasc": "13.02.1806",
+        "Local Nasc": "Guimarães, Donim, Casa de Sande",
+        "Data Morte": "",
+        "Local Morte": "América do Sul, Brasil, Pelotas",
+        "Pai": "Manoel José Francisco",
+        "Mãe": "Ana Maria Antunes",
+        "Casamentos": [
+            "D. Francisca Eulália Rodrigues de Araújo"
+        ],
+        "Filhos": [
+            "Francisco Antunes Guimarães",
+            "Piedade",
+            "Serafim Antunes Rodrigues Guimarães",
+            "Francisca Carolina Antunes Rodrigues Guimarães"
+        ],
+        "Notas": []
+    },
+    {
+        "Nome": "Francisco Antunes Guimarães",
+        "Data Nasc": "04.03.1887",
+        "Local Nasc": "Braga, Braga",
+        "Data Morte": "16.01.1890",
+        "Local Morte": "Braga, Braga",
+        "Pai": "Serafim Antunes Rodrigues Guimarães",
+        "Mãe": "Rita Isabel de Freitas Fernandes",
+        "Casamentos": [],
+        "Filhos": [],
+        "Notas": [
+            "Sepultado no jazigo de Donim"
+        ]
+    },
+    {
+        "Nome": "Francisco Feio Vale",
+        "Data Nasc": "12.03.1881",
+        "Local Nasc": "Santarém, Abrantes",
+        "Data Morte": "07.04.1961",
+        "Local Morte": "Braga, Braga",
+        "Pai": "Luís Cândido Fernandez Vale",
+        "Mãe": "Maria Emilia Rebelo Feio",
+        "Casamentos": [
+            "Palmira da Glória Fernandes dias de Amorim"
+        ],
+        "Filhos": [
+            "Maria Fernanda de Amorim Feio Vale"
+        ],
+        "Notas": [
+            "Coronel de Infantaria"
+        ]
+    },
+    {
+        "Nome": "Francisco Feyo de Figueiredo Correia",
+        "Data Nasc": "28.02.1747",
+        "Local Nasc": "Vila Real, Vila Real",
+        "Data Morte": "",
+        "Local Morte": "",
+        "Pai": "Luís António Feyo",
+        "Mãe": "Maria Teresa de Figueiredo",
+        "Casamentos": [
+            "Josefa Joaquina Correia de Carvalho"
+        ],
+        "Filhos": [
+            "Mariana Ezequiel Feyo de Figueiredo Correia"
+        ],
+        "Notas": []
+    },
+    {
+        "Nome": "Francisco Gonçalves",
+        "Data Nasc": "",
+        "Local Nasc": "",
+        "Data Morte": "",
+        "Local Morte": "",
+        "Pai": "",
+        "Mãe": "",
+        "Casamentos": [
+            "Domingas Fernandes"
+        ],
+        "Filhos": [
+            "Marcelina Fernandes"
+        ],
+        "Notas": []
+    },
+    {
+        "Nome": "Francisco José da Silva",
+        "Data Nasc": "",
+        "Local Nasc": "",
+        "Data Morte": "",
+        "Local Morte": "",
+        "Pai": "",
+        "Mãe": "",
+        "Casamentos": [
+            "Mria Josefa Francisca"
+        ],
+        "Filhos": [
+            "Bento José da Silva"
+        ],
+        "Notas": []
+    },
+    {
+        "Nome": "Francisco Pereira Rebelo Feio",
+        "Data Nasc": "",
+        "Local Nasc": "Peso da Régua, Peso da Régua, Granja do Douro",
+        "Data Morte": "",
+        "Local Morte": "",
+        "Pai": "Bernardo Pereira Rebello",
+        "Mãe": "Mariana Ezequiel Feyo de Figueiredo Correia",
+        "Casamentos": [
+            "Maria Lúcia Adelaide de Azevedo Taveira"
+        ],
+        "Filhos": [
+            "Maria Emilia Rebelo Feio"
+        ],
+        "Notas": []
+    },
+    {
+        "Nome": "Guilherme Santos Barreiro Aguiar Branco",
+        "Data Nasc": "02.05.2002",
+        "Local Nasc": "Braga",
+        "Data Morte": "",
+        "Local Morte": "",
+        "Pai": "Maria Manuela Antunes Guimarães dos Santos Barreiro",
+        "Mãe": "Vitor Aguiar Branco Sampaio",
+        "Casamentos": [],
+        "Filhos": [],
+        "Notas": []
+    },
+    {
+        "Nome": "D. Inácia da Silva Araújo",
+        "Data Nasc": "",
+        "Local Nasc": "",
+        "Data Morte": "",
+        "Local Morte": "",
+        "Pai": "",
+        "Mãe": "",
+        "Casamentos": [
+            "Serafim José Rodrigues de Araújo"
+        ],
+        "Filhos": [
+            "D. Francisca Eulália Rodrigues de Araújo"
+        ],
+        "Notas": []
+    },
+    {
+        "Nome": "Isabel Cristina Silva Peres Samões",
+        "Data Nasc": "",
+        "Local Nasc": "",
+        "Data Morte": "",
+        "Local Morte": "",
+        "Pai": "",
+        "Mãe": "",
+        "Casamentos": [
+            "Paulo Alexandre Pires Ribeiro Antunes Guimarães"
+        ],
+        "Filhos": [],
+        "Notas": []
+    },
+    {
+        "Nome": "Isabel de Macedo",
+        "Data Nasc": "",
+        "Local Nasc": "Quinta da Granja-Souto (Salvador)",
+        "Data Morte": "",
+        "Local Morte": "",
+        "Pai": "Valentim Gonçalves",
+        "Mãe": "Simoa de Macedo",
+        "Casamentos": [
+            "Salvador Francisco de Abreu"
+        ],
+        "Filhos": [
+            "Simão Francisco de Macedo"
+        ],
+        "Notas": []
+    },
+    {
+        "Nome": "Isabel Lopes de Barros",
+        "Data Nasc": "",
+        "Local Nasc": "",
+        "Data Morte": "",
+        "Local Morte": "Casal da Bouça - Souto (Sª. Maria)",
+        "Pai": "",
+        "Mãe": "",
+        "Casamentos": [
+            "Pedro de Macedo"
+        ],
+        "Filhos": [
+            "Maria de Macedo"
+        ],
+        "Notas": []
+    },
+    {
+        "Nome": "Jerónimo José Fernandes",
+        "Data Nasc": "10.11.1783",
+        "Local Nasc": "Guimarães, Gondomar, Lugar da Lage",
+        "Data Morte": "",
+        "Local Morte": "",
+        "Pai": "Custódio José Fernandes",
+        "Mãe": "Custódia Maria Rodrigues Ferreira",
+        "Casamentos": [
+            "Joana Teresa Rodrigues de Barros"
+        ],
+        "Filhos": [
+            "Domingos José Fernandes Guimarães"
+        ],
+        "Notas": []
+    },
+    {
+        "Nome": "Jerónimo Rodrigues",
+        "Data Nasc": "",
+        "Local Nasc": "",
+        "Data Morte": "",
+        "Local Morte": "",
+        "Pai": "",
+        "Mãe": "",
+        "Casamentos": [
+            "Benta Fernandes"
+        ],
+        "Filhos": [
+            "Catarina Rodrigues"
+        ],
+        "Notas": []
+    },
+    {
+        "Nome": "Joana Antunes Guimarães Ferreira Soares",
+        "Data Nasc": "04.02.1996",
+        "Local Nasc": "Braga",
+        "Data Morte": "",
+        "Local Morte": "",
+        "Pai": "João Hélio Ferreira Soares",
+        "Mãe": "Maria Fernanda Pires Ribeiro Antunes Guimarães",
+        "Casamentos": [],
+        "Filhos": [],
+        "Notas": []
+    },
+    {
+        "Nome": "Joana Teresa Rodrigues de Barros",
+        "Data Nasc": "19.07.1785",
+        "Local Nasc": "Póvoa de Lanhoso, Garfe",
+        "Data Morte": "31.12.1865",
+        "Local Morte": "Guimarães, Gondomar, Casa da Lage",
+        "Pai": "",
+        "Mãe": "",
+        "Casamentos": [
+            "Jerónimo José Fernandes"
+        ],
+        "Filhos": [
+            "Domingos José Fernandes Guimarães"
+        ],
+        "Notas": [
+            "Padrinhos: Martinho Leite de Azevedo de Menezes (por procuração) (de Guimarães). Tocou a criança Jerónimo do Vale",
+            "Nossa Senhora"
+        ]
+    },
+    {
+        "Nome": "João Antunes Guimarães",
+        "Data Nasc": "13.11.1808",
+        "Local Nasc": "Guimarães, Donim, Casa de Sande",
+        "Data Morte": "02.02.1891",
+        "Local Morte": "Guimarães, Donim, Casa de Sande",
+        "Pai": "Manoel José Francisco",
+        "Mãe": "Ana Maria Antunes",
+        "Casamentos": [
+            "Maria Joaquina Alves Pereira de Sousa"
+        ],
+        "Filhos": [],
+        "Notas": []
+    },
+    {
+        "Nome": "João Antunes Guimarães",
+        "Data Nasc": "16.02.1877",
+        "Local Nasc": "Guimarães, Briteiros (Salvador)",
+        "Data Morte": "",
+        "Local Morte": "",
+        "Pai": "Serafim Antunes Rodrigues Guimarães",
+        "Mãe": "Rita Isabel de Freitas Fernandes",
+        "Casamentos": [],
+        "Filhos": [],
+        "Notas": []
+    },
+    {
+        "Nome": "João da Cunha Velho Sotomaior",
+        "Data Nasc": "",
+        "Local Nasc": "",
+        "Data Morte": "",
+        "Local Morte": "",
+        "Pai": "Lourenço da Cunha Velho Sotomaior",
+        "Mãe": "Francisca Carolina Antunes Rodrigues Guimarães",
+        "Casamentos": [],
+        "Filhos": [],
+        "Notas": []
+    },
+    {
+        "Nome": "João Fernandes Pereira",
+        "Data Nasc": "",
+        "Local Nasc": "",
+        "Data Morte": "",
+        "Local Morte": "",
+        "Pai": "",
+        "Mãe": "",
+        "Casamentos": [
+            "Maria Joaquina de Oliveira Martins"
+        ],
+        "Filhos": [
+            "Rosa Martins de Oliveira"
+        ],
+        "Notas": []
+    },
+    {
+        "Nome": "João Hélio Ferreira Soares",
+        "Data Nasc": "",
+        "Local Nasc": "",
+        "Data Morte": "",
+        "Local Morte": "",
+        "Pai": "",
+        "Mãe": "",
+        "Casamentos": [
+            "Maria Fernanda Pires Ribeiro Antunes Guimarães"
+        ],
+        "Filhos": [
+            "Joana Antunes Guimarães Ferreira Soares"
+        ],
+        "Notas": []
+    },
+    {
+        "Nome": "João José Rodrigues de Feitas",
+        "Data Nasc": "24.06.1787",
+        "Local Nasc": "Guimarães, Souto (São Salvador), Lugar do Barral",
+        "Data Morte": "07.01.1861",
+        "Local Morte": "Guimarães, Souto (São Salvador), Lugar do Barral",
+        "Pai": "",
+        "Mãe": "",
+        "Casamentos": [
+            "Fancisca Margarida da Encarnação de Macedo e Lima"
+        ],
+        "Filhos": [
+            "Maria Antónia da Conceição de Macedo e Lima de Freitas"
+        ],
+        "Notas": [
+            "Doutor em leis"
+        ]
+    },
+    {
+        "Nome": "João Martins de Oliveira Antunes Guimarães",
+        "Data Nasc": "19.02.1907",
+        "Local Nasc": "Braga, São João do Souto",
+        "Data Morte": "26.04.1957",
+        "Local Morte": "Braga, Braga, Sé",
+        "Pai": "Justino Antunes Guimarães",
+        "Mãe": "Rosa Martins de Oliveira",
+        "Casamentos": [
+            "Rosa dos Santos Rodrigues Viana"
+        ],
+        "Filhos": [],
+        "Notas": []
+    },
+    {
+        "Nome": "José Alves de Sousa",
+        "Data Nasc": "",
+        "Local Nasc": "",
+        "Data Morte": "",
+        "Local Morte": "",
+        "Pai": "",
+        "Mãe": "",
+        "Casamentos": [
+            "Custódia Maria Pereira"
+        ],
+        "Filhos": [
+            "Maria Joaquina Alves Pereira de Sousa"
+        ],
+        "Notas": []
+    },
+    {
+        "Nome": "José Antunes",
+        "Data Nasc": "",
+        "Local Nasc": "Guimarães, Briteiros (Salvador)",
+        "Data Morte": "29.09.1837",
+        "Local Morte": "Guimarães, Donim, Casa de Sande",
+        "Pai": "",
+        "Mãe": "",
+        "Casamentos": [
+            "Maria Teixeira"
+        ],
+        "Filhos": [
+            "Ana Maria Antunes"
+        ],
+        "Notas": []
+    },
+    {
+        "Nome": "José Antunes Guimarães",
+        "Data Nasc": "25.10.1803",
+        "Local Nasc": "Guimarães, Donim, Casa de Sande",
+        "Data Morte": "",
+        "Local Morte": "Brazil",
+        "Pai": "Manoel José Francisco",
+        "Mãe": "Ana Maria Antunes",
+        "Casamentos": [
+            "D. Constança Maria Pereira"
+        ],
+        "Filhos": [],
+        "Notas": []
+    },
+    {
+        "Nome": "José Germano Fernandes Dias",
+        "Data Nasc": "15.11.1813",
+        "Local Nasc": "Vila Verde Lage",
+        "Data Morte": "05.01.1875",
+        "Local Morte": "Braga",
+        "Pai": "",
+        "Mãe": "",
+        "Casamentos": [
+            "Maria Rita da Silva"
+        ],
+        "Filhos": [
+            "Maria da Glória Fernandes Dias"
+        ],
+        "Notas": []
+    },
+    {
+        "Nome": "José Luís Pires Ribeiro Antunes Guimarães",
+        "Data Nasc": "19.06.1961",
+        "Local Nasc": "Braga, Cividade, Casa da Cutelaria",
+        "Data Morte": "",
+        "Local Morte": "",
+        "Pai": "José Luís Vale Antunes Guimarães",
+        "Mãe": "Maria Teresa Pires Ribeiro Antunes Guimarães",
+        "Casamentos": [
+            "Sara Augusta Miranda Represas"
+        ],
+        "Filhos": [
+            "Carolina Represas Antunes Guimarães",
+            "Luís Represas Antunes Guimarães"
+        ],
+        "Notas": [
+            "casamento dissolvido por divórcio"
+        ]
+    },
+    {
+        "Nome": "José Luís Vale Antunes Guimarães",
+        "Data Nasc": "25.09.1934",
+        "Local Nasc": "Braga, Cividade",
+        "Data Morte": "",
+        "Local Morte": "",
+        "Pai": "José Martins de Oliveira Antunes Guimarães",
+        "Mãe": "Maria Fernanda de Amorim Feio Vale",
+        "Casamentos": [
+            "Maria Teresa Pires Ribeiro Antunes Guimarães"
+        ],
+        "Filhos": [
+            "José Luís Pires Ribeiro Antunes Guimarães",
+            "Miguel Pedro Pires Ribeiro Antunes Guimarães",
+            "Paulo Alexandre Pires Ribeiro Antunes Guimarães",
+            "Maria Fernanda Pires Ribeiro Antunes Guimarães"
+        ],
+        "Notas": []
+    },
+    {
+        "Nome": "José Martins de Oliveira Antunes Guimarães",
+        "Data Nasc": "27.04.1904",
+        "Local Nasc": "Braga, Braga",
+        "Data Morte": "14.04.1948",
+        "Local Morte": "Braga, Cividade, Casa da Cutelaria",
+        "Pai": "Justino Antunes Guimarães",
+        "Mãe": "Rosa Martins de Oliveira",
+        "Casamentos": [
+            "Maria Fernanda de Amorim Feio Vale"
+        ],
+        "Filhos": [
+            "Justino Feio Vale Antunes Guimarães",
+            "José Luís Vale Antunes Guimarães",
+            "Maria Manuela Feio Antunes Guimarães"
+        ],
+        "Notas": []
+    },
+    {
+        "Nome": "José Pedro Ferreira da Cunha Antunes Guimarães",
+        "Data Nasc": "17.02.1992",
+        "Local Nasc": "Braga, Braga",
+        "Data Morte": "",
+        "Local Morte": "",
+        "Pai": "Paulo Alexandre Pires Ribeiro Antunes Guimarães",
+        "Mãe": "Ana Isabel Ferrera da Cunha",
+        "Casamentos": [],
+        "Filhos": [],
+        "Notas": []
+    },
+    {
+        "Nome": "Josefa Joaquina Correia de Carvalho",
+        "Data Nasc": "",
+        "Local Nasc": "",
+        "Data Morte": "",
+        "Local Morte": "",
+        "Pai": "",
+        "Mãe": "",
+        "Casamentos": [
+            "Francisco Feyo de Figueiredo Correia"
+        ],
+        "Filhos": [
+            "Mariana Ezequiel Feyo de Figueiredo Correia"
+        ],
+        "Notas": []
+    },
+    {
+        "Nome": "Justino Antunes Guimarães",
+        "Data Nasc": "30.09.1878",
+        "Local Nasc": "Guimarães, Briteiros (Salvador)",
+        "Data Morte": "24.07.1957",
+        "Local Morte": "Braga, Braga",
+        "Pai": "Serafim Antunes Rodrigues Guimarães",
+        "Mãe": "Rita Isabel de Freitas Fernandes",
+        "Casamentos": [
+            "Rosa Martins de Oliveira"
+        ],
+        "Filhos": [
+            "José Martins de Oliveira Antunes Guimarães",
+            "Maria Martins de Oliveira Antunes Guimarães",
+            "João Martins de Oliveira Antunes Guimarães"
+        ],
+        "Notas": []
+    },
+    {
+        "Nome": "Justino Feio Vale Antunes Guimarães",
+        "Data Nasc": "10.03.1933",
+        "Local Nasc": "Guimarães, Donim, Casa de Sande",
+        "Data Morte": "",
+        "Local Morte": "",
+        "Pai": "José Martins de Oliveira Antunes Guimarães",
+        "Mãe": "Maria Fernanda de Amorim Feio Vale",
+        "Casamentos": [
+            "Maria Adelaide Rodrigues Pais dos Santos",
+            "Maria Clotilde Miranda Cardoso do Vale"
+        ],
+        "Filhos": [
+            [
+                "Ana Maria Pais dos Santos Antunes Guimarães"
+            ]
+        ],
+        "Notas": []
+    },
+    {
+        "Nome": "Leonor Antunes Guimarães",
+        "Data Nasc": "14.04.1881",
+        "Local Nasc": "Guimarães, Briteiros (Salvador)",
+        "Data Morte": "01.11.1890",
+        "Local Morte": "Braga, São Lázaro",
+        "Pai": "Serafim Antunes Rodrigues Guimarães",
+        "Mãe": "Rita Isabel de Freitas Fernandes",
+        "Casamentos": [],
+        "Filhos": [],
+        "Notas": [
+            "Sepultada no jazigo de Donim"
+        ]
+    },
+    {
+        "Nome": "Lourenço da Cunha Velho Sotomaior",
+        "Data Nasc": "",
+        "Local Nasc": "",
+        "Data Morte": "01.08.1911",
+        "Local Morte": "Quinta da Ordem - Dume - Braga",
+        "Pai": "",
+        "Mãe": "",
+        "Casamentos": [
+            "Francisca Carolina Antunes Rodrigues Guimarães"
+        ],
+        "Filhos": [
+            "João da Cunha Velho Sotomaior"
+        ],
+        "Notas": []
+    },
+    {
+        "Nome": "Luís António Feyo",
+        "Data Nasc": "26.12.1719",
+        "Local Nasc": "São Pedro - Vila Real",
+        "Data Morte": "",
+        "Local Morte": "",
+        "Pai": "Domingos Alves Feyo",
+        "Mãe": "Luísa Teixeira Camelo",
+        "Casamentos": [
+            "Maria Teresa de Figueiredo"
+        ],
+        "Filhos": [
+            "Francisco Feyo de Figueiredo Correia"
+        ],
+        "Notas": []
+    },
+    {
+        "Nome": "Luís Antunes Guimarães",
+        "Data Nasc": "13.01.1880",
+        "Local Nasc": "Guimarães, Briteiros (Salvador)",
+        "Data Morte": "",
+        "Local Morte": "",
+        "Pai": "Serafim Antunes Rodrigues Guimarães",
+        "Mãe": "Rita Isabel de Freitas Fernandes",
+        "Casamentos": [],
+        "Filhos": [],
+        "Notas": []
+    },
+    {
+        "Nome": "Luís Cândido Fernandez Vale",
+        "Data Nasc": "22.10.1854",
+        "Local Nasc": "Viana do Castelo, Valença",
+        "Data Morte": "Braga, Braga, Rua das Aguas, 55",
+        "Local Morte": "",
+        "Pai": "",
+        "Mãe": "",
+        "Casamentos": [
+            "Maria Emilia Rebelo Feio"
+        ],
+        "Filhos": [
+            "Francisco Feio Vale"
+        ],
+        "Notas": [
+            "Médico Militar",
+            "Cirurgiâo-mor"
+        ]
+    },
+    {
+        "Nome": "Luís Represas Antunes Guimarães",
+        "Data Nasc": "",
+        "Local Nasc": "",
+        "Data Morte": "",
+        "Local Morte": "",
+        "Pai": "José Luís Pires Ribeiro Antunes Guimarães",
+        "Mãe": "Sara Augusta Miranda Represas",
+        "Casamentos": [],
+        "Filhos": [],
+        "Notas": []
+    },
+    {
+        "Nome": "Luísa Teixeira Camelo",
+        "Data Nasc": "",
+        "Local Nasc": "",
+        "Data Morte": "",
+        "Local Morte": "",
+        "Pai": "",
+        "Mãe": "",
+        "Casamentos": [
+            "Domingos Alves Feyo"
+        ],
+        "Filhos": [
+            "Luís António Feyo"
+        ],
+        "Notas": []
+    },
+    {
+        "Nome": "Manoel Alvares",
+        "Data Nasc": "",
+        "Local Nasc": "Guimarães, Sande (São Martinho), Casa da Ribeiral",
+        "Data Morte": "",
+        "Local Morte": "Guimarães, Sande (São Martinho)",
+        "Pai": "",
+        "Mãe": "",
+        "Casamentos": [
+            "Eulália Cardoso"
+        ],
+        "Filhos": [
+            "Custódia Maria Alvares"
+        ],
+        "Notas": []
+    },
+    {
+        "Nome": "Manoel José Francisco",
+        "Data Nasc": "12.09.1765",
+        "Local Nasc": "Guimarães, Sande (São Martinho), Lugar da Ribeira",
+        "Data Morte": "21.06.1811",
+        "Local Morte": "Viana do Castelo, Valença, Hospital de Valença",
+        "Pai": "Domingos Francisco de Macedo",
+        "Mãe": "Custódia Maria Alvares",
+        "Casamentos": [
+            "Ana Maria Antunes"
+        ],
+        "Filhos": [
+            "Domingos",
+            "Domingos",
+            "Francisco",
+            "José Antunes Guimarães",
+            "Francisco Antunes Guimarães",
+            "João Antunes Guimarães"
+        ],
+        "Notas": []
+    },
+    {
+        "Nome": "Manuel da Costa de Macedo",
+        "Data Nasc": "16.05.1673",
+        "Local Nasc": "Guimarães, Souto (Santa Maria)",
+        "Data Morte": "13.12.1719",
+        "Local Morte": "Guimarães, Souto (Santa Maria), Casal da Bouça",
+        "Pai": "Domingos da Costa",
+        "Mãe": "Maria de Macedo",
+        "Casamentos": [
+            "Úrsula Francisca"
+        ],
+        "Filhos": [
+            "Úrsula de Macedo"
+        ],
+        "Notas": []
+    },
+    {
+        "Nome": "Manuel José Lopes Guimarães",
+        "Data Nasc": "01.02.1828",
+        "Local Nasc": "Donim - Guimarães",
+        "Data Morte": "08.01.1875",
+        "Local Morte": "Donim Guimarães",
+        "Pai": "",
+        "Mãe": "",
+        "Casamentos": [
+            "Francisca Carolina Antunes Rodrigues Guimarães"
+        ],
+        "Filhos": [
+            "Francisca Carolina Antunes Guimarães",
+            "Maria da Conceição Antunes Guimarães"
+        ],
+        "Notas": []
+    },
+    {
+        "Nome": "Marcelina Fernandes",
+        "Data Nasc": "07.03.1729",
+        "Local Nasc": "Guimarães, Gondomar, Lugar da Lage",
+        "Data Morte": "",
+        "Local Morte": "",
+        "Pai": "Francisco Gonçalves",
+        "Mãe": "Domingas Fernandes",
+        "Casamentos": [
+            "Felis Fernandes"
+        ],
+        "Filhos": [
+            "Custódio José Fernandes"
+        ],
+        "Notas": []
+    },
+    {
+        "Nome": "Marcos Fernandes",
+        "Data Nasc": "",
+        "Local Nasc": "Guimarães, Gondomar, Lugar do Covo",
+        "Data Morte": "",
+        "Local Morte": "",
+        "Pai": "",
+        "Mãe": "",
+        "Casamentos": [
+            "Custódia Rodrigues"
+        ],
+        "Filhos": [
+            "Prudencia Rodrigues"
+        ],
+        "Notas": []
+    },
+    {
+        "Nome": "Maria Adelaide Rodrigues Pais dos Santos",
+        "Data Nasc": "14.05.1943",
+        "Local Nasc": "Horta - Matriz",
+        "Data Morte": "1996",
+        "Local Morte": "Braga, São Vitor",
+        "Pai": "",
+        "Mãe": "",
+        "Casamentos": [
+            "Justino Feio Vale Antunes Guimarães"
+        ],
+        "Filhos": [
+            "Ana Maria Pais dos Santos Antunes Guimarães"
+        ],
+        "Notas": []
+    },
+    {
+        "Nome": "Maria Antónia da Conceição de Macedo e Lima de Freitas",
+        "Data Nasc": "25.05.1819",
+        "Local Nasc": "Guimarães, Souto (São Salvador), Lugar do Barral",
+        "Data Morte": "24.08.1908",
+        "Local Morte": "Guimarães, Gondomar, Casa da lage",
+        "Pai": "João José Rodrigues de Feitas",
+        "Mãe": "Fancisca Margarida da Encarnação de Macedo e Lima",
+        "Casamentos": [
+            "Domingos José Fernandes Guimarães"
+        ],
+        "Filhos": [
+            "Rita Isabel de Freitas Fernandes"
+        ],
+        "Notas": []
+    },
+    {
+        "Nome": "Maria Antunes Guimarães",
+        "Data Nasc": "03.01.1885",
+        "Local Nasc": "Guimarães, Briteiros (Salvador)",
+        "Data Morte": "",
+        "Local Morte": "",
+        "Pai": "Serafim Antunes Rodrigues Guimarães",
+        "Mãe": "Rita Isabel de Freitas Fernandes",
+        "Casamentos": [],
+        "Filhos": [],
+        "Notas": []
+    },
+    {
+        "Nome": "Maria Clotilde Miranda Cardoso do Vale",
+        "Data Nasc": "19.01.1940",
+        "Local Nasc": "Guimarães, Creixomil, Quinta do Robalo",
+        "Data Morte": "",
+        "Local Morte": "",
+        "Pai": "",
+        "Mãe": "",
+        "Casamentos": [
+            "Justino Feio Vale Antunes Guimarães"
+        ],
+        "Filhos": [],
+        "Notas": []
+    },
+    {
+        "Nome": "Maria da Conceição Antunes Guimarães",
+        "Data Nasc": "08.09.1874",
+        "Local Nasc": "Guimarães, Donim",
+        "Data Morte": "a. 19.12.1880",
+        "Local Morte": "Guimarães, Donim, Lugar da Devesa",
+        "Pai": "Manuel José Lopes Guimarães",
+        "Mãe": "Francisca Carolina Antunes Rodrigues Guimarães",
+        "Casamentos": [],
+        "Filhos": [],
+        "Notas": [
+            "Foi sepultada \"pomposamente\" na igreja mas mais tarde trasladada para o jazigo de João Antunes Guimarães, em Donim, por vontade deste, expressa em testamento."
+        ]
+    },
+    {
+        "Nome": "Maria da Glória Fernandes Dias",
+        "Data Nasc": "04.12.1849",
+        "Local Nasc": "Braga, São João do Souto",
+        "Data Morte": "",
+        "Local Morte": "",
+        "Pai": "José Germano Fernandes Dias",
+        "Mãe": "Maria Rita da Silva",
+        "Casamentos": [
+            "António Candido Soares de Azevedo da Silva Amorim"
+        ],
+        "Filhos": [
+            "Palmira da Glória Fernandes dias de Amorim"
+        ],
+        "Notas": []
+    },
+    {
+        "Nome": "Maria de Carvalho",
+        "Data Nasc": "",
+        "Local Nasc": "",
+        "Data Morte": "",
+        "Local Morte": "",
+        "Pai": "",
+        "Mãe": "",
+        "Casamentos": [
+            "Domingos Jorge Feyo"
+        ],
+        "Filhos": [
+            "Domingos Alves Feyo"
+        ],
+        "Notas": []
+    },
+    {
+        "Nome": "Maria de Macedo",
+        "Data Nasc": "",
+        "Local Nasc": "Casal da Bouça -Souto (S.ª Maria)",
+        "Data Morte": "",
+        "Local Morte": "Casal da Bouça- Souto (Sª. Maria)",
+        "Pai": "Pedro de Macedo",
+        "Mãe": "Isabel Lopes de Barros",
+        "Casamentos": [
+            "Domingos da Costa"
+        ],
+        "Filhos": [
+            "Manuel da Costa de Macedo"
+        ],
+        "Notas": []
+    },
+    {
+        "Nome": "Maria Emilia Rebelo Feio",
+        "Data Nasc": "27.09.1854",
+        "Local Nasc": "Vila Real, Vila Real",
+        "Data Morte": "07.12.1955",
+        "Local Morte": "Braga, Braga",
+        "Pai": "Francisco Pereira Rebelo Feio",
+        "Mãe": "Maria Lúcia Adelaide de Azevedo Taveira",
+        "Casamentos": [
+            "Luís Cândido Fernandez Vale"
+        ],
+        "Filhos": [
+            "Francisco Feio Vale"
+        ],
+        "Notas": []
+    },
+    {
+        "Nome": "Maria Fernanda de Amorim Feio Vale",
+        "Data Nasc": "04.09.1912",
+        "Local Nasc": "Vila Verde, Soutelo",
+        "Data Morte": "09.12.1945",
+        "Local Morte": "Braga, São Vítor",
+        "Pai": "Francisco Feio Vale",
+        "Mãe": "Palmira da Glória Fernandes dias de Amorim",
+        "Casamentos": [
+            "José Martins de Oliveira Antunes Guimarães"
+        ],
+        "Filhos": [
+            "Justino Feio Vale Antunes Guimarães",
+            "José Luís Vale Antunes Guimarães",
+            "Maria Manuela Feio Antunes Guimarães"
+        ],
+        "Notas": []
+    },
+    {
+        "Nome": "Maria Fernanda Pires Ribeiro Antunes Guimarães",
+        "Data Nasc": "22.07.1962",
+        "Local Nasc": "Braga, Braga",
+        "Data Morte": "",
+        "Local Morte": "",
+        "Pai": "José Luís Vale Antunes Guimarães",
+        "Mãe": "Maria Teresa Pires Ribeiro Antunes Guimarães",
+        "Casamentos": [
+            "João Hélio Ferreira Soares"
+        ],
+        "Filhos": [
+            "Joana Antunes Guimarães Ferreira Soares"
+        ],
+        "Notas": []
+    },
+    {
+        "Nome": "Maria Joaquina Alves Pereira de Sousa",
+        "Data Nasc": "22.07.1812",
+        "Local Nasc": "Fafe, Moreira de Rei, Lugar de Barbosa",
+        "Data Morte": "",
+        "Local Morte": "",
+        "Pai": "José Alves de Sousa",
+        "Mãe": "Custódia Maria Pereira",
+        "Casamentos": [
+            "João Antunes Guimarães"
+        ],
+        "Filhos": [],
+        "Notas": []
+    },
+    {
+        "Nome": "Maria Joaquina de Oliveira Martins",
+        "Data Nasc": "",
+        "Local Nasc": "",
+        "Data Morte": "",
+        "Local Morte": "Braga",
+        "Pai": "",
+        "Mãe": "",
+        "Casamentos": [
+            "João Fernandes Pereira"
+        ],
+        "Filhos": [
+            "Rosa Martins de Oliveira"
+        ],
+        "Notas": []
+    },
+    {
+        "Nome": "Maria Lúcia Adelaide de Azevedo Taveira",
+        "Data Nasc": "",
+        "Local Nasc": "",
+        "Data Morte": "",
+        "Local Morte": "",
+        "Pai": "",
+        "Mãe": "",
+        "Casamentos": [
+            "Francisco Pereira Rebelo Feio"
+        ],
+        "Filhos": [
+            "Maria Emilia Rebelo Feio"
+        ],
+        "Notas": []
+    },
+    {
+        "Nome": "Maria Manuela Antunes Guimarães dos Santos Barreiro",
+        "Data Nasc": "11.06.1963",
+        "Local Nasc": "Braga",
+        "Data Morte": "",
+        "Local Morte": "",
+        "Pai": "Mario Alberto da Hora Santos Barreiro",
+        "Mãe": "Maria Manuela Feio Antunes Guimarães",
+        "Casamentos": [
+            "Vitor Aguiar Branco Sampaio"
+        ],
+        "Filhos": [
+            "Guilherme Santos Barreiro Aguiar Branco"
+        ],
+        "Notas": []
+    },
+    {
+        "Nome": "Maria Manuela Feio Antunes Guimarães",
+        "Data Nasc": "23.10.1935",
+        "Local Nasc": "Braga, Cividade",
+        "Data Morte": "19.06.2007",
+        "Local Morte": "Braga",
+        "Pai": "José Martins de Oliveira Antunes Guimarães",
+        "Mãe": "Maria Fernanda de Amorim Feio Vale",
+        "Casamentos": [
+            "Mario Alberto da Hora Santos Barreiro"
+        ],
+        "Filhos": [
+            "Mário Manuel Antunes Guimarâes dos Santos Barreiro",
+            "Maria Manuela Antunes Guimarães dos Santos Barreiro"
+        ],
+        "Notas": []
+    },
+    {
+        "Nome": "Maria Martins de Oliveira Antunes Guimarães",
+        "Data Nasc": "20.10.1905",
+        "Local Nasc": "Braga, São Vítor",
+        "Data Morte": "30.12.1946",
+        "Local Morte": "Braga, São Lázaro",
+        "Pai": "Justino Antunes Guimarães",
+        "Mãe": "Rosa Martins de Oliveira",
+        "Casamentos": [],
+        "Filhos": [],
+        "Notas": [
+            "Foi sempre chamada Maria do Céu"
+        ]
+    },
+    {
+        "Nome": "Maria Narcisa da Silva Soares de Azevedo",
+        "Data Nasc": "30.10.1809",
+        "Local Nasc": "Braga - Amares",
+        "Data Morte": "20.03.1889",
+        "Local Morte": "Braga - Amares",
+        "Pai": "António José de Amorim Machado de Araujo",
+        "Mãe": "Ana de Jesus Soares de Azevedo",
+        "Casamentos": [
+            "Bento José da Silva"
+        ],
+        "Filhos": [
+            "António Candido Soares de Azevedo da Silva Amorim"
+        ],
+        "Notas": []
+    },
+    {
+        "Nome": "Maria Rita da Silva",
+        "Data Nasc": "04.01.1822",
+        "Local Nasc": "Olivença",
+        "Data Morte": "",
+        "Local Morte": "",
+        "Pai": "",
+        "Mãe": "",
+        "Casamentos": [
+            "José Germano Fernandes Dias"
+        ],
+        "Filhos": [
+            "Maria da Glória Fernandes Dias"
+        ],
+        "Notas": []
+    },
+    {
+        "Nome": "Maria Teixeira",
+        "Data Nasc": "",
+        "Local Nasc": "Salvador de Briteiros",
+        "Data Morte": "20.08.1814",
+        "Local Morte": "Guimarães, Briteiros, Lugar do Agro",
+        "Pai": "",
+        "Mãe": "",
+        "Casamentos": [
+            "José Antunes"
+        ],
+        "Filhos": [
+            "Ana Maria Antunes"
+        ],
+        "Notas": []
+    },
+    {
+        "Nome": "Maria Teresa de Figueiredo",
+        "Data Nasc": "",
+        "Local Nasc": "",
+        "Data Morte": "",
+        "Local Morte": "",
+        "Pai": "",
+        "Mãe": "",
+        "Casamentos": [
+            "Luís António Feyo"
+        ],
+        "Filhos": [
+            "Francisco Feyo de Figueiredo Correia"
+        ],
+        "Notas": []
+    },
+    {
+        "Nome": "Maria Teresa Pires Ribeiro Antunes Guimarães",
+        "Data Nasc": "31.03.1940",
+        "Local Nasc": "Braga, Maximinos",
+        "Data Morte": "",
+        "Local Morte": "",
+        "Pai": "",
+        "Mãe": "",
+        "Casamentos": [
+            "José Luís Vale Antunes Guimarães"
+        ],
+        "Filhos": [
+            "José Luís Pires Ribeiro Antunes Guimarães",
+            "Miguel Pedro Pires Ribeiro Antunes Guimarães",
+            "Paulo Alexandre Pires Ribeiro Antunes Guimarães",
+            "Maria Fernanda Pires Ribeiro Antunes Guimarães"
+        ],
+        "Notas": []
+    },
+    {
+        "Nome": "Mariana Ezequiel Feyo de Figueiredo Correia",
+        "Data Nasc": "07.11.1801",
+        "Local Nasc": "Vila Real, Vila Real",
+        "Data Morte": "",
+        "Local Morte": "",
+        "Pai": "Francisco Feyo de Figueiredo Correia",
+        "Mãe": "Josefa Joaquina Correia de Carvalho",
+        "Casamentos": [
+            "Bernardo Pereira Rebello"
+        ],
+        "Filhos": [
+            "Francisco Pereira Rebelo Feio"
+        ],
+        "Notas": []
+    },
+    {
+        "Nome": "Mario Alberto da Hora Santos Barreiro",
+        "Data Nasc": "12.11.1930",
+        "Local Nasc": "Braga, Braga",
+        "Data Morte": "",
+        "Local Morte": "",
+        "Pai": "",
+        "Mãe": "",
+        "Casamentos": [
+            "Maria Manuela Feio Antunes Guimarães"
+        ],
+        "Filhos": [
+            "Mário Manuel Antunes Guimarâes dos Santos Barreiro",
+            "Maria Manuela Antunes Guimarães dos Santos Barreiro"
+        ],
+        "Notas": []
+    },
+    {
+        "Nome": "Mário Manuel Antunes Guimarâes dos Santos Barreiro",
+        "Data Nasc": "08.12.1959",
+        "Local Nasc": "Braga",
+        "Data Morte": "",
+        "Local Morte": "",
+        "Pai": "Mario Alberto da Hora Santos Barreiro",
+        "Mãe": "Maria Manuela Feio Antunes Guimarães",
+        "Casamentos": [],
+        "Filhos": [],
+        "Notas": []
+    },
+    {
+        "Nome": "Marta Gonçalves",
+        "Data Nasc": "",
+        "Local Nasc": "Casal da Bouça- Souto (Sª. Maria)",
+        "Data Morte": "",
+        "Local Morte": "",
+        "Pai": "",
+        "Mãe": "",
+        "Casamentos": [
+            "Simão Francisco de Macedo"
+        ],
+        "Filhos": [
+            "Pedro de Macedo"
+        ],
+        "Notas": []
+    },
+    {
+        "Nome": "Miguel da Cunha Velho de Vilhena Sotomaior",
+        "Data Nasc": "",
+        "Local Nasc": "",
+        "Data Morte": "",
+        "Local Morte": "",
+        "Pai": "",
+        "Mãe": "",
+        "Casamentos": [
+            "Francisca Carolina Antunes Guimarães"
+        ],
+        "Filhos": [],
+        "Notas": []
+    },
+    {
+        "Nome": "Miguel Fernandes",
+        "Data Nasc": "",
+        "Local Nasc": "",
+        "Data Morte": "",
+        "Local Morte": "",
+        "Pai": "",
+        "Mãe": "",
+        "Casamentos": [
+            "Esperança do Vale"
+        ],
+        "Filhos": [
+            "Felis Fernandes"
+        ],
+        "Notas": []
+    },
+    {
+        "Nome": "Miguel Pedro Pires Ribeiro Antunes Guimarães",
+        "Data Nasc": "19.09.1965",
+        "Local Nasc": "Braga, Maximinos",
+        "Data Morte": "",
+        "Local Morte": "",
+        "Pai": "José Luís Vale Antunes Guimarães",
+        "Mãe": "Maria Teresa Pires Ribeiro Antunes Guimarães",
+        "Casamentos": [
+            "Sandra Moura",
+            "Andreia Mendes"
+        ],
+        "Filhos": [],
+        "Notas": [
+            "Casamentos dissolvidos por divórcio"
+        ]
+    },
+    {
+        "Nome": "Mria Josefa Francisca",
+        "Data Nasc": "",
+        "Local Nasc": "",
+        "Data Morte": "",
+        "Local Morte": "",
+        "Pai": "",
+        "Mãe": "",
+        "Casamentos": [
+            "Francisco José da Silva"
+        ],
+        "Filhos": [
+            "Bento José da Silva"
+        ],
+        "Notas": []
+    },
+    {
+        "Nome": "Palmira da Glória Fernandes dias de Amorim",
+        "Data Nasc": "07.03.1879",
+        "Local Nasc": "Braga, Braga",
+        "Data Morte": "",
+        "Local Morte": "",
+        "Pai": "António Candido Soares de Azevedo da Silva Amorim",
+        "Mãe": "Maria da Glória Fernandes Dias",
+        "Casamentos": [
+            "Francisco Feio Vale"
+        ],
+        "Filhos": [
+            "Maria Fernanda de Amorim Feio Vale"
+        ],
+        "Notas": []
+    },
+    {
+        "Nome": "Paulo Alexandre Pires Ribeiro Antunes Guimarães",
+        "Data Nasc": "23.08.1974",
+        "Local Nasc": "Braga",
+        "Data Morte": "",
+        "Local Morte": "",
+        "Pai": "José Luís Vale Antunes Guimarães",
+        "Mãe": "Maria Teresa Pires Ribeiro Antunes Guimarães",
+        "Casamentos": [
+            "Isabel Cristina Silva Peres Samões"
+        ],
+        "Filhos": [
+            [
+                "José Pedro Ferreira da Cunha Antunes Guimarães"
+            ]
+        ],
+        "Notas": []
+    },
+    {
+        "Nome": "Pedro de Macedo",
+        "Data Nasc": "",
+        "Local Nasc": "Casal da Bouça-Souto (Sª. Maria)",
+        "Data Morte": "",
+        "Local Morte": "",
+        "Pai": "Simão Francisco de Macedo",
+        "Mãe": "Marta Gonçalves",
+        "Casamentos": [
+            "Isabel Lopes de Barros"
+        ],
+        "Filhos": [
+            "Maria de Macedo"
+        ],
+        "Notas": []
+    },
+    {
+        "Nome": "Piedade",
+        "Data Nasc": "",
+        "Local Nasc": "América do Sul, Brasil, Pelotas",
+        "Data Morte": "",
+        "Local Morte": "",
+        "Pai": "Francisco Antunes Guimarães",
+        "Mãe": "D. Francisca Eulália Rodrigues de Araújo",
+        "Casamentos": [],
+        "Filhos": [],
+        "Notas": []
+    },
+    {
+        "Nome": "Prudencia Rodrigues",
+        "Data Nasc": "",
+        "Local Nasc": "",
+        "Data Morte": "",
+        "Local Morte": "",
+        "Pai": "Marcos Fernandes",
+        "Mãe": "Custódia Rodrigues",
+        "Casamentos": [
+            "Cassamiro José Ferreira"
+        ],
+        "Filhos": [
+            "Custódia Maria Rodrigues Ferreira"
+        ],
+        "Notas": []
+    },
+    {
+        "Nome": "Rita Isabel de Freitas Fernandes",
+        "Data Nasc": "05.08.1855",
+        "Local Nasc": "Guimarães, Gondomar, Casa da Lage",
+        "Data Morte": "28.11.1894",
+        "Local Morte": "Lisboa, Encarnação, Rua de São Pedro de Alcantara",
+        "Pai": "Domingos José Fernandes Guimarães",
+        "Mãe": "Maria Antónia da Conceição de Macedo e Lima de Freitas",
+        "Casamentos": [
+            "Serafim Antunes Rodrigues Guimarães"
+        ],
+        "Filhos": [
+            "Ana Antunes Guimarães",
+            "Serafim Antunes Guimarães",
+            "João Antunes Guimarães",
+            "Justino Antunes Guimarães",
+            "Luís Antunes Guimarães",
+            "Leonor Antunes Guimarães",
+            "António Antunes Guimarães",
+            "Maria Antunes Guimarães",
+            "Francisco Antunes Guimarães",
+            "Constança Antunes Guimarães",
+            "Alberto Antunes Guimarães"
+        ],
+        "Notas": [
+            "Causa da morte:\"doença orgânica do coração (mitral)"
+        ]
+    },
+    {
+        "Nome": "Rosa dos Santos Rodrigues Viana",
+        "Data Nasc": "",
+        "Local Nasc": "",
+        "Data Morte": "",
+        "Local Morte": "",
+        "Pai": "",
+        "Mãe": "",
+        "Casamentos": [
+            "João Martins de Oliveira Antunes Guimarães"
+        ],
+        "Filhos": [],
+        "Notas": []
+    },
+    {
+        "Nome": "Rosa Maria Ferreira",
+        "Data Nasc": "",
+        "Local Nasc": "",
+        "Data Morte": "",
+        "Local Morte": "",
+        "Pai": "",
+        "Mãe": "",
+        "Casamentos": [
+            "Custódio José Fernandes"
+        ],
+        "Filhos": [],
+        "Notas": []
+    },
+    {
+        "Nome": "Rosa Martins de Oliveira",
+        "Data Nasc": "16.11.1884",
+        "Local Nasc": "Vila Verde, Escariz (São Martinho)",
+        "Data Morte": "07.02.1968",
+        "Local Morte": "Braga, Cividade, Sé",
+        "Pai": "João Fernandes Pereira",
+        "Mãe": "Maria Joaquina de Oliveira Martins",
+        "Casamentos": [
+            "Justino Antunes Guimarães"
+        ],
+        "Filhos": [
+            "José Martins de Oliveira Antunes Guimarães",
+            "Maria Martins de Oliveira Antunes Guimarães",
+            "João Martins de Oliveira Antunes Guimarães"
+        ],
+        "Notas": []
+    },
+    {
+        "Nome": "Salvador Francisco de Abreu",
+        "Data Nasc": "",
+        "Local Nasc": "",
+        "Data Morte": "23.10.1618",
+        "Local Morte": "Quinta da Granja- Souto (Salvador)",
+        "Pai": "",
+        "Mãe": "",
+        "Casamentos": [
+            "Isabel de Macedo"
+        ],
+        "Filhos": [
+            "Simão Francisco de Macedo"
+        ],
+        "Notas": []
+    },
+    {
+        "Nome": "Sandra Moura",
+        "Data Nasc": "",
+        "Local Nasc": "",
+        "Data Morte": "",
+        "Local Morte": "",
+        "Pai": "",
+        "Mãe": "",
+        "Casamentos": [
+            "Miguel Pedro Pires Ribeiro Antunes Guimarães"
+        ],
+        "Filhos": [],
+        "Notas": []
+    },
+    {
+        "Nome": "Santos Ferreira",
+        "Data Nasc": "",
+        "Local Nasc": "",
+        "Data Morte": "",
+        "Local Morte": "",
+        "Pai": "Affonso Gonçalves",
+        "Mãe": "Catarina Ferreira",
+        "Casamentos": [
+            "Catarina Rodrigues"
+        ],
+        "Filhos": [
+            "Cassamiro José Ferreira"
+        ],
+        "Notas": []
+    },
+    {
+        "Nome": "Sara Augusta Miranda Represas",
+        "Data Nasc": "",
+        "Local Nasc": "",
+        "Data Morte": "",
+        "Local Morte": "",
+        "Pai": "",
+        "Mãe": "",
+        "Casamentos": [
+            "José Luís Pires Ribeiro Antunes Guimarães"
+        ],
+        "Filhos": [
+            "Carolina Represas Antunes Guimarães",
+            "Luís Represas Antunes Guimarães"
+        ],
+        "Notas": []
+    },
+    {
+        "Nome": "Serafim Antunes Guimarães",
+        "Data Nasc": "06.09.1875",
+        "Local Nasc": "Guimarães, Briteiros (Salvador)",
+        "Data Morte": "",
+        "Local Morte": "",
+        "Pai": "Serafim Antunes Rodrigues Guimarães",
+        "Mãe": "Rita Isabel de Freitas Fernandes",
+        "Casamentos": [],
+        "Filhos": [],
+        "Notas": []
+    },
+    {
+        "Nome": "Serafim Antunes Rodrigues Guimarães",
+        "Data Nasc": "1847",
+        "Local Nasc": "América do Sul, Brasil, Pelotas",
+        "Data Morte": "25.11.1930",
+        "Local Morte": "Guimarães, Briteiros (Salvador)",
+        "Pai": "Francisco Antunes Guimarães",
+        "Mãe": "D. Francisca Eulália Rodrigues de Araújo",
+        "Casamentos": [
+            "Rita Isabel de Freitas Fernandes"
+        ],
+        "Filhos": [
+            "Ana Antunes Guimarães",
+            "Serafim Antunes Guimarães",
+            "João Antunes Guimarães",
+            "Justino Antunes Guimarães",
+            "Luís Antunes Guimarães",
+            "Leonor Antunes Guimarães",
+            "António Antunes Guimarães",
+            "Maria Antunes Guimarães",
+            "Francisco Antunes Guimarães",
+            "Constança Antunes Guimarães",
+            "Alberto Antunes Guimarães"
+        ],
+        "Notas": [
+            "Causa da morte: nefrite"
+        ]
+    },
+    {
+        "Nome": "Serafim José Rodrigues de Araújo",
+        "Data Nasc": "",
+        "Local Nasc": "",
+        "Data Morte": "",
+        "Local Morte": "",
+        "Pai": "",
+        "Mãe": "",
+        "Casamentos": [
+            "D. Inácia da Silva Araújo"
+        ],
+        "Filhos": [
+            "D. Francisca Eulália Rodrigues de Araújo"
+        ],
+        "Notas": []
+    },
+    {
+        "Nome": "Simão Francisco de Macedo",
+        "Data Nasc": "b. 17.05.1573",
+        "Local Nasc": "Guimarães, Souto (São Salvador)",
+        "Data Morte": "",
+        "Local Morte": "Casal da Bouça- Souto (Sª. Maria)",
+        "Pai": "Salvador Francisco de Abreu",
+        "Mãe": "Isabel de Macedo",
+        "Casamentos": [
+            "Marta Gonçalves"
+        ],
+        "Filhos": [
+            "Pedro de Macedo"
+        ],
+        "Notas": []
+    },
+    {
+        "Nome": "Simoa de Macedo",
+        "Data Nasc": "",
+        "Local Nasc": "Quinta da Granja-Souto (Salvador)",
+        "Data Morte": "",
+        "Local Morte": "Quinta da Granja -Souto (Salvador)",
+        "Pai": "",
+        "Mãe": "",
+        "Casamentos": [
+            "Valentim Gonçalves"
+        ],
+        "Filhos": [
+            "Isabel de Macedo"
+        ],
+        "Notas": []
+    },
+    {
+        "Nome": "Úrsula de Macedo",
+        "Data Nasc": "08.02.1705",
+        "Local Nasc": "Guimarães, Souto (Santa Maria), Casal das Bouças",
+        "Data Morte": "23.02.1791",
+        "Local Morte": "Guimarães, Donim, Casa de Sande",
+        "Pai": "Manuel da Costa de Macedo",
+        "Mãe": "Úrsula Francisca",
+        "Casamentos": [
+            "Domingos Francisco Martins"
+        ],
+        "Filhos": [
+            "Ana Francisco",
+            "Domingos Francisco",
+            "Domingos Francisco de Macedo"
+        ],
+        "Notas": []
+    },
+    {
+        "Nome": "Úrsula Francisca",
+        "Data Nasc": "",
+        "Local Nasc": "Guimarães, Souto (Santa Maria)",
+        "Data Morte": "13.12.1730",
+        "Local Morte": "Guimarães, Souto (Santa Maria)",
+        "Pai": "",
+        "Mãe": "",
+        "Casamentos": [
+            "Manuel da Costa de Macedo"
+        ],
+        "Filhos": [
+            "Úrsula de Macedo"
+        ],
+        "Notas": [
+            "Os irmãos usavam o apelido \"Ribeiro Guimarães)"
+        ]
+    },
+    {
+        "Nome": "Valentim Gonçalves",
+        "Data Nasc": "",
+        "Local Nasc": "",
+        "Data Morte": "",
+        "Local Morte": "",
+        "Pai": "",
+        "Mãe": "",
+        "Casamentos": [
+            "Simoa de Macedo"
+        ],
+        "Filhos": [
+            "Isabel de Macedo"
+        ],
+        "Notas": []
+    },
+    {
+        "Nome": "Vitor Aguiar Branco Sampaio",
+        "Data Nasc": "",
+        "Local Nasc": "",
+        "Data Morte": "",
+        "Local Morte": "",
+        "Pai": "",
+        "Mãe": "",
+        "Casamentos": [
+            "Maria Manuela Antunes Guimarães dos Santos Barreiro"
+        ],
+        "Filhos": [
+            "Guilherme Santos Barreiro Aguiar Branco"
+        ],
+        "Notas": []
+    }
+]

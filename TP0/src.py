@@ -33,7 +33,7 @@ def numberOf2(element1, element2, list):
 #------------------------------------------ ////// ---------------------------
 
 base_link = "http://pagfam.geneall.net/3418/"
-individuoBase_link = "http://pagfam.geneall.net/3418/pessoas.php?id=" #link base para pagina de um dado individuo
+#individuoBase_link = "http://pagfam.geneall.net/3418/pessoas.php?id=" #link base para pagina de um dado individuo
 individuos_ids = []
 content = []  # isto é suposto ser um array com a informação de cada individuo
 
@@ -57,29 +57,31 @@ pessoasPage = requests.get(base_link + pessoas_link)
 pessoasSoup = BeautifulSoup(pessoasPage.text, "html.parser")
 
 for pessoasLink in pessoasSoup.find_all('a'):
-    match = re.search(r'id=([0-9]+)', str(pessoasLink.get('href')))
+    ref = str(pessoasLink.get('href'))
+    match = re.search(r'id=([0-9]+)', ref)
 
     # estamos nos links dos individuos
     if(match):
-        individuos_ids.append(match.group(1))
+        individuos_ids.append(ref)
 
     # estamos nos links que dao para as outras paginas com o resto dos individuos
     else:
-        match = re.search(r'idx', str(pessoasLink.get('href')))
+        match = re.search(r'idx', ref)
         if(match):
             pessoaPage = requests.get("http://pagfam.geneall.net" + match.string)
             pessoaSoup = BeautifulSoup(pessoaPage.text, "html.parser")
 
             for pessoaLink in pessoaSoup.find_all('a'):
-                match = re.search(r'id=([0-9]+)', str(pessoaLink.get('href')))
+                ref = str(pessoaLink.get('href'))
+                match = re.search(r'id=([0-9]+)', ref)
                 if(match):
-                    individuos_ids.append(match.group(1))
+                    individuos_ids.append(ref)
 
 
 # ----- Percorrer os ids todos e ir buscar a info de cada pagina -----
 
 for individuo in individuos_ids:
-    indPage = requests.get(individuoBase_link + individuo)
+    indPage = requests.get(base_link + individuo)
     indSoup = BeautifulSoup(indPage.text, "html.parser")
     string_aux = []
 
@@ -104,7 +106,7 @@ for individuo in individuos_ids:
                 liSoup = BeautifulSoup(str(ul),"html.parser")
                 liTags = liSoup.find_all('li')
                 for li in liTags:
-                    notas.append(li.get_text())
+                    notas.append(li.get_text().strip())
 
     # ir buscar os Filhos
     if("Filhos" in indSoup.strings):
@@ -126,7 +128,7 @@ for individuo in individuos_ids:
                                     aSoup = BeautifulSoup(str(li),"html.parser")
                                     aTags = aSoup.find_all('a')
                                     for a in aTags:
-                                        filhos.append(a.get_text())
+                                        filhos.append(a.get_text().strip())
                         elif (numeroFilhos > 1):
                             if (check < (numeroFilhos - 1)):
                                 filhosCasamento = []
@@ -137,7 +139,7 @@ for individuo in individuos_ids:
                                     aSoup = BeautifulSoup(str(li),"html.parser")
                                     aTags = aSoup.find_all('a')
                                     for a in aTags:
-                                        filhosCasamento.append(a.get_text())
+                                        filhosCasamento.append(a.get_text().strip())
                                 filhos.append(filhosCasamento)
                     
     # ir buscar os casamentos
@@ -161,12 +163,12 @@ for individuo in individuos_ids:
                         if (anotherCheck == 1 and numeroCasamentos == 1):
                             for a in aTags:
                                 if (check == 0):
-                                    casamentos.append(a.get_text())
+                                    casamentos.append(a.get_text().strip())
                                     check += 1
                         elif(anotherCheck == 1 and numeroCasamentos > 1 and check < (numeroCasamentos - 1)):
                             for a in aTags:
                                 if(check < (numeroCasamentos - 1)):
-                                    casamentos.append(a.get_text())
+                                    casamentos.append(a.get_text().strip())
                                     check += 1
             
         if (not len(casamentos)):
@@ -184,12 +186,12 @@ for individuo in individuos_ids:
                     aTags = aSoup.find_all('a')
                     for a in aTags:
                         if (check == 0):
-                            casamentos.append(a.get_text())
+                            casamentos.append(a.get_text().strip())
                             check += 1
                 elif(numeroCasamentos > 1 and check < (numeroCasamentos - 1)):
                     for a in aTags:
                         if(check < (numeroCasamentos - 1)):
-                            casamentos.append(a.get_text())
+                            casamentos.append(a.get_text().strip())
                             check += 1
 
     # ir buscar birth, death, pais
@@ -222,22 +224,25 @@ for individuo in individuos_ids:
             mae = string_aux[i+1]
 
     #para guardar como json 
-    '''
+    
     info = {
-        "Nome": "{name}".format(name=nome),
-        "Data Nasc": "{data}".format(data = dataNascimento),
-        "Local Nasc": "{local}".format(local = localNascimento),
-        "Data Morte": "{data}".format(data = dataMorte),
-        "Local Morte": "{local}".format(local = localMorte),
-        "Pai": "{pai}".format(pai = pai),
-        "Mãe": "{mae}".format(mae = mae),
-        "Casamentos": "{dados}".format(dados = casamentos),
-        "Filhos": "{filhos}".format(filhos = filhos),
-        "Notas": "{notas}".format(notas = notas)
+        "Nome": "{name}".format(name=nome).strip(),
+        "Data Nasc": "{data}".format(data = dataNascimento).strip(),
+        "Local Nasc": "{local}".format(local = localNascimento).strip(),
+        "Data Morte": "{data}".format(data = dataMorte).strip(),
+        "Local Morte": "{local}".format(local = localMorte).strip(),
+        "Pai": "{pai}".format(pai = pai).strip(),
+        "Mãe": "{mae}".format(mae = mae).strip(),
+        "Casamentos": casamentos,
+        "Filhos": filhos,
+        "Notas": notas
     }
 
     content.append(info)
+jsonO = json.dumps(content, indent=4, ensure_ascii=False)
+print(jsonO)
 
+'''
 for x in content:
     jsonO = json.dumps(x, indent=4, ensure_ascii=False)
     print(jsonO)
