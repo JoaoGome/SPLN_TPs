@@ -144,6 +144,7 @@ for individuo in individuos_ids:
                     
     # ir buscar os casamentos
     if ("Casamentos" in indSoup.strings):
+        #print('--------------------------------------')
 
         numeroCasamentos = numberOf2("Casamento","Filho",indSoup.strings)
         check = 0
@@ -154,37 +155,86 @@ for individuo in individuos_ids:
                 if(str(div['class'][0]) == "txt2"):
                     listaSoup = BeautifulSoup(str(div),"html.parser")
                     div2Tags = listaSoup.find_all('div')
+                    aux = []
                     for div2 in div2Tags:
-                        
-                        if(div2.has_attr('class') and str(div2['class'][0]) == "marcadorP" and div2.get_text()=="Casamentos"):
+                        aux = []
+                        if(div2.has_attr('class') and str(div2['class'][0]) == "marcadorP"):
                             anotherCheck = 1
-                        
+
                         aSoup = BeautifulSoup(str(div2),"html.parser")
                         aTags = aSoup.find_all('a')
-
-                        cas = []
                         if (anotherCheck == 1 and numeroCasamentos > 0):
-                            if(div2.has_attr('align') and str(div2['align']) == "center" and not div2.has_attr('style')):
-                                for x in div2.stripped_strings:
-                                    if x != "Casamento I:" and x != "Casamento II:":
-                                        if re.search(r'[0-9.]+', x):
-                                            if(len(cas) == 0):
-                                                cas.append('')
-                                            cas.append(x)
+                            if( (check < (numeroCasamentos - 1) or check == 0)):
+                                stop = -1
+                                #print("!!!!!!!!!!!!!!!!!_______________________-")
+                                cas = []
+                                for x in div.stripped_strings: 
+                                    print(stop)
+                                    if (x == "Casamentos"):
+                                        stop = 0
+                                        aux = []
+                                        #print("--casamentos")
+                                    elif stop == 0:
+                                        if (x == "Casamento I"):
+                                            #print("--casamento 1")
+                                            stop = 1
                                         else:
                                             cas.append(x)
-                                if len(cas) == 0:
-                                    cas.append('')
+                                    elif stop == 1:
+                                        if (x == "Casamento II"):
+                                            if len(cas) == 3:
+                                                casamentos.append(cas)
+                                            if len(cas) == 2:
+                                                if re.search(r'[0-9.]+', cas[0]):
+                                                    casamentos.append(['',cas[0],cas[1]])
+                                                else:
+                                                    casamentos.append([cas[0],'',cas[1]])
+                                            if len(cas) == 1:
+                                                casamentos.append(['','',cas[0]])
+                                            #print(cas)
+                                            
+                                            #print("--casamento 2")
+                                            
+                                            #casamentos.append(cas)
+                                            cas = []
+                                        elif(x == '*'):
+                                            stop = 0
+                                        else:
+                                            cas.append(x)
+
+                                if len(cas) == 3:
+                                    casamentos.append(cas)
+                                if len(cas) == 2:
+                                    if re.search(r'[0-9.]+', cas[0]):
+                                        casamentos.append(['',cas[0],cas[1]])
+                                    else:
+                                        casamentos.append([cas[0],'',cas[1]])
                                 if len(cas) == 1:
-                                    cas.append('')
-                                casamentos.append(cas)
+                                    casamentos.append(['','',cas[0]])
+                                print(cas)
+                                
+                                #casamentos.append(cas)
                                 cas = []
-                            if( (check < (numeroCasamentos - 1) or check == 0)):
-                                for a in aTags:
+                                #print(casamentos)
+                                #casamentos.append(cas)
+
+                                '''for a in aTags:
                                     if(check == 0 or check < (numeroCasamentos - 1)):
-                                        casamentos[check].append(a.get_text().strip())
+                                        casamentos.append(a.get_text().strip())
+                                        print(aux)
+                                        #print(a.get_text())
                                         check += 1
-                                    
+                                        if len(aux) == 3:
+                                            casamentos.append(aux)
+                                        if len(aux) == 2:
+                                            if re.search(r'[0-9.]+', aux[0]):
+                                                casamentos.append(['',aux[0],aux[1]])
+                                            else:
+                                                casamentos.append([aux[0],'',aux[1]])
+                                        if len(aux) == 1:
+                                            casamentos.append(['','',aux[0]])
+                                    aux = []
+                                aux = []'''
             
         if (not len(casamentos)):
             found = 0
@@ -255,7 +305,7 @@ for individuo in individuos_ids:
     #para guardar como json 
     
     
-    
+    #print(casamentos)
 
     info = {
         "Nome": "{name}".format(name=nome).strip(),
@@ -269,15 +319,16 @@ for individuo in individuos_ids:
     }
 
     casamentosJSON = []
-
+    #if len(filhos):
+        #print(filhos)
     for i, c in enumerate(casamentos):
         fi = []
         if len(filhos):
-            fi = filhos[i]
+            fi = filhos[0]
         casamentoJSON = {
-            "Conjuge": "{c}".format(c = c[2]).strip(),
-            "Local": "{l}".format(l = c[0]).strip(),
-            "Data": "{d}".format(d = c[1]).strip(),
+            "Conjuge": "{c}".format(c = c).strip(),
+            "Local": "",
+            "Data": "",
             "Filhos": fi
         }
         casamentosJSON.append(casamentoJSON)
@@ -288,5 +339,5 @@ for individuo in individuos_ids:
     content.append(info)
 
 jsonO = json.dumps(content, indent=4, ensure_ascii=False)
-print(jsonO)
+#print(jsonO)
 
