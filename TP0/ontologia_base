@@ -1,0 +1,72 @@
+@prefix : <http://www.di.uminho.pt/spln2021/familia#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.di.uminho.pt/spln2021/familia> .
+
+<http://www.di.uminho.pt/spln2021/familia> rdf:type owl:Ontology ;
+                                        owl:versionIRI <http://www.di.uminho.pt/spln2021/familia> ;
+                                        rdfs:comment "Ontologia Familia" .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.di.uminho.pt/spln2021/familia#Article
+:Pessoa rdf:type owl:Class .
+
+###  http://www.di.uminho.pt/spln2021/familia#Article
+:Casamento rdf:type owl:Class .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.di.uminho.pt/spln2021/familia#conjuge
+:conjuge rdf:type owl:ObjectProperty ;
+          rdfs:domain :Pessoa .
+
+###  http://www.di.uminho.pt/spln2021/familia#authorOf
+:mae rdf:type owl:ObjectProperty ;
+          rdfs:domain :Pessoa .
+
+###  http://www.di.uminho.pt/spln2021/familia#authorOf
+:pai rdf:type owl:ObjectProperty ;
+          rdfs:domain :Pessoa .
+
+###  http://www.di.uminho.pt/spln2021/familia#authorOf
+:filho rdf:type owl:ObjectProperty ;
+          rdfs:domain :Pessoa .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.di.uminho.pt/spln2021/familia#localCasamento
+:localCasamento rdf:type owl:DatatypeProperty .
+
+###  http://www.di.uminho.pt/spln2021/familia#dataCasamento
+:dataCasamento rdf:type owl:DatatypeProperty .
+
+###  http://www.di.uminho.pt/spln2021/familia#localNascimento
+:localNascimento rdf:type owl:DatatypeProperty .
+
+###  http://www.di.uminho.pt/spln2021/familia#dataNascimento
+:dataNascimento rdf:type owl:DatatypeProperty .
+
+###  http://www.di.uminho.pt/spln2021/familia#localMorte
+:localMorte rdf:type owl:DatatypeProperty .
+
+###  http://www.di.uminho.pt/spln2021/familia#dataMorte
+:dataMorte rdf:type owl:DatatypeProperty .
+
+###  http://www.di.uminho.pt/spln2021/familia#notas
+:notas rdf:type owl:DatatypeProperty .
+
+#################################################################
+#    Individuals
+#################################################################

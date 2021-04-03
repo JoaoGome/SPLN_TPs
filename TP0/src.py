@@ -253,9 +253,6 @@ for individuo in individuos_ids:
             mae = string_aux[i+1]
 
     #para guardar como json 
-    
-    
-    
 
     info = {
         "Nome": "{name}".format(name=nome).strip(),
@@ -284,9 +281,45 @@ for individuo in individuos_ids:
 
     info["Casamentos"] = casamentosJSON
         
-
     content.append(info)
 
+    ont_casamentos = []
+
+    ont_str = ':' + nome.strip().replace(' ', '_') + ' rdf:type owl:NamedIndividual , :Pessoa ;'
+    if (dataNascimento != ''): ont_str += '\n:dataNascimento "' + dataNascimento.strip() + '" ;'
+    if (localNascimento != ''): ont_str += '\n:localNascimento "' + localNascimento.strip() + '" ;'
+    if (dataMorte != ''): ont_str += '\n:dataMorte "' + dataMorte.strip() + '" ;'
+    if (localMorte != ''): ont_str += '\n:localMorte "' + localMorte.strip() + '" ;'
+    if (mae != ''): ont_str += '\n:mae :' + mae.strip().replace(' ', '_') + ' ;'
+    if (pai != ''): ont_str += '\n:pai :' + pai.strip().replace(' ', '_') + ' ;'
+    if (len(notas) > 0): ont_str += '\n:notas "' + ' ; '.join(notas).strip().replace('"', '') + '" ;'
+    if (len(casamentos) > 0):
+        for i, c in enumerate(casamentos):
+            regex = re.compile('[^A-Z]')
+            id1 = regex.sub('', c[2].strip() + nome.strip())
+            regex = re.compile('[^0-9]')
+            id2 = regex.sub('', c[1].strip())
+            id_cas = ''.join(sorted(id1)) + id2
+            ont_str += '\n:casamento :' + id_cas + ' ;'
+
+            ont_cas = ':' + id_cas + ' rdf:type owl:NamedIndividual , :Casamento ;'
+            ont_cas += '\n:conjuge :' + nome.strip().replace(' ', '_') + ' ;'
+            ont_cas += '\n:conjuge :' + c[2].strip().replace(' ', '_') + ' ;'
+            if(c[0] != ''): ont_cas += '\n:localCasamento "' + c[0].strip() + '" ;'
+            if(c[1] != ''): ont_cas += '\n:dataCasamento "' + c[1].strip() + '" ;'
+            if len(filhos):
+                for f in filhos[i]:
+                    ont_cas += '\n:filho :' + f.strip().replace(' ', '_') + " ;"
+                    ont_str += '\n:filho :' + f.strip().replace(' ', '_') + " ;"
+            ont_cas += ' .'
+
+            ont_casamentos.append(ont_cas)
+    ont_str += ' .'
+
+    print ('\n\n' + ont_str)
+    for s in ont_casamentos:
+        print ('\n\n' + s)
+
 jsonO = json.dumps(content, indent=4, ensure_ascii=False)
-print(jsonO)
+#print(jsonO)
 
