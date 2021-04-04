@@ -30,12 +30,78 @@ def numberOf2(element1, element2, list):
     
     return result
 
+def run():
+    print("Pressione: ")
+    print("0: Receber a informação de todos os individuos num json.")
+    print("1: Criar uma ontologia em turtle com a informação dos individuos.")
+    print("2: Se desejar aceder a informação de um individuo em especifico.")
+    print("3: Se desejar obter a informação de um individuo em ficheiro.")
+    print("9: Se desejar terminar.")
+    resposta = input()
+
+    while resposta != "9":
+        if resposta == "0":
+            with open('info.json', 'w') as file:
+                file.write(jsonO)
+            print('Informação disponivel no ficheiro "info.json"')
+            print("Pressione: ")
+            print("0: Receber a informação de todos os individuos num json.")
+            print("1: Criar uma ontologia em turtle com a informação dos individuos.")
+            print("2: Se desejar aceder a informação de um individuo em especifico.")
+            print("3: Se desejar obter a informação de um individuo em ficheiro.")
+            print("9: Se desejar terminar.")
+        elif resposta == "1":
+            with open("ontologia_base.txt",'r') as ontFile:
+                ontologiaBase = ontFile.read()
+                with open("ontologia.ttl",'w') as ontTTL:
+                    ontTTL.write(ontologiaBase)
+                with open("ontologia.ttl",'a') as ontTTL:
+                    ontTTL.write(ontologia)
+            print('Informação disponivel no ficheiro "info.ttl"')
+            print("Pressione: ")
+            print("0: Receber a informação de todos os individuos num json.")
+            print("1: Criar uma ontologia em turtle com a informação dos individuos.")
+            print("2: Se desejar aceder a informação de um individuo em especifico.")
+            print("3: Se desejar obter a informação de um individuo em ficheiro.")
+            print("9: Se desejar terminar.")
+        elif resposta == "2":
+            print("Indique o ID do individuo.")
+            resposta = input()
+            for c in content:
+                if c["Id"] == resposta:
+                    print(json.dumps(c, sort_keys=False, indent=4, ensure_ascii=False))
+                    break
+            print("Pressione: ")
+            print("0: Receber a informação de todos os individuos num json.")
+            print("1: Criar uma ontologia em turtle com a informação dos individuos.")
+            print("2: Se desejar aceder a informação de um individuo em especifico.")
+            print("3: Se desejar obter a informação de um individuo em ficheiro.")
+            print("9: Se desejar terminar.")
+
+        elif resposta == "3":
+            print("Indique o ID do individuo.")
+            resposta = input()
+            for c in content:
+                if c["Id"] == resposta:
+                    with open("{nome}.json".format(nome=resposta),'w') as indFile:
+                        indFile.write(json.dumps(c, sort_keys=False, indent=4, ensure_ascii=False))
+                    break
+            print("Pressione: ")
+            print("0: Receber a informação de todos os individuos num json.")
+            print("1: Criar uma ontologia em turtle com a informação dos individuos.")
+            print("2: Se desejar aceder a informação de um individuo em especifico.")
+            print("3: Se desejar obter a informação de um individuo em ficheiro.")
+            print("9: Se desejar terminar.")
+                        
+        resposta = input()
+
 #------------------------------------------ ////// ---------------------------
 
 base_link = "http://pagfam.geneall.net/3418/"
 #individuoBase_link = "http://pagfam.geneall.net/3418/pessoas.php?id=" #link base para pagina de um dado individuo
 individuos_ids = []
 content = []  # isto é suposto ser um array com a informação de cada individuo
+ontologia = ""
 
 
 # ------------- PARSE AOS HTMLS -------------
@@ -88,6 +154,7 @@ for individuo in individuos_ids:
     # buscar o nome que está na tag title
     nome = indSoup.find('title').get_text()
 
+    id = individuo.split("=")[1]
     dataNascimento = ""
     dataMorte = ""
     localNascimento = ""
@@ -255,6 +322,7 @@ for individuo in individuos_ids:
     #para guardar como json 
 
     info = {
+        "Id": id,
         "Nome": "{name}".format(name=nome).strip(),
         "Data Nasc": "{data}".format(data = dataNascimento).strip(),
         "Local Nasc": "{local}".format(local = localNascimento).strip(),
@@ -315,11 +383,10 @@ for individuo in individuos_ids:
 
             ont_casamentos.append(ont_cas)
     ont_str += ' .'
-
-    print ('\n\n' + ont_str)
+    ontologia += '\n\n' + ont_str
     for s in ont_casamentos:
-        print ('\n\n' + s)
+        ontologia += '\n\n' + s
 
 jsonO = json.dumps(content, indent=4, ensure_ascii=False)
-#print(jsonO)
 
+run()
