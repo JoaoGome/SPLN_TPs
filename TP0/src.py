@@ -53,7 +53,7 @@ def run():
                 with open("ontologia.ttl",'a') as ontTTL:
                     ontTTL.write(ontologia)
             print('Informação disponivel no ficheiro "info.ttl"')
-            
+
         elif resposta == "2":
             print("Indique o ID do individuo.")
             resposta = input()
@@ -338,6 +338,7 @@ for individuo in individuos_ids:
     ont_casamentos = []
 
     ont_str = ':' + nome.strip().replace(' ', '_') + ' rdf:type owl:NamedIndividual , :Pessoa ;'
+    ont_str += '\n:nome "' + nome.strip().replace(' ', '_') + '" ;'
     if (dataNascimento != ''): ont_str += '\n:dataNascimento "' + dataNascimento.strip() + '" ;'
     if (localNascimento != ''): ont_str += '\n:localNascimento "' + localNascimento.strip() + '" ;'
     if (dataMorte != ''): ont_str += '\n:dataMorte "' + dataMorte.strip() + '" ;'

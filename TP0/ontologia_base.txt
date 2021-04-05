@@ -26,6 +26,10 @@
 #################################################################
 
 ###  http://www.di.uminho.pt/spln2021/familia#conjuge
+:casamento rdf:type owl:ObjectProperty ;
+          rdfs:domain :Casamento .
+
+###  http://www.di.uminho.pt/spln2021/familia#conjuge
 :conjuge rdf:type owl:ObjectProperty ;
           rdfs:domain :Pessoa .
 

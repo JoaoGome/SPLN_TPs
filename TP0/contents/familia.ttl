@@ -1,0 +1,2030 @@
+@prefix : <http://www.di.uminho.pt/spln2021/familia#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.di.uminho.pt/spln2021/familia> .
+
+<http://www.di.uminho.pt/spln2021/familia> rdf:type owl:Ontology ;
+                                        owl:versionIRI <http://www.di.uminho.pt/spln2021/familia> ;
+                                        rdfs:comment "Ontologia Familia" .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.di.uminho.pt/spln2021/familia#Article
+:Pessoa rdf:type owl:Class .
+
+###  http://www.di.uminho.pt/spln2021/familia#Article
+:Casamento rdf:type owl:Class .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.di.uminho.pt/spln2021/familia#conjuge
+:casamento rdf:type owl:ObjectProperty ;
+          rdfs:domain :Casamento .
+
+###  http://www.di.uminho.pt/spln2021/familia#conjuge
+:conjuge rdf:type owl:ObjectProperty ;
+          rdfs:domain :Pessoa .
+
+###  http://www.di.uminho.pt/spln2021/familia#authorOf
+:mae rdf:type owl:ObjectProperty ;
+          rdfs:domain :Pessoa .
+
+###  http://www.di.uminho.pt/spln2021/familia#authorOf
+:pai rdf:type owl:ObjectProperty ;
+          rdfs:domain :Pessoa .
+
+###  http://www.di.uminho.pt/spln2021/familia#authorOf
+:filho rdf:type owl:ObjectProperty ;
+          rdfs:domain :Pessoa .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.di.uminho.pt/spln2021/familia#localCasamento
+:localCasamento rdf:type owl:DatatypeProperty .
+
+###  http://www.di.uminho.pt/spln2021/familia#dataCasamento
+:dataCasamento rdf:type owl:DatatypeProperty .
+
+###  http://www.di.uminho.pt/spln2021/familia#localNascimento
+:localNascimento rdf:type owl:DatatypeProperty .
+
+###  http://www.di.uminho.pt/spln2021/familia#dataNascimento
+:dataNascimento rdf:type owl:DatatypeProperty .
+
+###  http://www.di.uminho.pt/spln2021/familia#localMorte
+:localMorte rdf:type owl:DatatypeProperty .
+
+###  http://www.di.uminho.pt/spln2021/familia#dataMorte
+:dataMorte rdf:type owl:DatatypeProperty .
+
+###  http://www.di.uminho.pt/spln2021/familia#notas
+:notas rdf:type owl:DatatypeProperty .
+
+#################################################################
+#    Individuals
+#################################################################
+
+
+:1086999 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "Affonso_Gonçalves" ;
+:localNascimento "Guimarães, Gondomar, Lugar do Carvalho" ;
+:casamento :00000116788999 ;
+:filho :1086995 ; .
+
+:00000116788999 rdf:type owl:NamedIndividual , :Casamento ;
+:conjuge :1086999 ;
+:conjuge :1087000 ;
+:filho :1086995 ; .
+
+:1076286 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "Alberto_Antunes_Guimarães" ;
+:dataNascimento "18.12.1890" ;
+:localNascimento "Braga, São Lázaro, Rua dos Congregados" ;
+:mae :1076116 ;
+:pai :1076115 ; .
+
+:1076276 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "Ana_Antunes_Guimarães" ;
+:dataNascimento "01.12.1874" ;
+:localNascimento "Guimarães, Briteiros (Salvador)" ;
+:mae :1076116 ;
+:pai :1076115 ; .
+
+:1079212 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "Ana_de_Jesus_Soares_de_Azevedo" ;
+:localNascimento "Vila Verde - Prado -S. Miguel" ;
+:casamento :00111112227799 ;
+:filho :1079210 ; .
+
+:00111112227799 rdf:type owl:NamedIndividual , :Casamento ;
+:conjuge :1079212 ;
+:conjuge :1079211 ;
+:filho :1079210 ; .
+
+:1076013 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "Ana_Francisco" ;
+:dataNascimento "14.05.1757" ;
+:localNascimento "Guimarães, Donim" ;
+:mae :1075782 ;
+:pai :1075781 ; .
+
+:1077961 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "Ana_Isabel_Ferrera_da_Cunha" ;
+:dataNascimento "12.05.1974" ;
+:localNascimento "Braga" ;
+:casamento :00111124667779 ;
+:filho :1077960 ; .
+
+:00111124667779 rdf:type owl:NamedIndividual , :Casamento ;
+:conjuge :1077961 ;
+:conjuge :1076124 ;
+:filho :1077960 ; .
+
+:1076019 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "Ana_Maria_Antunes" ;
+:dataMorte "06.03.1860" ;
+:localMorte "Guimarães, Donim, Casa de Sande" ;
+:mae :1076021 ;
+:pai :1076020 ;
+:casamento :00001111466779 ;
+:filho :1076073 ;
+:filho :1076074 ;
+:filho :1076075 ;
+:filho :1076103 ;
+:filho :1076106 ;
+:filho :1076110 ; .
+
+:00001111466779 rdf:type owl:NamedIndividual , :Casamento ;
+:conjuge :1076019 ;
+:conjuge :1076014 ;
+:localCasamento "Guimarães, Briteiros (Salvador)" ;
+:dataCasamento "02.08.1795" ;
+:filho :1076073 ;
+:filho :1076074 ;
+:filho :1076075 ;
+:filho :1076103 ;
+:filho :1076106 ;
+:filho :1076110 ; .
+
+:1075943 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "Ana_Maria_Pais_dos_Santos_Antunes_Guimarães" ;
+:dataNascimento "16.05.1963" ;
+:localNascimento "Braga, São João do Souto" ;
+:mae :1075944 ;
+:pai :1075942 ; .
+
+:1077957 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "Andreia_Mendes" ;
+:casamento :00011125677779 ; .
+
+:00011125677779 rdf:type owl:NamedIndividual , :Casamento ;
+:conjuge :1077957 ;
+:conjuge :1076120 ; .
+
+:1076282 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "António_Antunes_Guimarães" ;
+:dataNascimento "30.05.1883" ;
+:localNascimento "Guimarães, Briteiros (Salvador)" ;
+:dataMorte "22.02.1912" ;
+:localMorte "Braga, São Lázaro" ;
+:mae :1076116 ;
+:pai :1076115 ;
+:notas "Assassinado pelo alferes Baptista (Infantaria 29)" ; .
+
+:1078572 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "António_Candido_Soares_de_Azevedo_da_Silva_Amorim" ;
+:dataNascimento "28.09.1850" ;
+:localNascimento "Amares, Dornelas" ;
+:dataMorte "c. 1894" ;
+:mae :1079210 ;
+:pai :1079209 ;
+:casamento :00112355777788 ;
+:filho :1077247 ; .
+
+:00112355777788 rdf:type owl:NamedIndividual , :Casamento ;
+:conjuge :1078572 ;
+:conjuge :1078573 ;
+:localCasamento "Vila Verde, Soutelo" ;
+:dataCasamento "07.09.1876" ;
+:filho :1077247 ; .
+
+:1079211 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "António_José_de_Amorim_Machado_de_Araujo" ;
+:localNascimento "Amares - Dornelas" ;
+:dataMorte "16.12.1823" ;
+:casamento :00111112227799 ;
+:filho :1079210 ; .
+
+:00111112227799 rdf:type owl:NamedIndividual , :Casamento ;
+:conjuge :1079211 ;
+:conjuge :1079212 ;
+:filho :1079210 ; .
+
+:1087002 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "Benta_Fernandes" ;
+:casamento :00000011127788 ;
+:filho :1086996 ; .
+
+:00000011127788 rdf:type owl:NamedIndividual , :Casamento ;
+:conjuge :1087002 ;
+:conjuge :1087001 ;
+:filho :1086996 ; .
+
+:1079209 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "Bento_José_da_Silva" ;
+:dataNascimento "24.11.1796" ;
+:localNascimento "Sequiade" ;
+:dataMorte "17.01.1878" ;
+:mae :1079214 ;
+:pai :1079213 ;
+:casamento :00001112277999 ;
+:filho :1078572 ; .
+
+:00001112277999 rdf:type owl:NamedIndividual , :Casamento ;
+:conjuge :1079209 ;
+:conjuge :1079210 ;
+:filho :1078572 ; .
+
+:1078336 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "Bernardo_Pereira_Rebello" ;
+:localNascimento "Granja de Alijó" ;
+:casamento :00112335667778 ;
+:filho :1077254 ; .
+
+:00112335667778 rdf:type owl:NamedIndividual , :Casamento ;
+:conjuge :1078336 ;
+:conjuge :1077256 ;
+:filho :1077254 ; .
+
+:1076852 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "Carolina_Represas_Antunes_Guimarães" ;
+:dataNascimento "03.06.1995" ;
+:mae :1076848 ;
+:pai :1076119 ; .
+
+:1079224 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "Cassamiro_José_Ferreira" ;
+:dataMorte "24.08.1787" ;
+:localMorte "Guimarães, Gondomar" ;
+:mae :1086996 ;
+:pai :1086995 ;
+:casamento :00112222457799 ;
+:filho :1079218 ; .
+
+:00112222457799 rdf:type owl:NamedIndividual , :Casamento ;
+:conjuge :1079224 ;
+:conjuge :1079225 ;
+:localCasamento "Guimarães, Gondomar" ;
+:dataCasamento "20.07.1749" ;
+:filho :1079218 ; .
+
+:1087000 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "Catarina_Ferreira" ;
+:casamento :00000116788999 ;
+:filho :1086995 ; .
+
+:00000116788999 rdf:type owl:NamedIndividual , :Casamento ;
+:conjuge :1087000 ;
+:conjuge :1086999 ;
+:filho :1086995 ; .
+
+:1075780 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "Catarina_Martins" ;
+:dataMorte "1744" ;
+:localMorte "Guimarães, Donim, lugar de Requeixo" ;
+:casamento :00011355777778 ;
+:filho :1075781 ; .
+
+:00011355777778 rdf:type owl:NamedIndividual , :Casamento ;
+:conjuge :1075780 ;
+:conjuge :1075773 ;
+:filho :1075781 ; .
+
+:1086996 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "Catarina_Rodrigues" ;
+:mae :1087002 ;
+:pai :1087001 ;
+:casamento :00115666889999 ;
+:filho :1079224 ; .
+
+:00115666889999 rdf:type owl:NamedIndividual , :Casamento ;
+:conjuge :1086996 ;
+:conjuge :1086995 ;
+:filho :1079224 ; .
+
+:1076285 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "Constança_Antunes_Guimarães" ;
+:dataNascimento "03.06.1889" ;
+:localNascimento "Braga, São Lázaro, Ruados Congregados" ;
+:mae :1076116 ;
+:pai :1076115 ; .
+
+:1076104 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "D._Constança_Maria_Pereira" ;
+:localNascimento "Brazil, Pernambuco" ;
+:casamento :00001111346677 ; .
+
+:00001111346677 rdf:type owl:NamedIndividual , :Casamento ;
+:conjuge :1076104 ;
+:conjuge :1076103 ; .
+
+:1075983 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "Custódia_Maria_Alvares" ;
+:dataNascimento "13.08.1735" ;
+:localNascimento "Guimarães, Sande (São Martinho), Casal da Ribeira" ;
+:dataMorte "18.10.1794" ;
+:localMorte "Guimarães, Sande (São Martinho)" ;
+:mae :1075985 ;
+:pai :1075984 ;
+:casamento :00111355778899 ;
+:filho :1076014 ; .
+
+:00111355778899 rdf:type owl:NamedIndividual , :Casamento ;
+:conjuge :1075983 ;
+:conjuge :1075981 ;
+:localCasamento "Guimarães, Sande (São Martinho)" ;
+:dataCasamento "20.08.1761" ;
+:filho :1076014 ; .
+
+:1078766 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "Custódia_Maria_Pereira" ;
+:casamento :00115666777788 ;
+:filho :1076111 ; .
+
+:00115666777788 rdf:type owl:NamedIndividual , :Casamento ;
+:conjuge :1078766 ;
+:conjuge :1078765 ;
+:filho :1076111 ; .
+
+:1079218 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "Custódia_Maria_Rodrigues_Ferreira" ;
+:localNascimento "Guimarães, Gondomar" ;
+:mae :1079225 ;
+:pai :1079224 ;
+:casamento :00111122777899 ;
+:filho :1077241 ; .
+
+:00111122777899 rdf:type owl:NamedIndividual , :Casamento ;
+:conjuge :1079218 ;
+:conjuge :1079217 ;
+:localCasamento "Guimarães, Gondomar, Lugar da Lage" ;
+:dataCasamento "18.07.1782" ;
+:filho :1077241 ; .
+
+:1086998 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "Custódia_Rodrigues" ;
+:casamento :00116678889999 ;
+:filho :1079225 ; .
+
+:00116678889999 rdf:type owl:NamedIndividual , :Casamento ;
+:conjuge :1086998 ;
+:conjuge :1086997 ;
+:filho :1079225 ; .
+
+:1079217 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "Custódio_José_Fernandes" ;
+:dataNascimento "04.09.1759" ;
+:localNascimento "Guimarães, Gondomar, Lugar da Lage" ;
+:mae :1079220 ;
+:pai :1079219 ;
+:casamento :00111122277799 ;
+:casamento :00111122777899 ;
+:filho :1077241 ; .
+
+:00111122277799 rdf:type owl:NamedIndividual , :Casamento ;
+:conjuge :1079217 ;
+:conjuge :1079221 ;
+:localCasamento "Guimarães, Gondomar, Lugar da Lage" ;
+:dataCasamento "30.11.1775" ; .
+
+:00111122777899 rdf:type owl:NamedIndividual , :Casamento ;
+:conjuge :1079217 ;
+:conjuge :1079218 ;
+:localCasamento "Guimarães, Gondomar, Lugar da Lage" ;
+:dataCasamento "18.07.1782" ;
+:filho :1077241 ; .
+
+:1079229 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "Domingas_Fernandes" ;
+:casamento :00112222778999 ;
+:filho :1079220 ; .
+
+:00112222778999 rdf:type owl:NamedIndividual , :Casamento ;
+:conjuge :1079229 ;
+:conjuge :1079228 ;
+:filho :1079220 ; .
+
+:1076073 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "Domingos" ;
+:dataNascimento "10.05.1796" ;
+:dataMorte "26.05.1796" ;
+:mae :1076019 ;
+:pai :1076014 ; .
+
+:1076074 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "Domingos" ;
+:dataNascimento "23.01.1798" ;
+:dataMorte "21.11.1805" ;
+:mae :1076019 ;
+:pai :1076014 ; .
+
+:1078349 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "Domingos_Alves_Feyo" ;
+:mae :1078352 ;
+:pai :1078351 ;
+:casamento :00011334577889 ;
+:filho :1078345 ; .
+
+:00011334577889 rdf:type owl:NamedIndividual , :Casamento ;
+:conjuge :1078349 ;
+:conjuge :1078350 ;
+:filho :1078345 ; .
+
+:1093195 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "Domingos_da_Costa" ;
+:localMorte "Casal da Bouça-Souto(Sª. Maria)" ;
+:casamento :00111133569999 ;
+:filho :1076011 ; .
+
+:00111133569999 rdf:type owl:NamedIndividual , :Casamento ;
+:conjuge :1093195 ;
+:conjuge :1093196 ;
+:filho :1076011 ; .
+
+:1075901 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "Domingos_Francisco" ;
+:dataNascimento "28.02.1728" ;
+:localNascimento "Guimarães, Donim" ;
+:dataMorte "15.03.1728" ;
+:localMorte "Guimarães, Donim" ;
+:mae :1075782 ;
+:pai :1075781 ; .
+
+:1075981 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "Domingos_Francisco_de_Macedo" ;
+:dataNascimento "10.04.1733" ;
+:localNascimento "Guimarães, Donim" ;
+:dataMorte "18.07.1790" ;
+:localMorte "Guimarães, Sande (São Martinho)" ;
+:mae :1075782 ;
+:pai :1075781 ;
+:casamento :00111355778899 ;
+:filho :1076014 ; .
+
+:00111355778899 rdf:type owl:NamedIndividual , :Casamento ;
+:conjuge :1075981 ;
+:conjuge :1075983 ;
+:localCasamento "Guimarães, Sande (São Martinho)" ;
+:dataCasamento "20.08.1761" ;
+:filho :1076014 ; .
+
+:1075781 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "Domingos_Francisco_Martins" ;
+:dataNascimento "16.01.1698" ;
+:localNascimento "Guimarães, Donim" ;
+:dataMorte "31.07.1736" ;
+:localMorte "Guimarães, Donim, Casa de Sande" ;
+:mae :1075780 ;
+:pai :1075773 ;
+:casamento :00111255777788 ;
+:filho :1076013 ;
+:filho :1075901 ;
+:filho :1075981 ; .
+
+:00111255777788 rdf:type owl:NamedIndividual , :Casamento ;
+:conjuge :1075781 ;
+:conjuge :1075782 ;
+:localCasamento "Guimarães, Souto (Santa Maria)" ;
+:dataCasamento "24.09.1724" ;
+:filho :1076013 ;
+:filho :1075901 ;
+:filho :1075981 ; .
+
+:1075773 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "Domingos_Francisco_o_Velho" ;
+:dataMorte "14.12.1731" ;
+:localMorte "Guimarães, Donim, lugar de Requeixo" ;
+:casamento :00011355777778 ;
+:filho :1075781 ; .
+
+:00011355777778 rdf:type owl:NamedIndividual , :Casamento ;
+:conjuge :1075773 ;
+:conjuge :1075780 ;
+:filho :1075781 ; .
+
+:1078351 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "Domingos_Jorge_Feyo" ;
+:casamento :00111233557788 ;
+:filho :1078349 ; .
+
+:00111233557788 rdf:type owl:NamedIndividual , :Casamento ;
+:conjuge :1078351 ;
+:conjuge :1078352 ;
+:filho :1078349 ; .
+
+:1076343 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "Domingos_José_Fernandes_Guimarães" ;
+:dataNascimento "25.12.1807" ;
+:localNascimento "Guimarães, Gondomar, Casa da Lage" ;
+:dataMorte "09.07.1865" ;
+:localMorte "Guimarães, Gondomar" ;
+:mae :1077242 ;
+:pai :1077241 ;
+:casamento :00113334446677 ;
+:filho :1076116 ; .
+
+:00113334446677 rdf:type owl:NamedIndividual , :Casamento ;
+:conjuge :1076343 ;
+:conjuge :1076344 ;
+:localCasamento "Guimarães, Souto (São Salvador)" ;
+:dataCasamento "19.08.1840" ;
+:filho :1076116 ; .
+
+:1079227 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "Esperança_do_Vale" ;
+:casamento :00112222677799 ;
+:filho :1079219 ; .
+
+:00112222677799 rdf:type owl:NamedIndividual , :Casamento ;
+:conjuge :1079227 ;
+:conjuge :1079226 ;
+:filho :1079219 ; .
+
+:1075985 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "Eulália_Cardoso" ;
+:dataNascimento "16.08.1700" ;
+:localNascimento "Guimarães, Sande (São Martinho), Casal do Monte" ;
+:localMorte "Guimarães, Sande (São Martinho)" ;
+:casamento :00114555778899 ;
+:filho :1075983 ; .
+
+:00114555778899 rdf:type owl:NamedIndividual , :Casamento ;
+:conjuge :1075985 ;
+:conjuge :1075984 ;
+:localCasamento "Guimarães, São Torcato, Casal do Monte" ;
+:dataCasamento "08.07.1732" ;
+:filho :1075983 ; .
+
+:1078029 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "Fancisca_Margarida_da_Encarnação_de_Macedo_e_Lima" ;
+:dataNascimento "15.11.1781" ;
+:dataMorte "12.10.1859" ;
+:localMorte "Guimarães, Souto (Santa Maria), lugar do Barral" ;
+:casamento :00001122778889 ;
+:filho :1076344 ; .
+
+:00001122778889 rdf:type owl:NamedIndividual , :Casamento ;
+:conjuge :1078029 ;
+:conjuge :1078028 ;
+:filho :1076344 ; .
+
+:1079219 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "Felis_Fernandes" ;
+:dataNascimento "23.03.1722" ;
+:localNascimento "Guimarães, Gondomar" ;
+:mae :1079227 ;
+:pai :1079226 ;
+:casamento :00011122277999 ;
+:filho :1079217 ; .
+
+:00011122277999 rdf:type owl:NamedIndividual , :Casamento ;
+:conjuge :1079219 ;
+:conjuge :1079220 ;
+:localCasamento "Guimarães, Gondomar" ;
+:dataCasamento "09.08.1754" ;
+:filho :1079217 ; .
+
+:1078239 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "Francisca_Carolina_Antunes_Guimarães" ;
+:dataNascimento "02.08.1872" ;
+:localNascimento "Guimarães, Donim" ;
+:localMorte "Braga" ;
+:mae :1078241 ;
+:pai :1078238 ;
+:casamento :00112223477889 ; .
+
+:00112223477889 rdf:type owl:NamedIndividual , :Casamento ;
+:conjuge :1078239 ;
+:conjuge :1078242 ; .
+
+:1078241 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "Francisca_Carolina_Antunes_Rodrigues_Guimarães" ;
+:dataNascimento "1842" ;
+:localNascimento "América do Sul, Brasil" ;
+:dataMorte "d. 1911" ;
+:localMorte "Dume - Braga, Quinta da Ordem" ;
+:mae :1076107 ;
+:pai :1076106 ;
+:casamento :00111223477888 ;
+:filho :1078239 ;
+:filho :1078240 ;
+:casamento :00111223447788 ;
+:filho :1078246 ; .
+
+:00111223477888 rdf:type owl:NamedIndividual , :Casamento ;
+:conjuge :1078241 ;
+:conjuge :1078238 ;
+:localCasamento "Donim - Guimarães, Casa de Sande" ;
+:dataCasamento "03.02.1872" ;
+:filho :1078239 ;
+:filho :1078240 ; .
+
+:00111223447788 rdf:type owl:NamedIndividual , :Casamento ;
+:conjuge :1078241 ;
+:conjuge :1078243 ;
+:localCasamento "Braga, Braga" ;
+:dataCasamento "05.03.1882" ;
+:filho :1078246 ; .
+
+:1076107 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "D._Francisca_Eulália_Rodrigues_de_Araújo" ;
+:localNascimento "Brasil" ;
+:localMorte "Brasil" ;
+:mae :1076109 ;
+:pai :1076108 ;
+:casamento :00001111666777 ;
+:filho :1076112 ;
+:filho :1076113 ;
+:filho :1076115 ;
+:filho :1078241 ; .
+
+:00001111666777 rdf:type owl:NamedIndividual , :Casamento ;
+:conjuge :1076107 ;
+:conjuge :1076106 ;
+:localCasamento "Brasil, Rio Grande do Sul, Pelotas" ;
+:filho :1076112 ;
+:filho :1076113 ;
+:filho :1076115 ;
+:filho :1078241 ; .
+
+:1076075 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "Francisco" ;
+:dataNascimento "29.09.1799" ;
+:dataMorte "15.10.1799" ;
+:mae :1076019 ;
+:pai :1076014 ; .
+
+:1076112 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "Francisco_Antunes_Guimarães" ;
+:localNascimento "América do Sul, Brasil, Pelotas" ;
+:mae :1076107 ;
+:pai :1076106 ;
+:notas "Advogado em Pelotas" ; .
+
+:1076106 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "Francisco_Antunes_Guimarães" ;
+:dataNascimento "13.02.1806" ;
+:localNascimento "Guimarães, Donim, Casa de Sande" ;
+:localMorte "América do Sul, Brasil, Pelotas" ;
+:mae :1076019 ;
+:pai :1076014 ;
+:casamento :00001111666777 ;
+:filho :1076112 ;
+:filho :1076113 ;
+:filho :1076115 ;
+:filho :1078241 ; .
+
+:00001111666777 rdf:type owl:NamedIndividual , :Casamento ;
+:conjuge :1076106 ;
+:conjuge :1076107 ;
+:localCasamento "Brasil, Rio Grande do Sul, Pelotas" ;
+:filho :1076112 ;
+:filho :1076113 ;
+:filho :1076115 ;
+:filho :1078241 ; .
+
+:1087737 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "Francisco_Antunes_Guimarães" ;
+:dataNascimento "04.03.1887" ;
+:localNascimento "Braga, Braga" ;
+:dataMorte "16.01.1890" ;
+:localMorte "Braga, Braga" ;
+:mae :1076116 ;
+:pai :1076115 ; .
+
+:1077246 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "Francisco_Feio_Vale" ;
+:dataNascimento "12.03.1881" ;
+:localNascimento "Santarém, Abrantes" ;
+:dataMorte "07.04.1961" ;
+:localMorte "Braga, Braga" ;
+:mae :1077251 ;
+:pai :1077253 ;
+:casamento :00112244677777 ;
+:filho :1075918 ; .
+
+:00112244677777 rdf:type owl:NamedIndividual , :Casamento ;
+:conjuge :1077246 ;
+:conjuge :1077247 ;
+:localCasamento "Braga, Braga" ;
+:dataCasamento "21.09.1908" ;
+:filho :1075918 ; .
+
+:1078341 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "Francisco_Feyo_de_Figueiredo_Correia" ;
+:dataNascimento "28.02.1747" ;
+:localNascimento "Vila Real, Vila Real" ;
+:mae :1078346 ;
+:pai :1078345 ;
+:casamento :00111233447788 ;
+:filho :1077256 ; .
+
+:00111233447788 rdf:type owl:NamedIndividual , :Casamento ;
+:conjuge :1078341 ;
+:conjuge :1078342 ;
+:localCasamento "Vila Real, Vila Real" ;
+:dataCasamento "13.06.1796" ;
+:filho :1077256 ; .
+
+:1079228 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "Francisco_Gonçalves" ;
+:casamento :00112222778999 ;
+:filho :1079220 ; .
+
+:00112222778999 rdf:type owl:NamedIndividual , :Casamento ;
+:conjuge :1079228 ;
+:conjuge :1079229 ;
+:filho :1079220 ; .
+
+:1079213 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "Francisco_José_da_Silva" ;
+:casamento :00111122347799 ;
+:filho :1079209 ; .
+
+:00111122347799 rdf:type owl:NamedIndividual , :Casamento ;
+:conjuge :1079213 ;
+:conjuge :1079214 ;
+:filho :1079209 ; .
+
+:1077254 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "Francisco_Pereira_Rebelo_Feio" ;
+:localNascimento "Peso da Régua, Peso da Régua, Granja do Douro" ;
+:mae :1077256 ;
+:pai :1078336 ;
+:casamento :00112245557777 ;
+:filho :1077251 ; .
+
+:00112245557777 rdf:type owl:NamedIndividual , :Casamento ;
+:conjuge :1077254 ;
+:conjuge :1077255 ;
+:filho :1077251 ; .
+
+:1077967 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "Guilherme_Santos_Barreiro_Aguiar_Branco" ;
+:dataNascimento "02.05.2002" ;
+:localNascimento "Braga" ;
+:mae :1077966 ;
+:pai :1076126 ; .
+
+:1076109 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "D._Inácia_da_Silva_Araújo" ;
+:casamento :00001111667789 ;
+:filho :1076107 ; .
+
+:00001111667789 rdf:type owl:NamedIndividual , :Casamento ;
+:conjuge :1076109 ;
+:conjuge :1076108 ;
+:filho :1076107 ; .
+
+:1077964 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "Isabel_Cristina_Silva_Peres_Samões" ;
+:casamento :00111244667779 ; .
+
+:00111244667779 rdf:type owl:NamedIndividual , :Casamento ;
+:conjuge :1077964 ;
+:conjuge :1076124 ;
+:dataCasamento "18.12.1999" ; .
+
+:1093202 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "Isabel_de_Macedo" ;
+:localNascimento "Quinta da Granja-Souto (Salvador)" ;
+:mae :1093204 ;
+:pai :1093203 ;
+:casamento :00001112223399 ;
+:filho :1093199 ; .
+
+:00001112223399 rdf:type owl:NamedIndividual , :Casamento ;
+:conjuge :1093202 ;
+:conjuge :1093201 ;
+:filho :1093199 ; .
+
+:1093198 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "Isabel_Lopes_de_Barros" ;
+:localMorte "Casal da Bouça - Souto (Sª. Maria)" ;
+:casamento :00111133789999 ;
+:filho :1093196 ; .
+
+:00111133789999 rdf:type owl:NamedIndividual , :Casamento ;
+:conjuge :1093198 ;
+:conjuge :1093197 ;
+:filho :1093196 ; .
+
+:1077241 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "Jerónimo_José_Fernandes" ;
+:dataNascimento "10.11.1783" ;
+:localNascimento "Guimarães, Gondomar, Lugar da Lage" ;
+:mae :1079218 ;
+:pai :1079217 ;
+:casamento :00111222447777 ;
+:filho :1076343 ; .
+
+:00111222447777 rdf:type owl:NamedIndividual , :Casamento ;
+:conjuge :1077241 ;
+:conjuge :1077242 ;
+:filho :1076343 ; .
+
+:1087001 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "Jerónimo_Rodrigues" ;
+:casamento :00000011127788 ;
+:filho :1086996 ; .
+
+:00000011127788 rdf:type owl:NamedIndividual , :Casamento ;
+:conjuge :1087001 ;
+:conjuge :1087002 ;
+:filho :1086996 ; .
+
+:1076857 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "Joana_Antunes_Guimarães_Ferreira_Soares" ;
+:dataNascimento "04.02.1996" ;
+:localNascimento "Braga" ;
+:mae :1076856 ;
+:pai :1076855 ; .
+
+:1077242 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "Joana_Teresa_Rodrigues_de_Barros" ;
+:dataNascimento "19.07.1785" ;
+:localNascimento "Póvoa de Lanhoso, Garfe" ;
+:dataMorte "31.12.1865" ;
+:localMorte "Guimarães, Gondomar, Casa da Lage" ;
+:notas "Padrinhos: Martinho Leite de Azevedo de Menezes (por procuração) (de Guimarães). Tocou a criança Jerónimo do Vale" ;
+:notas "Nossa Senhora" ;
+:casamento :00111222447777 ;
+:filho :1076343 ; .
+
+:00111222447777 rdf:type owl:NamedIndividual , :Casamento ;
+:conjuge :1077242 ;
+:conjuge :1077241 ;
+:filho :1076343 ; .
+
+:1076110 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "João_Antunes_Guimarães" ;
+:dataNascimento "13.11.1808" ;
+:localNascimento "Guimarães, Donim, Casa de Sande" ;
+:dataMorte "02.02.1891" ;
+:localMorte "Guimarães, Donim, Casa de Sande" ;
+:mae :1076019 ;
+:pai :1076014 ;
+:casamento :00011111116677 ; .
+
+:00011111116677 rdf:type owl:NamedIndividual , :Casamento ;
+:conjuge :1076110 ;
+:conjuge :1076111 ;
+:localCasamento "Fafe, Moreira de Rei" ;
+:dataCasamento "27.01.1858" ; .
+
+:1076278 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "João_Antunes_Guimarães" ;
+:dataNascimento "16.02.1877" ;
+:localNascimento "Guimarães, Briteiros (Salvador)" ;
+:mae :1076116 ;
+:pai :1076115 ; .
+
+:1078246 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "João_da_Cunha_Velho_Sotomaior" ;
+:mae :1078241 ;
+:pai :1078243 ; .
+
+:1078763 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "João_Fernandes_Pereira" ;
+:casamento :00113466777788 ;
+:filho :1076211 ; .
+
+:00113466777788 rdf:type owl:NamedIndividual , :Casamento ;
+:conjuge :1078763 ;
+:conjuge :1078764 ;
+:filho :1076211 ; .
+
+:1076855 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "João_Hélio_Ferreira_Soares" ;
+:dataNascimento "01.04.1959" ;
+:casamento :00115556667788 ;
+:filho :1076857 ; .
+
+:00115556667788 rdf:type owl:NamedIndividual , :Casamento ;
+:conjuge :1076855 ;
+:conjuge :1076856 ;
+:localCasamento "Braga, Braga" ;
+:filho :1076857 ; .
+
+:1078028 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "João_José_Rodrigues_de_Feitas" ;
+:dataNascimento "24.06.1787" ;
+:localNascimento "Guimarães, Souto (São Salvador), Lugar do Barral" ;
+:dataMorte "07.01.1861" ;
+:localMorte "Guimarães, Souto (São Salvador), Lugar do Barral" ;
+:casamento :00001122778889 ;
+:filho :1076344 ; .
+
+:00001122778889 rdf:type owl:NamedIndividual , :Casamento ;
+:conjuge :1078028 ;
+:conjuge :1078029 ;
+:filho :1076344 ; .
+
+:1078852 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "João_Martins_de_Oliveira_Antunes_Guimarães" ;
+:dataNascimento "19.02.1907" ;
+:localNascimento "Braga, São João do Souto" ;
+:dataMorte "26.04.1957" ;
+:localMorte "Braga, Braga, Sé" ;
+:mae :1076211 ;
+:pai :1076210 ;
+:casamento :00112355778888 ; .
+
+:00112355778888 rdf:type owl:NamedIndividual , :Casamento ;
+:conjuge :1078852 ;
+:conjuge :1078853 ;
+:localCasamento "Guimarães, Donim" ;
+:dataCasamento "18.11.1940" ; .
+
+:1078765 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "José_Alves_de_Sousa" ;
+:casamento :00115666777788 ;
+:filho :1076111 ; .
+
+:00115666777788 rdf:type owl:NamedIndividual , :Casamento ;
+:conjuge :1078765 ;
+:conjuge :1078766 ;
+:filho :1076111 ; .
+
+:1076020 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "José_Antunes" ;
+:localNascimento "Guimarães, Briteiros (Salvador)" ;
+:dataMorte "29.09.1837" ;
+:localMorte "Guimarães, Donim, Casa de Sande" ;
+:casamento :00000111226677 ;
+:filho :1076019 ; .
+
+:00000111226677 rdf:type owl:NamedIndividual , :Casamento ;
+:conjuge :1076020 ;
+:conjuge :1076021 ;
+:filho :1076019 ; .
+
+:1076103 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "José_Antunes_Guimarães" ;
+:dataNascimento "25.10.1803" ;
+:localNascimento "Guimarães, Donim, Casa de Sande" ;
+:localMorte "Brazil" ;
+:mae :1076019 ;
+:pai :1076014 ;
+:casamento :00001111346677 ; .
+
+:00001111346677 rdf:type owl:NamedIndividual , :Casamento ;
+:conjuge :1076103 ;
+:conjuge :1076104 ; .
+
+:1079215 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "José_Germano_Fernandes_Dias" ;
+:dataNascimento "15.11.1813" ;
+:localNascimento "Vila Verde Lage" ;
+:dataMorte "05.01.1875" ;
+:localMorte "Braga" ;
+:casamento :00111122567799 ;
+:filho :1078573 ; .
+
+:00111122567799 rdf:type owl:NamedIndividual , :Casamento ;
+:conjuge :1079215 ;
+:conjuge :1079216 ;
+:filho :1078573 ; .
+
+:1076119 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "José_Luís_Pires_Ribeiro_Antunes_Guimarães" ;
+:dataNascimento "19.06.1961" ;
+:localNascimento "Braga, Cividade, Casa da Cutelaria" ;
+:mae :1076053 ;
+:pai :1076051 ;
+:notas "casamento dissolvido por divórcio" ;
+:casamento :00111146677889 ;
+:filho :1076852 ;
+:filho :1076853 ; .
+
+:00111146677889 rdf:type owl:NamedIndividual , :Casamento ;
+:conjuge :1076119 ;
+:conjuge :1076848 ;
+:localCasamento "Braga, Braga" ;
+:filho :1076852 ;
+:filho :1076853 ; .
+
+:1076051 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "José_Luís_Vale_Antunes_Guimarães" ;
+:dataNascimento "25.09.1934" ;
+:localNascimento "Braga, Cividade" ;
+:mae :1075918 ;
+:pai :1075916 ;
+:casamento :00001113556677 ;
+:filho :1076119 ;
+:filho :1076120 ;
+:filho :1076124 ;
+:filho :1076856 ; .
+
+:00001113556677 rdf:type owl:NamedIndividual , :Casamento ;
+:conjuge :1076051 ;
+:conjuge :1076053 ;
+:localCasamento "braga, sameiro" ;
+:dataCasamento "25.07.1959" ;
+:filho :1076119 ;
+:filho :1076120 ;
+:filho :1076124 ;
+:filho :1076856 ; .
+
+:1075916 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "José_Martins_de_Oliveira_Antunes_Guimarães" ;
+:dataNascimento "27.04.1904" ;
+:localNascimento "Braga, Braga" ;
+:dataMorte "14.04.1948" ;
+:localMorte "Braga, Cividade, Casa da Cutelaria" ;
+:mae :1076211 ;
+:pai :1076210 ;
+:casamento :00111155677899 ;
+:filho :1075942 ;
+:filho :1076051 ;
+:filho :1076054 ; .
+
+:00111155677899 rdf:type owl:NamedIndividual , :Casamento ;
+:conjuge :1075916 ;
+:conjuge :1075918 ;
+:localCasamento "Braga" ;
+:dataCasamento "04.08.1932" ;
+:filho :1075942 ;
+:filho :1076051 ;
+:filho :1076054 ; .
+
+:1077960 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "José_Pedro_Ferreira_da_Cunha_Antunes_Guimarães" ;
+:dataNascimento "17.02.1992" ;
+:localNascimento "Braga, Braga" ;
+:mae :1077961 ;
+:pai :1076124 ; .
+
+:1078342 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "Josefa_Joaquina_Correia_de_Carvalho" ;
+:casamento :00111233447788 ;
+:filho :1077256 ; .
+
+:00111233447788 rdf:type owl:NamedIndividual , :Casamento ;
+:conjuge :1078342 ;
+:conjuge :1078341 ;
+:localCasamento "Vila Real, Vila Real" ;
+:dataCasamento "13.06.1796" ;
+:filho :1077256 ; .
+
+:1076210 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "Justino_Antunes_Guimarães" ;
+:dataNascimento "30.09.1878" ;
+:localNascimento "Guimarães, Briteiros (Salvador)" ;
+:dataMorte "24.07.1957" ;
+:localMorte "Braga, Braga" ;
+:mae :1076116 ;
+:pai :1076115 ;
+:casamento :00011111226677 ;
+:filho :1075916 ;
+:filho :1078841 ;
+:filho :1078852 ; .
+
+:00011111226677 rdf:type owl:NamedIndividual , :Casamento ;
+:conjuge :1076210 ;
+:conjuge :1076211 ;
+:localCasamento "Braga" ;
+:dataCasamento "07.1932" ;
+:filho :1075916 ;
+:filho :1078841 ;
+:filho :1078852 ; .
+
+:1075942 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "Justino_Feio_Vale_Antunes_Guimarães" ;
+:dataNascimento "10.03.1933" ;
+:localNascimento "Guimarães, Donim, Casa de Sande" ;
+:mae :1075918 ;
+:pai :1075916 ;
+:casamento :00112444557799 ;
+:filho :1075943 ;
+:casamento :00001124556779 ; .
+
+:00112444557799 rdf:type owl:NamedIndividual , :Casamento ;
+:conjuge :1075942 ;
+:conjuge :1075944 ;
+:dataCasamento "14.05.1943" ;
+:filho :1075943 ; .
+
+:00001124556779 rdf:type owl:NamedIndividual , :Casamento ;
+:conjuge :1075942 ;
+:conjuge :1076050 ;
+:localCasamento "Braga, Cividade" ;
+:dataCasamento "19.01.1979" ; .
+
+:1076281 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "Leonor_Antunes_Guimarães" ;
+:dataNascimento "14.04.1881" ;
+:localNascimento "Guimarães, Briteiros (Salvador)" ;
+:dataMorte "01.11.1890" ;
+:localMorte "Braga, São Lázaro" ;
+:mae :1076116 ;
+:pai :1076115 ;
+:notas "Sepultada no jazigo de Donim" ; .
+
+:1078243 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "Lourenço_da_Cunha_Velho_Sotomaior" ;
+:dataNascimento "1840" ;
+:dataMorte "01.08.1911" ;
+:localMorte "Quinta da Ordem - Dume - Braga" ;
+:casamento :00111223447788 ;
+:filho :1078246 ; .
+
+:00111223447788 rdf:type owl:NamedIndividual , :Casamento ;
+:conjuge :1078243 ;
+:conjuge :1078241 ;
+:localCasamento "Braga, Braga" ;
+:dataCasamento "05.03.1882" ;
+:filho :1078246 ; .
+
+:1078345 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "Luís_António_Feyo" ;
+:dataNascimento "26.12.1719" ;
+:localNascimento "São Pedro - Vila Real" ;
+:mae :1078350 ;
+:pai :1078349 ;
+:casamento :00113344567788 ;
+:filho :1078341 ; .
+
+:00113344567788 rdf:type owl:NamedIndividual , :Casamento ;
+:conjuge :1078345 ;
+:conjuge :1078346 ;
+:filho :1078341 ; .
+
+:1076279 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "Luís_Antunes_Guimarães" ;
+:dataNascimento "13.01.1880" ;
+:localNascimento "Guimarães, Briteiros (Salvador)" ;
+:mae :1076116 ;
+:pai :1076115 ; .
+
+:1077253 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "Luís_Cândido_Fernandez_Vale" ;
+:dataNascimento "22.10.1854" ;
+:localNascimento "Viana do Castelo, Valença" ;
+:dataMorte "26.10.1897" ;
+:localMorte "Braga, Braga, Rua das Aguas, 55" ;
+:casamento :00111223557777 ;
+:filho :1077246 ; .
+
+:00111223557777 rdf:type owl:NamedIndividual , :Casamento ;
+:conjuge :1077253 ;
+:conjuge :1077251 ;
+:filho :1077246 ; .
+
+:1076853 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "Luís_Represas_Antunes_Guimarães" ;
+:dataNascimento "05.07.2000" ;
+:mae :1076848 ;
+:pai :1076119 ; .
+
+:1078350 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "Luísa_Teixeira_Camelo" ;
+:casamento :00011334577889 ;
+:filho :1078345 ; .
+
+:00011334577889 rdf:type owl:NamedIndividual , :Casamento ;
+:conjuge :1078350 ;
+:conjuge :1078349 ;
+:filho :1078345 ; .
+
+:1075984 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "Manoel_Alvares" ;
+:localNascimento "Guimarães, Sande (São Martinho), Casa da Ribeiral" ;
+:localMorte "Guimarães, Sande (São Martinho)" ;
+:casamento :00114555778899 ;
+:filho :1075983 ; .
+
+:00114555778899 rdf:type owl:NamedIndividual , :Casamento ;
+:conjuge :1075984 ;
+:conjuge :1075985 ;
+:localCasamento "Guimarães, São Torcato, Casal do Monte" ;
+:dataCasamento "08.07.1732" ;
+:filho :1075983 ; .
+
+:1076014 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "Manoel_José_Francisco" ;
+:dataNascimento "12.09.1765" ;
+:localNascimento "Guimarães, Sande (São Martinho), Lugar da Ribeira" ;
+:dataMorte "21.06.1811" ;
+:localMorte "Viana do Castelo, Valença, Hospital de Valença" ;
+:mae :1075983 ;
+:pai :1075981 ;
+:casamento :00001111466779 ;
+:filho :1076073 ;
+:filho :1076074 ;
+:filho :1076075 ;
+:filho :1076103 ;
+:filho :1076106 ;
+:filho :1076110 ; .
+
+:00001111466779 rdf:type owl:NamedIndividual , :Casamento ;
+:conjuge :1076014 ;
+:conjuge :1076019 ;
+:localCasamento "Guimarães, Briteiros (Salvador)" ;
+:dataCasamento "02.08.1795" ;
+:filho :1076073 ;
+:filho :1076074 ;
+:filho :1076075 ;
+:filho :1076103 ;
+:filho :1076106 ;
+:filho :1076110 ; .
+
+:1076011 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "Manuel_da_Costa_de_Macedo" ;
+:dataNascimento "16.05.1673" ;
+:localNascimento "Guimarães, Souto (Santa Maria)" ;
+:dataMorte "13.12.1719" ;
+:localMorte "Guimarães, Souto (Santa Maria), Casal da Bouça" ;
+:mae :1093196 ;
+:pai :1093195 ;
+:casamento :00001111126677 ;
+:filho :1075782 ; .
+
+:00001111126677 rdf:type owl:NamedIndividual , :Casamento ;
+:conjuge :1076011 ;
+:conjuge :1076012 ;
+:localCasamento "Guimarães, Souto (Santa Maria)" ;
+:dataCasamento "16.04.1694" ;
+:filho :1075782 ; .
+
+:1078238 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "Manuel_José_Lopes_Guimarães" ;
+:dataNascimento "01.02.1828" ;
+:localNascimento "Donim - Guimarães" ;
+:dataMorte "08.01.1875" ;
+:localMorte "Donim Guimarães" ;
+:casamento :00111223477888 ;
+:filho :1078239 ;
+:filho :1078240 ; .
+
+:00111223477888 rdf:type owl:NamedIndividual , :Casamento ;
+:conjuge :1078238 ;
+:conjuge :1078241 ;
+:localCasamento "Donim - Guimarães, Casa de Sande" ;
+:dataCasamento "03.02.1872" ;
+:filho :1078239 ;
+:filho :1078240 ; .
+
+:1079220 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "Marcelina_Fernandes" ;
+:dataNascimento "07.03.1729" ;
+:localNascimento "Guimarães, Gondomar, Lugar da Lage" ;
+:mae :1079229 ;
+:pai :1079228 ;
+:casamento :00011122277999 ;
+:filho :1079217 ; .
+
+:00011122277999 rdf:type owl:NamedIndividual , :Casamento ;
+:conjuge :1079220 ;
+:conjuge :1079219 ;
+:localCasamento "Guimarães, Gondomar" ;
+:dataCasamento "09.08.1754" ;
+:filho :1079217 ; .
+
+:1086997 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "Marcos_Fernandes" ;
+:localNascimento "Guimarães, Gondomar, Lugar do Covo" ;
+:casamento :00116678889999 ;
+:filho :1079225 ; .
+
+:00116678889999 rdf:type owl:NamedIndividual , :Casamento ;
+:conjuge :1086997 ;
+:conjuge :1086998 ;
+:filho :1079225 ; .
+
+:1075944 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "Maria_Adelaide_Rodrigues_Pais_dos_Santos" ;
+:dataNascimento "14.05.1943" ;
+:localNascimento "Horta - Matriz" ;
+:dataMorte "1996" ;
+:localMorte "Braga, São Vitor" ;
+:casamento :00112444557799 ;
+:filho :1075943 ; .
+
+:00112444557799 rdf:type owl:NamedIndividual , :Casamento ;
+:conjuge :1075944 ;
+:conjuge :1075942 ;
+:filho :1075943 ; .
+
+:1076344 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "Maria_Antónia_da_Conceição_de_Macedo_e_Lima_de_Freitas" ;
+:dataNascimento "25.05.1819" ;
+:localNascimento "Guimarães, Souto (São Salvador), Lugar do Barral" ;
+:dataMorte "24.08.1908" ;
+:localMorte "Guimarães, Gondomar, Casa da lage" ;
+:mae :1078029 ;
+:pai :1078028 ;
+:casamento :00113334446677 ;
+:filho :1076116 ; .
+
+:00113334446677 rdf:type owl:NamedIndividual , :Casamento ;
+:conjuge :1076344 ;
+:conjuge :1076343 ;
+:localCasamento "Guimarães, Souto (São Salvador)" ;
+:dataCasamento "19.08.1840" ;
+:filho :1076116 ; .
+
+:1076284 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "Maria_Antunes_Guimarães" ;
+:dataNascimento "03.01.1885" ;
+:localNascimento "Guimarães, Briteiros (Salvador)" ;
+:dataMorte "26.03.1979" ;
+:mae :1076116 ;
+:pai :1076115 ; .
+
+:1076050 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "Maria_Clotilde_Miranda_Cardoso_do_Vale" ;
+:dataNascimento "19.01.1940" ;
+:localNascimento "Guimarães, Creixomil, Quinta do Robalo" ;
+:casamento :00001124556779 ; .
+
+:00001124556779 rdf:type owl:NamedIndividual , :Casamento ;
+:conjuge :1076050 ;
+:conjuge :1075942 ;
+:localCasamento "Braga, Cividade" ;
+:dataCasamento "19.01.1979" ; .
+
+:1078240 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "Maria_da_Conceição_Antunes_Guimarães" ;
+:dataNascimento "08.09.1874" ;
+:localNascimento "Guimarães, Donim" ;
+:dataMorte "a. 19.12.1880" ;
+:localMorte "Guimarães, Donim, Lugar da Devesa" ;
+:mae :1078241 ;
+:pai :1078238 ;
+:notas "Foi sepultada pomposamente na igreja mas mais tarde trasladada para o jazigo de João Antunes Guimarães, em Donim, por vontade deste, expressa em testamento." ; .
+
+:1078573 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "Maria_da_Glória_Fernandes_Dias" ;
+:dataNascimento "04.12.1849" ;
+:localNascimento "Braga, São João do Souto" ;
+:mae :1079216 ;
+:pai :1079215 ;
+:casamento :00112355777788 ;
+:filho :1077247 ; .
+
+:00112355777788 rdf:type owl:NamedIndividual , :Casamento ;
+:conjuge :1078573 ;
+:conjuge :1078572 ;
+:localCasamento "Vila Verde, Soutelo" ;
+:dataCasamento "07.09.1876" ;
+:filho :1077247 ; .
+
+:1078352 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "Maria_de_Carvalho" ;
+:casamento :00111233557788 ;
+:filho :1078349 ; .
+
+:00111233557788 rdf:type owl:NamedIndividual , :Casamento ;
+:conjuge :1078352 ;
+:conjuge :1078351 ;
+:filho :1078349 ; .
+
+:1093196 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "Maria_de_Macedo" ;
+:localNascimento "Casal da Bouça -Souto (S.ª Maria)" ;
+:localMorte "Casal da Bouça- Souto (Sª. Maria)" ;
+:mae :1093198 ;
+:pai :1093197 ;
+:casamento :00111133569999 ;
+:filho :1076011 ; .
+
+:00111133569999 rdf:type owl:NamedIndividual , :Casamento ;
+:conjuge :1093196 ;
+:conjuge :1093195 ;
+:filho :1076011 ; .
+
+:1077251 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "Maria_Emilia_Rebelo_Feio" ;
+:dataNascimento "27.09.1854" ;
+:localNascimento "Vila Real, Vila Real" ;
+:dataMorte "07.12.1955" ;
+:localMorte "Braga, Braga" ;
+:mae :1077255 ;
+:pai :1077254 ;
+:casamento :00111223557777 ;
+:filho :1077246 ; .
+
+:00111223557777 rdf:type owl:NamedIndividual , :Casamento ;
+:conjuge :1077251 ;
+:conjuge :1077253 ;
+:filho :1077246 ; .
+
+:1075918 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "Maria_Fernanda_de_Amorim_Feio_Vale" ;
+:dataNascimento "04.09.1912" ;
+:localNascimento "Vila Verde, Soutelo" ;
+:dataMorte "09.12.1945" ;
+:localMorte "Braga, São Vítor" ;
+:mae :1077247 ;
+:pai :1077246 ;
+:casamento :00111155677899 ;
+:filho :1075942 ;
+:filho :1076051 ;
+:filho :1076054 ; .
+
+:00111155677899 rdf:type owl:NamedIndividual , :Casamento ;
+:conjuge :1075918 ;
+:conjuge :1075916 ;
+:localCasamento "Braga" ;
+:dataCasamento "04.08.1932" ;
+:filho :1075942 ;
+:filho :1076051 ;
+:filho :1076054 ; .
+
+:1076856 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "Maria_Fernanda_Pires_Ribeiro_Antunes_Guimarães" ;
+:dataNascimento "22.07.1962" ;
+:localNascimento "Braga, Braga" ;
+:mae :1076053 ;
+:pai :1076051 ;
+:casamento :00115556667788 ;
+:filho :1076857 ; .
+
+:00115556667788 rdf:type owl:NamedIndividual , :Casamento ;
+:conjuge :1076856 ;
+:conjuge :1076855 ;
+:localCasamento "Braga, Braga" ;
+:filho :1076857 ; .
+
+:1076111 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "Maria_Joaquina_Alves_Pereira_de_Sousa" ;
+:dataNascimento "22.07.1812" ;
+:localNascimento "Fafe, Moreira de Rei, Lugar de Barbosa" ;
+:mae :1078766 ;
+:pai :1078765 ;
+:casamento :00011111116677 ; .
+
+:00011111116677 rdf:type owl:NamedIndividual , :Casamento ;
+:conjuge :1076111 ;
+:conjuge :1076110 ;
+:localCasamento "Fafe, Moreira de Rei" ;
+:dataCasamento "27.01.1858" ; .
+
+:1078764 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "Maria_Joaquina_de_Oliveira_Martins" ;
+:localMorte "Braga" ;
+:casamento :00113466777788 ;
+:filho :1076211 ; .
+
+:00113466777788 rdf:type owl:NamedIndividual , :Casamento ;
+:conjuge :1078764 ;
+:conjuge :1078763 ;
+:filho :1076211 ; .
+
+:1077255 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "Maria_Lúcia_Adelaide_de_Azevedo_Taveira" ;
+:casamento :00112245557777 ;
+:filho :1077251 ; .
+
+:00112245557777 rdf:type owl:NamedIndividual , :Casamento ;
+:conjuge :1077255 ;
+:conjuge :1077254 ;
+:filho :1077251 ; .
+
+:1076126 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "Maria_Manuela_Antunes_Guimarães_dos_Santos_Barreiro" ;
+:dataNascimento "11.06.1963" ;
+:localNascimento "Braga" ;
+:mae :1076054 ;
+:pai :1076055 ;
+:casamento :00111266667779 ;
+:filho :1077967 ; .
+
+:00111266667779 rdf:type owl:NamedIndividual , :Casamento ;
+:conjuge :1076126 ;
+:conjuge :1077966 ;
+:filho :1077967 ; .
+
+:1076054 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "Maria_Manuela_Feio_Antunes_Guimarães" ;
+:dataNascimento "23.10.1935" ;
+:localNascimento "Braga, Cividade" ;
+:dataMorte "19.06.2007" ;
+:localMorte "Braga" ;
+:mae :1075918 ;
+:pai :1075916 ;
+:casamento :00001145556677 ;
+:filho :1076125 ;
+:filho :1076126 ; .
+
+:00001145556677 rdf:type owl:NamedIndividual , :Casamento ;
+:conjuge :1076054 ;
+:conjuge :1076055 ;
+:localCasamento "Braga, São Vítor" ;
+:dataCasamento "08.12.1958" ;
+:filho :1076125 ;
+:filho :1076126 ; .
+
+:1078841 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "Maria_Martins_de_Oliveira_Antunes_Guimarães" ;
+:dataNascimento "20.10.1905" ;
+:localNascimento "Braga, São Vítor" ;
+:dataMorte "30.12.1946" ;
+:localMorte "Braga, São Lázaro" ;
+:mae :1076211 ;
+:pai :1076210 ;
+:notas "Foi sempre chamada Maria do Céu" ; .
+
+:1079210 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "Maria_Narcisa_da_Silva_Soares_de_Azevedo" ;
+:dataNascimento "30.10.1809" ;
+:localNascimento "Braga - Amares" ;
+:dataMorte "20.03.1889" ;
+:localMorte "Braga - Amares" ;
+:mae :1079212 ;
+:pai :1079211 ;
+:casamento :00001112277999 ;
+:filho :1078572 ; .
+
+:00001112277999 rdf:type owl:NamedIndividual , :Casamento ;
+:conjuge :1079210 ;
+:conjuge :1079209 ;
+:filho :1078572 ; .
+
+:1079216 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "Maria_Rita_da_Silva" ;
+:dataNascimento "04.01.1822" ;
+:localNascimento "Olivença" ;
+:casamento :00111122567799 ;
+:filho :1078573 ; .
+
+:00111122567799 rdf:type owl:NamedIndividual , :Casamento ;
+:conjuge :1079216 ;
+:conjuge :1079215 ;
+:filho :1078573 ; .
+
+:1076021 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "Maria_Teixeira" ;
+:localNascimento "Salvador de Briteiros" ;
+:dataMorte "20.08.1814" ;
+:localMorte "Guimarães, Briteiros, Lugar do Agro" ;
+:casamento :00000111226677 ;
+:filho :1076019 ; .
+
+:00000111226677 rdf:type owl:NamedIndividual , :Casamento ;
+:conjuge :1076021 ;
+:conjuge :1076020 ;
+:filho :1076019 ; .
+
+:1078346 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "Maria_Teresa_de_Figueiredo" ;
+:casamento :00113344567788 ;
+:filho :1078341 ; .
+
+:00113344567788 rdf:type owl:NamedIndividual , :Casamento ;
+:conjuge :1078346 ;
+:conjuge :1078345 ;
+:filho :1078341 ; .
+
+:1076053 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "Maria_Teresa_Pires_Ribeiro_Antunes_Guimarães" ;
+:dataNascimento "31.03.1940" ;
+:localNascimento "Braga, Maximinos" ;
+:casamento :00001113556677 ;
+:filho :1076119 ;
+:filho :1076120 ;
+:filho :1076124 ;
+:filho :1076856 ; .
+
+:00001113556677 rdf:type owl:NamedIndividual , :Casamento ;
+:conjuge :1076053 ;
+:conjuge :1076051 ;
+:localCasamento "braga, sameiro" ;
+:dataCasamento "25.07.1959" ;
+:filho :1076119 ;
+:filho :1076120 ;
+:filho :1076124 ;
+:filho :1076856 ; .
+
+:1077256 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "Mariana_Ezequiel_Feyo_de_Figueiredo_Correia" ;
+:dataNascimento "07.11.1801" ;
+:localNascimento "Vila Real, Vila Real" ;
+:mae :1078342 ;
+:pai :1078341 ;
+:casamento :00112335667778 ;
+:filho :1077254 ; .
+
+:00112335667778 rdf:type owl:NamedIndividual , :Casamento ;
+:conjuge :1077256 ;
+:conjuge :1078336 ;
+:filho :1077254 ; .
+
+:1076055 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "Mario_Alberto_da_Hora_Santos_Barreiro" ;
+:dataNascimento "12.11.1930" ;
+:localNascimento "Braga, Braga" ;
+:casamento :00001145556677 ;
+:filho :1076125 ;
+:filho :1076126 ; .
+
+:00001145556677 rdf:type owl:NamedIndividual , :Casamento ;
+:conjuge :1076055 ;
+:conjuge :1076054 ;
+:localCasamento "Braga, São Vítor" ;
+:dataCasamento "08.12.1958" ;
+:filho :1076125 ;
+:filho :1076126 ; .
+
+:1076125 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "Mário_Manuel_Antunes_Guimarâes_dos_Santos_Barreiro" ;
+:dataNascimento "08.12.1959" ;
+:localNascimento "Braga" ;
+:mae :1076054 ;
+:pai :1076055 ; .
+
+:1093200 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "Marta_Gonçalves" ;
+:localNascimento "Casal da Bouça- Souto (Sª. Maria)" ;
+:casamento :00001112339999 ;
+:filho :1093197 ; .
+
+:00001112339999 rdf:type owl:NamedIndividual , :Casamento ;
+:conjuge :1093200 ;
+:conjuge :1093199 ;
+:filho :1093197 ; .
+
+:1078242 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "Miguel_da_Cunha_Velho_de_Vilhena_Sotomaior" ;
+:casamento :00112223477889 ; .
+
+:00112223477889 rdf:type owl:NamedIndividual , :Casamento ;
+:conjuge :1078242 ;
+:conjuge :1078239 ; .
+
+:1079226 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "Miguel_Fernandes" ;
+:casamento :00112222677799 ;
+:filho :1079219 ; .
+
+:00112222677799 rdf:type owl:NamedIndividual , :Casamento ;
+:conjuge :1079226 ;
+:conjuge :1079227 ;
+:filho :1079219 ; .
+
+:1076120 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "Miguel_Pedro_Pires_Ribeiro_Antunes_Guimarães" ;
+:dataNascimento "19.09.1965" ;
+:localNascimento "Braga, Maximinos" ;
+:mae :1076053 ;
+:pai :1076051 ;
+:notas "Casamentos dissolvidos por divórcio" ;
+:casamento :00011125567779 ;
+:casamento :00011125677779 ; .
+
+:00011125567779 rdf:type owl:NamedIndividual , :Casamento ;
+:conjuge :1076120 ;
+:conjuge :1077955 ; .
+
+:00011125677779 rdf:type owl:NamedIndividual , :Casamento ;
+:conjuge :1076120 ;
+:conjuge :1077957 ; .
+
+:1079214 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "Mria_Josefa_Francisca" ;
+:casamento :00111122347799 ;
+:filho :1079209 ; .
+
+:00111122347799 rdf:type owl:NamedIndividual , :Casamento ;
+:conjuge :1079214 ;
+:conjuge :1079213 ;
+:filho :1079209 ; .
+
+:1077247 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "Palmira_da_Glória_Fernandes_dias_de_Amorim" ;
+:dataNascimento "07.03.1879" ;
+:localNascimento "Braga, Braga" ;
+:dataMorte "30.07.1976" ;
+:mae :1078573 ;
+:pai :1078572 ;
+:casamento :00112244677777 ;
+:filho :1075918 ; .
+
+:00112244677777 rdf:type owl:NamedIndividual , :Casamento ;
+:conjuge :1077247 ;
+:conjuge :1077246 ;
+:localCasamento "Braga, Braga" ;
+:dataCasamento "21.09.1908" ;
+:filho :1075918 ; .
+
+:1076124 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "Paulo_Alexandre_Pires_Ribeiro_Antunes_Guimarães" ;
+:dataNascimento "23.08.1974" ;
+:localNascimento "Braga" ;
+:mae :1076053 ;
+:pai :1076051 ;
+:casamento :00111244667779 ;
+:casamento :00111124667779 ;
+:filho :1077960 ; .
+
+:00111244667779 rdf:type owl:NamedIndividual , :Casamento ;
+:conjuge :1076124 ;
+:conjuge :1077964 ;
+:dataCasamento "18.12.1999" ; .
+
+:00111124667779 rdf:type owl:NamedIndividual , :Casamento ;
+:conjuge :1076124 ;
+:conjuge :1077961 ;
+:dataCasamento "12.05.1974" ;
+:filho :1077960 ; .
+
+:1093197 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "Pedro_de_Macedo" ;
+:localNascimento "Casal da Bouça-Souto (Sª. Maria)" ;
+:mae :1093200 ;
+:pai :1093199 ;
+:casamento :00111133789999 ;
+:filho :1093196 ; .
+
+:00111133789999 rdf:type owl:NamedIndividual , :Casamento ;
+:conjuge :1093197 ;
+:conjuge :1093198 ;
+:filho :1093196 ; .
+
+:1076113 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "Piedade" ;
+:localNascimento "América do Sul, Brasil, Pelotas" ;
+:mae :1076107 ;
+:pai :1076106 ; .
+
+:1079225 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "Prudencia_Rodrigues" ;
+:mae :1086998 ;
+:pai :1086997 ;
+:casamento :00112222457799 ;
+:filho :1079218 ; .
+
+:00112222457799 rdf:type owl:NamedIndividual , :Casamento ;
+:conjuge :1079225 ;
+:conjuge :1079224 ;
+:localCasamento "Guimarães, Gondomar" ;
+:dataCasamento "20.07.1749" ;
+:filho :1079218 ; .
+
+:1076116 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "Rita_Isabel_de_Freitas_Fernandes" ;
+:dataNascimento "05.08.1855" ;
+:localNascimento "Guimarães, Gondomar, Casa da Lage" ;
+:dataMorte "28.11.1894" ;
+:localMorte "Lisboa, Encarnação, Rua de São Pedro de Alcantara" ;
+:mae :1076344 ;
+:pai :1076343 ;
+:notas "Causa da morte:doença orgânica do coração (mitral)" ;
+:casamento :00111111566677 ;
+:filho :1076276 ;
+:filho :1076277 ;
+:filho :1076278 ;
+:filho :1076210 ;
+:filho :1076279 ;
+:filho :1076281 ;
+:filho :1076282 ;
+:filho :1076284 ;
+:filho :1087737 ;
+:filho :1076285 ;
+:filho :1076286 ; .
+
+:00111111566677 rdf:type owl:NamedIndividual , :Casamento ;
+:conjuge :1076116 ;
+:conjuge :1076115 ;
+:filho :1076276 ;
+:filho :1076277 ;
+:filho :1076278 ;
+:filho :1076210 ;
+:filho :1076279 ;
+:filho :1076281 ;
+:filho :1076282 ;
+:filho :1076284 ;
+:filho :1087737 ;
+:filho :1076285 ;
+:filho :1076286 ; .
+
+:1078853 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "Rosa_dos_Santos_Rodrigues_Viana" ;
+:casamento :00112355778888 ; .
+
+:00112355778888 rdf:type owl:NamedIndividual , :Casamento ;
+:conjuge :1078853 ;
+:conjuge :1078852 ;
+:localCasamento "Guimarães, Donim" ;
+:dataCasamento "18.11.1940" ; .
+
+:1079221 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "Rosa_Maria_Ferreira" ;
+:casamento :00111122277799 ; .
+
+:00111122277799 rdf:type owl:NamedIndividual , :Casamento ;
+:conjuge :1079221 ;
+:conjuge :1079217 ;
+:localCasamento "Guimarães, Gondomar, Lugar da Lage" ;
+:dataCasamento "30.11.1775" ; .
+
+:1076211 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "Rosa_Martins_de_Oliveira" ;
+:dataNascimento "16.11.1884" ;
+:localNascimento "Vila Verde, Escariz (São Martinho)" ;
+:dataMorte "07.02.1968" ;
+:localMorte "Braga, Cividade, Sé" ;
+:mae :1078764 ;
+:pai :1078763 ;
+:casamento :00011111226677 ;
+:filho :1075916 ;
+:filho :1078841 ;
+:filho :1078852 ; .
+
+:00011111226677 rdf:type owl:NamedIndividual , :Casamento ;
+:conjuge :1076211 ;
+:conjuge :1076210 ;
+:localCasamento "Braga" ;
+:dataCasamento "07.1932" ;
+:filho :1075916 ;
+:filho :1078841 ;
+:filho :1078852 ; .
+
+:1093201 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "Salvador_Francisco_de_Abreu" ;
+:dataMorte "23.10.1618" ;
+:localMorte "Quinta da Granja- Souto (Salvador)" ;
+:casamento :00001112223399 ;
+:filho :1093199 ; .
+
+:00001112223399 rdf:type owl:NamedIndividual , :Casamento ;
+:conjuge :1093201 ;
+:conjuge :1093202 ;
+:filho :1093199 ; .
+
+:1077955 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "Sandra_Moura" ;
+:casamento :00011125567779 ; .
+
+:00011125567779 rdf:type owl:NamedIndividual , :Casamento ;
+:conjuge :1077955 ;
+:conjuge :1076120 ; .
+
+:1086995 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "Santos_Ferreira" ;
+:mae :1087000 ;
+:pai :1086999 ;
+:casamento :00115666889999 ;
+:filho :1079224 ; .
+
+:00115666889999 rdf:type owl:NamedIndividual , :Casamento ;
+:conjuge :1086995 ;
+:conjuge :1086996 ;
+:filho :1079224 ; .
+
+:1076848 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "Sara_Augusta_Miranda_Represas" ;
+:dataNascimento "02.01.1972" ;
+:casamento :00111146677889 ;
+:filho :1076852 ;
+:filho :1076853 ; .
+
+:00111146677889 rdf:type owl:NamedIndividual , :Casamento ;
+:conjuge :1076848 ;
+:conjuge :1076119 ;
+:localCasamento "Braga, Braga" ;
+:filho :1076852 ;
+:filho :1076853 ; .
+
+:1076277 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "Serafim_Antunes_Guimarães" ;
+:dataNascimento "06.09.1875" ;
+:localNascimento "Guimarães, Briteiros (Salvador)" ;
+:mae :1076116 ;
+:pai :1076115 ; .
+
+:1076115 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "Serafim_Antunes_Rodrigues_Guimarães" ;
+:dataNascimento "1847" ;
+:localNascimento "América do Sul, Brasil, Pelotas" ;
+:dataMorte "25.11.1930" ;
+:localMorte "Guimarães, Briteiros (Salvador)" ;
+:mae :1076107 ;
+:pai :1076106 ;
+:notas "Causa da morte: nefrite" ;
+:casamento :00111111566677 ;
+:filho :1076276 ;
+:filho :1076277 ;
+:filho :1076278 ;
+:filho :1076210 ;
+:filho :1076279 ;
+:filho :1076281 ;
+:filho :1076282 ;
+:filho :1076284 ;
+:filho :1087737 ;
+:filho :1076285 ;
+:filho :1076286 ; .
+
+:00111111566677 rdf:type owl:NamedIndividual , :Casamento ;
+:conjuge :1076115 ;
+:conjuge :1076116 ;
+:filho :1076276 ;
+:filho :1076277 ;
+:filho :1076278 ;
+:filho :1076210 ;
+:filho :1076279 ;
+:filho :1076281 ;
+:filho :1076282 ;
+:filho :1076284 ;
+:filho :1087737 ;
+:filho :1076285 ;
+:filho :1076286 ; .
+
+:1076108 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "Serafim_José_Rodrigues_de_Araújo" ;
+:casamento :00001111667789 ;
+:filho :1076107 ; .
+
+:00001111667789 rdf:type owl:NamedIndividual , :Casamento ;
+:conjuge :1076108 ;
+:conjuge :1076109 ;
+:filho :1076107 ; .
+
+:1093199 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "Simão_Francisco_de_Macedo" ;
+:dataNascimento "b. 17.05.1573" ;
+:localNascimento "Guimarães, Souto (São Salvador)" ;
+:localMorte "Casal da Bouça- Souto (Sª. Maria)" ;
+:mae :1093202 ;
+:pai :1093201 ;
+:casamento :00001112339999 ;
+:filho :1093197 ; .
+
+:00001112339999 rdf:type owl:NamedIndividual , :Casamento ;
+:conjuge :1093199 ;
+:conjuge :1093200 ;
+:filho :1093197 ; .
+
+:1093204 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "Simoa_de_Macedo" ;
+:localNascimento "Quinta da Granja-Souto (Salvador)" ;
+:localMorte "Quinta da Granja -Souto (Salvador)" ;
+:casamento :00001122333499 ;
+:filho :1093202 ; .
+
+:00001122333499 rdf:type owl:NamedIndividual , :Casamento ;
+:conjuge :1093204 ;
+:conjuge :1093203 ;
+:dataCasamento "1540" ;
+:filho :1093202 ; .
+
+:1075782 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "Úrsula_de_Macedo" ;
+:dataNascimento "08.02.1705" ;
+:localNascimento "Guimarães, Souto (Santa Maria), Casal das Bouças" ;
+:dataMorte "23.02.1791" ;
+:localMorte "Guimarães, Donim, Casa de Sande" ;
+:mae :1076012 ;
+:pai :1076011 ;
+:casamento :00111255777788 ;
+:filho :1076013 ;
+:filho :1075901 ;
+:filho :1075981 ; .
+
+:00111255777788 rdf:type owl:NamedIndividual , :Casamento ;
+:conjuge :1075782 ;
+:conjuge :1075781 ;
+:localCasamento "Guimarães, Souto (Santa Maria)" ;
+:dataCasamento "24.09.1724" ;
+:filho :1076013 ;
+:filho :1075901 ;
+:filho :1075981 ; .
+
+:1076012 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "Úrsula_Francisca" ;
+:localNascimento "Guimarães, Souto (Santa Maria)" ;
+:dataMorte "13.12.1730" ;
+:localMorte "Guimarães, Souto (Santa Maria)" ;
+:notas "Os irmãos usavam o apelido Ribeiro Guimarães)" ;
+:casamento :00001111126677 ;
+:filho :1075782 ; .
+
+:00001111126677 rdf:type owl:NamedIndividual , :Casamento ;
+:conjuge :1076012 ;
+:conjuge :1076011 ;
+:localCasamento "Guimarães, Souto (Santa Maria)" ;
+:dataCasamento "16.04.1694" ;
+:filho :1075782 ; .
+
+:1093203 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "Valentim_Gonçalves" ;
+:casamento :00001122333499 ;
+:filho :1093202 ; .
+
+:00001122333499 rdf:type owl:NamedIndividual , :Casamento ;
+:conjuge :1093203 ;
+:conjuge :1093204 ;
+:dataCasamento "1540" ;
+:filho :1093202 ; .
+
+:1077966 rdf:type owl:NamedIndividual , :Pessoa ;
+:nome "Vitor_Aguiar_Branco_Sampaio" ;
+:casamento :00111266667779 ;
+:filho :1077967 ; .
+
+:00111266667779 rdf:type owl:NamedIndividual , :Casamento ;
+:conjuge :1077966 ;
+:conjuge :1076126 ;
+:filho :1077967 ; .
