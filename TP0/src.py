@@ -44,12 +44,7 @@ def run():
             with open('info.json', 'w') as file:
                 file.write(jsonO)
             print('Informação disponivel no ficheiro "info.json"')
-            print("Pressione: ")
-            print("0: Receber a informação de todos os individuos num json.")
-            print("1: Criar uma ontologia em turtle com a informação dos individuos.")
-            print("2: Se desejar aceder a informação de um individuo em especifico.")
-            print("3: Se desejar obter a informação de um individuo em ficheiro.")
-            print("9: Se desejar terminar.")
+            
         elif resposta == "1":
             with open("ontologia_base.txt",'r') as ontFile:
                 ontologiaBase = ontFile.read()
@@ -58,12 +53,7 @@ def run():
                 with open("ontologia.ttl",'a') as ontTTL:
                     ontTTL.write(ontologia)
             print('Informação disponivel no ficheiro "info.ttl"')
-            print("Pressione: ")
-            print("0: Receber a informação de todos os individuos num json.")
-            print("1: Criar uma ontologia em turtle com a informação dos individuos.")
-            print("2: Se desejar aceder a informação de um individuo em especifico.")
-            print("3: Se desejar obter a informação de um individuo em ficheiro.")
-            print("9: Se desejar terminar.")
+            
         elif resposta == "2":
             print("Indique o ID do individuo.")
             resposta = input()
@@ -71,12 +61,6 @@ def run():
                 if c["Id"] == resposta:
                     print(json.dumps(c, sort_keys=False, indent=4, ensure_ascii=False))
                     break
-            print("Pressione: ")
-            print("0: Receber a informação de todos os individuos num json.")
-            print("1: Criar uma ontologia em turtle com a informação dos individuos.")
-            print("2: Se desejar aceder a informação de um individuo em especifico.")
-            print("3: Se desejar obter a informação de um individuo em ficheiro.")
-            print("9: Se desejar terminar.")
 
         elif resposta == "3":
             print("Indique o ID do individuo.")
@@ -86,19 +70,19 @@ def run():
                     with open("{nome}.json".format(nome=resposta),'w') as indFile:
                         indFile.write(json.dumps(c, sort_keys=False, indent=4, ensure_ascii=False))
                     break
-            print("Pressione: ")
-            print("0: Receber a informação de todos os individuos num json.")
-            print("1: Criar uma ontologia em turtle com a informação dos individuos.")
-            print("2: Se desejar aceder a informação de um individuo em especifico.")
-            print("3: Se desejar obter a informação de um individuo em ficheiro.")
-            print("9: Se desejar terminar.")
-                        
+
+        print("Pressione: ")
+        print("0: Receber a informação de todos os individuos num json.")
+        print("1: Criar uma ontologia em turtle com a informação dos individuos.")
+        print("2: Se desejar aceder a informação de um individuo em especifico.")
+        print("3: Se desejar obter a informação de um individuo em ficheiro.")
+        print("9: Se desejar terminar.")
+
         resposta = input()
 
 #------------------------------------------ ////// ---------------------------
 
 base_link = "http://pagfam.geneall.net/3418/"
-#individuoBase_link = "http://pagfam.geneall.net/3418/pessoas.php?id=" #link base para pagina de um dado individuo
 individuos_ids = []
 content = []  # isto é suposto ser um array com a informação de cada individuo
 ontologia = ""
