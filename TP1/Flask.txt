@@ -1,0 +1,35 @@
+--------------------  Flask e Jinja 2 --------------------
+
+Flask é uma micro web framework escrita em python. É considerada uma micro framework pois não requer que seja usada em conjunto com outras bibliotecas/ferramentas específicas.
+
+Jinja2 é um motor/mecanismo de templates em Python que permite passar variavéis de python para templates em HTML permitindo assim dar render a paginas web dinamicas por exemplo.
+
+Exemplo de html usando jinja2:
+
+<html>
+    <head>
+        <title>{{ title }}</title>
+    </head>
+    <body>
+        <h1>Hello {{ username }}</h1>
+    </body>
+</html>
+
+onde $title e $username são variáveis em python cujo valor está a ser passado para o html.
+
+--------------------  Pros vs Cons de Flask --------------------
+
+Pros:
+
+-> very simple e easy to get started
+-> não requer nem faz uso de estrutura de ficheiros como outras frameworks como django, em que como no express, tem de se respeitar a hierarquia de ficheiros separados pelas pastas routes, views, public...
+-> o programador tem todo o controlo sobre a aplicação e a sua arquitetura.
+-> suporta o  motor de templates jinja2.
+
+Cons:
+
+->  trata pedidos um a um, independentemente do número de pedidos que tenha at any given time.
+    Dado isto, flask não é uma boa escolha para uma aplicação cujo objetivo seja ser scalable.
+
+-> quanto mais complexa for a aplicação, mais a responsabilidade de manter a organização e segurança cairá no programador, uma vez que flask nao obriga ao uso de uma estrutura hierarquica de ficheiros.
+-> não tem built in support para databases connection.
