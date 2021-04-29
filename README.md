@@ -1,1 +1,1 @@
-# SPLN_TPs
+# Projects for the Natural Language Processing class
