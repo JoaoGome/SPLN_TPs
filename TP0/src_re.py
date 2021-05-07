@@ -62,7 +62,7 @@ def run():
 
 base_link = "http://pagfam.geneall.net/3418/"
 individuos_ids = []
-content = []  # isto é suposto ser um array com a informação de cada individuo
+content = []  
 ontologia = ""
 
 
@@ -176,7 +176,8 @@ for individuo in individuos_ids:
             if pessoa_mae_id: idMae = pessoa_mae_id.group(0)
             if pessoa_mae_nome: mae = pessoa_mae_nome.group(0).strip()
 
-        
+
+
     # ---------------------------- Recolher info casamentos -----------------------------------
     
     if temCasamentos:
@@ -245,9 +246,8 @@ for individuo in individuos_ids:
 
             filhos_casamento = []
             idFilhos_casamento = []
-
+        
             while (proximo_filho):
-
                 filho_info = search( r'[^<]*', proximo_filho.group(0) ).group(0).strip()
                 filho_id = search( r'[^>"]*', filho_info ).group(0).strip()
                 filho_nome = search( r'(?<=>).*', filho_info ).group(0).strip()

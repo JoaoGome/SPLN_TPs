@@ -1,0 +1,23 @@
+{
+    "Id": "1079217",
+    "Nome": "Custódio José Fernandes",
+    "Data Nascimento": "04.09.1759",
+    "Local Nascimento": "Guimarães, Gondomar, Lugar da Lage",
+    "Pai": "Felis Fernandes",
+    "Mãe": "Marcelina Fernandes",
+    "Casamentos": [
+        {
+            "Conjuge": "Rosa Maria Ferreira",
+            "Local": "Guimarães, Gondomar, Lugar da Lage",
+            "Data": "30.11.1775"
+        },
+        {
+            "Conjuge": "Custódia Maria Rodrigues Ferreira",
+            "Local": "Guimarães, Gondomar, Lugar da Lage",
+            "Data": "18.07.1782",
+            "Filhos": [
+                "Jerónimo José Fernandes"
+            ]
+        }
+    ]
+}

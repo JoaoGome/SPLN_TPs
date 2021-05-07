@@ -17,6 +17,23 @@ Exemplo de html usando jinja2:
 
 onde $title e $username são variáveis em python cujo valor está a ser passado para o html.
 
+<html>
+    <head>
+        <title>{{ title }}</title>
+    </head>
+    <body>
+        {% if hello %}
+        <h1>Hello {{ username }}</h1>
+        {% else %}
+        <h1>Goodbye {{ username }}</h1>
+        {% endif %}
+
+        {% for f in feelings %}
+            <h2> I {{f.feeling}} your {{f.object}}.<h2>
+    </body>
+</html>
+feelings = [{feeling:'hate', object:'sweater'}, {feeling:'love', object:'sunglasses'}, {feeling:'despise', object:'shoes'}]
+
 --------------------  Pros vs Cons de Flask --------------------
 
 Pros:
