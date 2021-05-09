@@ -37,4 +37,4 @@ form = j2.Environment(loader=j2.FileSystemLoader('.')).from_string('''
 <p>{{ forms.textarea('comment', rows=15, cols=20) }}</p>
 ''').render()
 
-print(form)
+print(txt)
