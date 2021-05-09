@@ -5,7 +5,6 @@ import random as ra
 feelings = [{'feeling':'hate', 'object':'sweater'}, {'feeling':'love', 'object':'sunglasses'}, {'feeling':'despise', 'object':'shoes'}]
 title = "Greetings"
 username = 'João'
-g = False
 
 txt = j2.Template('''
 <html>
@@ -24,7 +23,7 @@ txt = j2.Template('''
         {% endfor %}
     </body>
 </html>
-''').render(feelings=feelings,title=title,username=username, hello=g)
+''').render(feelings=feelings,title=title,username=username)
 
 form = j2.Environment(loader=j2.FileSystemLoader('.')).from_string('''
 {% import 'forms.html' as forms %}
