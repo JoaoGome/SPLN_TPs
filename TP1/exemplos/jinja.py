@@ -19,7 +19,7 @@ txt = j2.Template('''
         <h1>Goodbye {{ username }}</h1>
         {% endif %}
         {% for f in feelings %}
-            <h2> I {{f.feeling}} your {{f.object}}.<h2>
+        <h2> I {{f.feeling}} your {{f.object}}.</h2>
         {% endfor %}
     </body>
 </html>

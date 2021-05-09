@@ -3,7 +3,7 @@ app = Flask(__name__)
 
 @app.route('/')
 @app.route('/index')
-def index():
+def show():
     user = {'username': 'Sofia'}
     return render_template('template.html', title='Home', user=user)
 

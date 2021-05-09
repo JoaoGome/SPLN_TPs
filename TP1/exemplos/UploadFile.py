@@ -15,7 +15,7 @@ def upload_file():
 </html>
 '''
 	
-@app.route('/uploader', methods = ['GET', 'POST'])
+@app.route('/uploader', methods = ['POST'])
 def upload_files():
    if request.method == 'POST':
       f = request.files['file']
