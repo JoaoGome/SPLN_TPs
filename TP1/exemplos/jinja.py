@@ -36,4 +36,17 @@ form = j2.Environment(loader=j2.FileSystemLoader('.')).from_string('''
 <p>{{ forms.textarea('comment', rows=15, cols=20) }}</p>
 ''').render()
 
-print(txt)
+f = j2.Template('''
+<html>
+    <head>
+        <title>Filter Upper</title>
+    </head>
+    <body>
+        {% filter upper() %}
+        <h1>i get tall</h1>
+        {% endfilter %}
+    </body>
+</html>
+''').render()
+
+print(f)
