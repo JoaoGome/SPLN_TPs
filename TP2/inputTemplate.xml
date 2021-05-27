@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<data>
+
+    <id>Formulário Teste</id>
+
+    <item type="number">
+        <text>Idade</text>
+    </item>
+
+    <item type="text">
+        <text>Nome</text>
+    </item>
+
+    <item type="file">
+        <text>Fotografia</text>
+    </item>
+</data>

@@ -1,0 +1,6 @@
+descarregar o dataset do mapa virtual e:
+
+-> usar o protégé para criar a parte estrutura da ontologia;
+-> povoar a ontologia com o dataset
+
+https://pastebin.com/tYvmAXBR
