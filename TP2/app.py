@@ -15,7 +15,7 @@ if (len(sys.argv) < 3):
 
 info = xmlParser.parseFile(sys.argv[1])
 results = sys.argv[2][1:]
-print(results)
+print(info)
 id = info["id"]
 info.pop("id")
 
@@ -26,13 +26,26 @@ html = f'''
                 <form action = "http://localhost:8000/upload" method = "POST" enctype = "multipart/form-data">
         '''
 
-for x in info.values():
-    html += f'''
-            <p>{x["text"]} </p>
-            <div class="form-group">
-                <input type="{x["type"]}" class="form-control" id="{x["text"]}" name="{x["text"]}"
-            </div>
-            ''' 
+for (key,value) in info.items():
+    if (value["type"] == "select"): 
+        html += f'''
+                    <p>{value["title"]} </p>
+                '''
+
+        for (key2,value2) in value.items():
+            if (key2 != "type" and key2 != "title") :
+                html += f'''
+                            <input type="radio" id="{value2}" name="{value["title"]}" value="{value2}">
+                            <label for="{value["title"]}">{value2}</label>
+                        '''
+
+    else:
+        html += f'''
+                <p>{value["text"]} </p>
+                <div class="form-group">
+                    <input type="{value["type"]}" class="form-control" id="{value["text"]}" name="{value["text"]}"
+                </div>
+                ''' 
 
 html += f'''
         <input type = "submit" />
@@ -56,6 +69,9 @@ def upload():
             f.save(os.path.join(app.config['UPLOAD_FOLDER'], f.filename))
             dic[x["text"]] = f.filename
     
+        elif x["type"] == "select":
+            dic[x["title"]] = request.form[x["title"]] 
+
         else:
             dic[x["text"]] = request.form[x["text"]]
 
@@ -103,20 +119,30 @@ if __name__ == '__main__':
 # exemplo da estrutura do dicionario que resulta de dar parse ao xml
 {
     'id': 'Formulário Teste', 
-
-    'item1': 
-            {'type': 'number', 
-            'text': 'Idade'
-            }, 
-
-    'item2': 
-            {'type': 'text', 
-            'text': 'Nome'
-            }, 
     
+    'item1': 
+    {
+        'type': 'number', 
+        'text': 'Idade'
+    }, 
+    'item2': 
+    {
+        'type': 'text', 
+        'text': 'Nome'
+    }, 
     'item3': 
-            {'type': 'file', 
-            'text': 'Fotografia'
-            }
+    {
+        'type': 'select', 
+        'title': 'Sex', 
+        'text1': 'Boy', 
+        'text2': 'Girl', 
+        'text3': 'Other'
+    }, 
+    'item4': 
+    {
+        'type': 'file', 
+        'text': 'Fotografia'
+    }
 }
+
 

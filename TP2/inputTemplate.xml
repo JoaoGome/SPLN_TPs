@@ -10,6 +10,13 @@
         <text>Nome</text>
     </item>
 
+    <item type="select">
+        <title>Sex</title>
+        <text>Boy</text>
+        <text>Girl</text>
+        <text>Other</text>
+    </item>
+
     <item type="file">
         <text>Fotografia</text>
     </item>
