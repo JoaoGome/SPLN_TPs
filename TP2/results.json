@@ -1,0 +1,30 @@
+[
+    {
+        "Idade": "13",
+        "Nome": "S",
+        "Sex": "Girl",
+        "Fotografia": "pessoa.jpeg"
+    },
+    {
+        "Idade": "16",
+        "Nome": "J",
+        "Sex": "Boy",
+        "Fotografia": "pessoa.jpeg"
+    },
+    {
+        "Idade": "15",
+        "Nome": "M",
+        "Sex": "Girl",
+        "Fotografia": "pessoa.jpeg"
+    },
+    {
+        "Idade": "2",
+        "Nome": "M",
+        "Sexo": "Masculino"
+    },
+    {
+        "Idade": "2",
+        "Nome": "",
+        "Fotografia": "pessoa(0).jpeg"
+    }
+]

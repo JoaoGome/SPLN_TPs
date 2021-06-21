@@ -11,10 +11,10 @@
     </item>
 
     <item type="select">
-        <title>Sex</title>
-        <text>Boy</text>
-        <text>Girl</text>
-        <text>Other</text>
+        <title>Sexo</title>
+        <text>Masculino</text>
+        <text>Feminino</text>
+        <text>Outro</text>
     </item>
 
     <item type="file">

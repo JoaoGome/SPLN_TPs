@@ -36,3 +36,45 @@ def parseFile (filePath:str):
                 itemID += 1
 
     return dict
+
+
+def createHTML(info: dict):
+    id = info["id"]
+    info.pop("id")
+
+    html = f'''
+        <html>
+            <body>
+                <p>{id}</p>
+                <form action = "http://172.31.148.23:8000/upload" method = "POST" enctype = "multipart/form-data">
+        '''
+
+    for (key,value) in info.items():
+        if (value["type"] == "select"): 
+            html += f'''
+                        <p>{value["title"]} </p>
+                    '''
+
+            for (key2,value2) in value.items():
+                if (key2 != "type" and key2 != "title") :
+                    html += f'''
+                                <input type="radio" id="{value2}" name="{value["title"]}" value="{value2}">
+                                <label for="{value["title"]}">{value2}</label>
+                            '''
+
+        else:
+            html += f'''
+                    <p>{value["text"]} </p>
+                    <div class="form-group">
+                        <input type="{value["type"]}" class="form-control" id="{value["text"]}" name="{value["text"]}"
+                    </div>
+                    ''' 
+
+    html += f'''
+            <input type = "submit" />
+            </form>
+            </body>
+            </html>
+            '''
+
+    return html

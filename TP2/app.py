@@ -4,55 +4,22 @@ import os
 import json
 
 from flask import Flask, render_template, request, redirect
+
 UPLOAD_FOLDER = './files/'
 app = Flask(__name__)
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 
-# exemplo: python3 app.py inputTemplate.xml -csv ou python3 app.py inputTemplate.xml -json
+# exemplo: python3 app.py inputTemplate.xml -csv ou python3 app.py inputTemplate.xml results.json
 if (len(sys.argv) < 3):
-    print("Não passou ficheiro xml de config ou formato do ficheiro de resposta")
+    print("Não passou ficheiro xml de config ou nome do ficheiro de resposta")
+    print("Exemplo: python3 app.py inputTemplate.xml results.json")
     exit()
 
 info = xmlParser.parseFile(sys.argv[1])
-results = sys.argv[2][1:]
+results = sys.argv[2]
 print(info)
-id = info["id"]
-info.pop("id")
 
-html = f'''
-        <html>
-            <body>
-                <p>{id}</p>
-                <form action = "http://localhost:8000/upload" method = "POST" enctype = "multipart/form-data">
-        '''
-
-for (key,value) in info.items():
-    if (value["type"] == "select"): 
-        html += f'''
-                    <p>{value["title"]} </p>
-                '''
-
-        for (key2,value2) in value.items():
-            if (key2 != "type" and key2 != "title") :
-                html += f'''
-                            <input type="radio" id="{value2}" name="{value["title"]}" value="{value2}">
-                            <label for="{value["title"]}">{value2}</label>
-                        '''
-
-    else:
-        html += f'''
-                <p>{value["text"]} </p>
-                <div class="form-group">
-                    <input type="{value["type"]}" class="form-control" id="{value["text"]}" name="{value["text"]}"
-                </div>
-                ''' 
-
-html += f'''
-        <input type = "submit" />
-        </form>
-        </body>
-        </html>
-        '''
+html = xmlParser.createHTML(info)
 
 @app.route('/')
 def base():
@@ -60,30 +27,38 @@ def base():
 
 @app.route('/upload', methods = ['POST'])
 def upload():
-    
     dic = {}
     first = True
+
     for x in info.values():
+
         if x["type"] == "file":
-            f = request.files[x["text"]]
-            f.save(os.path.join(app.config['UPLOAD_FOLDER'], f.filename))
-            dic[x["text"]] = f.filename
+            if request.files[x["text"]]:
+                f = request.files[x["text"]]
+                i = 0
+                while os.path.isfile(f'{app.config["UPLOAD_FOLDER"]}/{f.filename}'):
+                    f.filename = f'({i}).'.join(f.filename.split('.'))
+                    i += 1
+                    
+                f.save(os.path.join(app.config['UPLOAD_FOLDER'], f.filename))
+                dic[x["text"]] = f.filename
     
         elif x["type"] == "select":
-            dic[x["title"]] = request.form[x["title"]] 
+            if x["title"] in request.form:
+                dic[x["title"]] = request.form[x["title"]] 
 
-        else:
+        elif x["text"] in request.form:
             dic[x["text"]] = request.form[x["text"]]
 
-    if (results == "csv"):
-        if (not os.path.isfile('./results.csv')):
-            with open('results.csv','w') as f:
+    if (results.split('.')[1] == "csv"):
+        if (not os.path.isfile(f'./{results}')):
+            with open(f'./{results}','w') as f:
                 headers = ""
                 for x in dic.keys():
                     headers += f'''{x},'''
                 f.write(headers[:-1]+'\n')
 
-        with open('results.csv','a') as f:
+        with open(f'./{results}','a') as f:
             for x in dic.values():
                 if first:
                     f.write(f'''{x}''')
@@ -94,18 +69,18 @@ def upload():
             
             f.write('\n')
 
-    elif (results == "json"):
+    elif (results.split('.')[1] == "json"):
         data = []
-        if (not os.path.isfile('./results.json')):
-            with open('results.json','w') as f:
+        if (not os.path.isfile(f'./{results}')):
+            with open(f'./{results}','w') as f:
                 f.write('[]')
         
-        with open('results.json','r') as f:
+        with open(f'./{results}','r') as f:
             data = json.load(f)
 
         data.append(dic)
 
-        with open('results.json','w') as f:
+        with open(f'./{results}','w') as f:
             f.write(json.dumps(data,indent=4))
 
     return redirect("/")
