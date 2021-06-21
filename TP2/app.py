@@ -36,12 +36,12 @@ def upload():
             if request.files[x["text"]]:
                 f = request.files[x["text"]]
                 i = 0
-                while os.path.isfile(f'{app.config["UPLOAD_FOLDER"]}/{f.filename}'):
-                    f.filename = f'({i}).'.join(f.filename.split('.'))
+                newname = f.filename
+                while os.path.isfile(f'{app.config["UPLOAD_FOLDER"]}/{newname}'):
+                    newname = f'({i}).'.join(f.filename.split('.'))
                     i += 1
-                    
-                f.save(os.path.join(app.config['UPLOAD_FOLDER'], f.filename))
-                dic[x["text"]] = f.filename
+                f.save(os.path.join(app.config['UPLOAD_FOLDER'], newname))
+                dic[x["text"]] = newname
     
         elif x["type"] == "select":
             if x["title"] in request.form:

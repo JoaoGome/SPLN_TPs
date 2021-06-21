@@ -26,5 +26,17 @@
         "Idade": "2",
         "Nome": "",
         "Fotografia": "pessoa(0).jpeg"
+    },
+    {
+        "Idade": "15",
+        "Nome": "S2",
+        "Sexo": "Outro",
+        "Fotografia": "pessoa(0)(1).jpeg"
+    },
+    {
+        "Idade": "15",
+        "Nome": "Amiga",
+        "Sexo": "Outro",
+        "Fotografia": "pessoa(1).jpeg"
     }
 ]
