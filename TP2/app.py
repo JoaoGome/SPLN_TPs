@@ -16,6 +16,11 @@ if (len(sys.argv) < 3):
     print("Exemplo: python3 app.py inputTemplate.xml results.json")
     exit()
 
+check_last = sys.argv[2].split('.')
+if check_last[-1] != "json" and check_last[-1] != "csv":
+    print("Apenas devolve ficheiros json e csv")
+    exit()
+
 info = xmlParser.parseFile(sys.argv[1])
 results = sys.argv[2]
 print(info)
@@ -31,32 +36,6 @@ def upload():
     dic = {}
     first = True
    
-    '''
-    for x in info.values():
-
-        if x["type"] == "file":
-            if request.files[x["text"]]:
-                f = request.files[x["text"]]
-                i = 0
-                newname = f.filename
-                while os.path.isfile(f'{app.config["UPLOAD_FOLDER"]}/{newname}'):
-                    newname = f'({i}).'.join(f.filename.split('.'))
-                    i += 1
-                f.save(os.path.join(app.config['UPLOAD_FOLDER'], newname))
-                dic[x["text"]] = newname
-    
-        elif x["type"] == "select" or x["type"] == "radio":
-            if x["title"] in request.form:
-                dic[x["title"]] = request.form[x["title"]] 
-        
-        elif x["type"] == "checkbox":
-            if x["title"] in request.form:
-                dic[x["title"]] = request.form.getlist(x["title"])
-
-        elif x["text"] in request.form:
-            dic[x["text"]] = request.form[x["text"]]
-    '''
-    
     for key in request.form:
         value = [unidecode.unidecode(x) for x in request.form.getlist(key)]
         if len(value) == 1: value = value[0]
@@ -68,7 +47,9 @@ def upload():
             newname = f.filename
             i = 0
             while os.path.isfile(f'{app.config["UPLOAD_FOLDER"]}/{newname}'):
-                newname = f'({i}).'.join(f.filename.split('.'))
+                separado = f.filename.split('.')
+                last = separado.pop(1)
+                newname = '.'.join(separado) + f'({i}).' + last
                 i += 1
             f.save(os.path.join(app.config['UPLOAD_FOLDER'], newname))
             dic[unidecode.unidecode(key)] = unidecode.unidecode(newname)
@@ -136,12 +117,22 @@ if __name__ == '__main__':
     'item3': 
     {
         'type': 'radio', 
-        'title': 'Sex', 
-        'text1': 'Boy', 
-        'text2': 'Girl', 
-        'text3': 'Other'
+        'title': 'Sexo', 
+        'text': ['Masculino', 'Feminino', 'Outro']
     }, 
     'item4': 
+    {
+        'type': 'checkbox', 
+        'title': 'Cores', 
+        'text': ['Vermelho', 'Azul', 'Amarelo']
+    }, 
+    'item5': 
+    {
+        'type': 'select', 
+        'title': 'Estação', 
+        'text': ['Verão', 'Primavera', 'Outono', 'Inverno']
+    }, 
+    'item6': 
     {
         'type': 'file', 
         'text': 'Fotografia'

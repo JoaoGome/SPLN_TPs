@@ -112,5 +112,29 @@
             "Vermelho"
         ],
         "Estacao": "Verao"
+    },
+    {
+        "Nome": "S",
+        "Idade": "13",
+        "Sexo": "Feminino",
+        "Estacao": "Verao",
+        "Fotografia": "pessoa(4).jpeg"
+    },
+    {
+        "Nome": "S",
+        "Idade": "13",
+        "Sexo": "Feminino",
+        "Estacao": "Verao",
+        "Fotografia": "pessoa(5).jpeg"
+    },
+    {
+        "Nome": "",
+        "Idade": "13",
+        "Estacao": "Verao"
+    },
+    {
+        "Nome": "S",
+        "Idade": "13",
+        "Estacao": "Verao"
     }
 ]

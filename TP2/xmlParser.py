@@ -14,36 +14,41 @@ def parseFile (filePath:str):
 
         elif (child.tag == "item"):
             tempDict = {}
-            textID = 1
-            if (child.attrib["type"] == "radio"):
-                tempDict["type"] = "radio"
-                for itemChild in child:
-                    if (itemChild.tag == "title"):
-                        tempDict["title"] = f"{itemChild.text}"
-                    elif (itemChild.tag == "text"):
-                        tempDict[f"text{textID}"] = f"{itemChild.text}"
-                        textID += 1
-                dict[f"item{itemID}"] = tempDict
-                itemID += 1
 
-            elif (child.attrib["type"] == "checkbox"):
-                tempDict["type"] = child.attrib["type"]
+            tempDict["required"] = False
+            if "required" in child.attrib:
+                if child.attrib["required"].lower() == "true":
+                    tempDict["required"] = True
+
+            if (child.attrib["type"].lower() == "radio"):
+                tempDict["type"] = "radio"
                 tempDict["text"] = []
                 for itemChild in child:
-                    if (itemChild.tag == "title"):
+                    if (itemChild.tag.lower() == "title"):
                         tempDict["title"] = f"{itemChild.text}"
-                    elif (itemChild.tag == "text"):
+                    elif (itemChild.tag.lower() == "text"):
                         tempDict[f"text"].append(f"{itemChild.text}")
                 dict[f"item{itemID}"] = tempDict
                 itemID += 1
 
-            elif (child.attrib["type"] == "select"):
-                tempDict["type"] = child.attrib["type"]
+            elif (child.attrib["type"].lower() == "checkbox"):
+                tempDict["type"] = "checkbox"
                 tempDict["text"] = []
                 for itemChild in child:
-                    if (itemChild.tag == "title"):
+                    if (itemChild.tag.lower() == "title"):
                         tempDict["title"] = f"{itemChild.text}"
-                    elif (itemChild.tag == "text"):
+                    elif (itemChild.tag.lower() == "text"):
+                        tempDict[f"text"].append(f"{itemChild.text}")
+                dict[f"item{itemID}"] = tempDict
+                itemID += 1
+
+            elif (child.attrib["type"].lower() == "select"):
+                tempDict["type"] = "select"
+                tempDict["text"] = []
+                for itemChild in child:
+                    if (itemChild.tag.lower() == "title"):
+                        tempDict["title"] = f"{itemChild.text}"
+                    elif (itemChild.tag.lower() == "text"):
                         tempDict[f"text"].append(f"{itemChild.text}")
                 dict[f"item{itemID}"] = tempDict
                 itemID += 1
@@ -51,7 +56,7 @@ def parseFile (filePath:str):
             else:
                 tempDict["type"] = child.attrib["type"]
                 for itemChild in child:
-                    if (itemChild.tag == "text"):
+                    if (itemChild.tag.lower() == "text"):
                         tempDict["text"] = f"{itemChild.text}"
             
                 dict[f"item{itemID}"] = tempDict
@@ -69,33 +74,35 @@ def createHTML(info: dict):
             <head>
                 <title>{title}</title>
                 <meta charset="utf-8"/>
-                <link rel="stylesheet" href="C:/Users/Sotex/Uni/PRI/TP6/w3.css"/>
+                <link rel="stylesheet" href="static/styles/w3.css"/>
                 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
             </head>
             <body>
-                <p>{title}</p>
-                <form action = "http://172.31.148.23:8000/upload" method = "POST" enctype = "multipart/form-data">
+                <h3 class="w3-cyan w3-center w3-margin w3-text-white"><b>{title}</b></h3>
+                <form class="w3-container w3-left-margin" action = "http://172.31.148.23:8000/upload" method = "POST" enctype = "multipart/form-data">
         '''
 
     for (key,value) in info.items():
-        print(value)
+        if value["required"] == True: is_required = "required"
+        else: is_required = ""
+
         if (value["type"] == "radio"): 
             html += f'''
-                        <p>{value["title"]}</p>
+                        <label class="w3-text-blue-grey"><b>{value["title"]}:</b></label>
                     '''
 
-            for (key2,value2) in value.items():
-                if (key2 != "type" and key2 != "title") :
-                    html += f'''
-                                <input type="radio" id="{value2}" name="{value["title"]}" value="{value2}">
-                                <label for="{value["title"]}">{value2}</label>
-                            '''
+            for value2 in value["text"]:
+                html += f'''
+                            <input type="radio" id="{value2}" name="{value["title"]}" value="{value2}" {is_required}>
+                            <label for="{value["title"]}">{value2}</label>
+                        '''
+            html += '<br/><br/>'
 
         elif (value["type"] == "select"): 
 
             html += f'''
-                        <p>{value["title"]}</p>
-                        <p><select id="{value2}" name="{value["title"]}">
+                        <label class="w3-text-blue-grey"><b>{value["title"]}:</b></label>
+                        <select id="{value2}" name="{value["title"]}" {is_required}>
                     '''
 
             for value2 in value["text"]:
@@ -104,31 +111,31 @@ def createHTML(info: dict):
                         '''
             
             html += f'''
-                        </select></p>
+                        </select><br/><br/>
                     '''
 
         elif (value["type"] == "checkbox"): 
             html += f'''
-                        <p>{value["title"]} </p>
+                        <label class="w3-text-blue-grey"><b>{value["title"]}:</b></label>
                     '''
 
             for value2 in value["text"]:
                 html += f'''
-                            <input type="checkbox" id="{value2}" name="{value["title"]}" value="{value2}">
+                            <input type="checkbox" id="{value2}" name="{value["title"]}" value="{value2}" {is_required}>
                             <label for="{value2}">{value2}</label>
                         '''
+            html += '<br/><br/>'
 
         else:
             html += f'''
-                    <p>{value["text"]} </p>
-                    <div class="form-group">
-                        <input type="{value["type"]}" class="form-control" id="{value["text"]}" name="{value["text"]}">
-                    </div>
+                    <label class="w3-text-blue-grey"><b>{value["text"]}:</b></label>
+                    <input type="{value["type"]}" class="form-control" id="{value["text"]}" name="{value["text"]}" {is_required}><br/><br/>
                     ''' 
 
     html += f'''
-            <p><input type="submit"/></p>
+            <p class="w3-cyan"><b><input class="w3-button w3-text-white w3-round" type="submit"/></b></p>
             </form>
+            <br class="w3-pale-blue"/>
             </body>
             </html>
             '''

@@ -2,7 +2,7 @@
 <data>
 
     <title>Formulário Teste</title>
-    <item type="text">
+    <item type="text" required="true">
         <text>Nome</text>
     </item>
     
