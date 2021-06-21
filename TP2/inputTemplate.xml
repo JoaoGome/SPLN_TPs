@@ -1,20 +1,36 @@
 <?xml version="1.0"?>
 <data>
 
-    <id>Formulário Teste</id>
+    <title>Formulário Teste</title>
+    <item type="text">
+        <text>Nome</text>
+    </item>
+    
     <item type="number">
         <text>Idade</text>
     </item>
 
-    <item type="text">
-        <text>Nome</text>
-    </item>
-
-    <item type="select">
+    <item type="radio">
         <title>Sexo</title>
         <text>Masculino</text>
         <text>Feminino</text>
         <text>Outro</text>
+    </item>
+
+    <item type="checkbox">
+        <title>Cores</title>
+        <text>Amarelo</text>
+        <text>Azul</text>
+        <text>Verde</text>
+        <text>Vermelho</text>
+    </item>
+
+    <item type="select">
+        <title>Estação</title>
+        <text>Verão</text>
+        <text>Primavera</text>
+        <text>Inverno</text>
+        <text>Outono</text>
     </item>
 
     <item type="file">

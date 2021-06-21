@@ -29,14 +29,88 @@
     },
     {
         "Idade": "15",
-        "Nome": "S2",
-        "Sexo": "Outro",
-        "Fotografia": "pessoa(0)(1).jpeg"
-    },
-    {
-        "Idade": "15",
         "Nome": "Amiga",
         "Sexo": "Outro",
         "Fotografia": "pessoa(1).jpeg"
+    },
+    {
+        "Idade": "13",
+        "Nome": "",
+        "Sexo": [
+            "Feminino",
+            "Outro"
+        ]
+    },
+    {
+        "Idade": "13",
+        "Nome": "",
+        "Sexo": [
+            "Feminino",
+            "Outro"
+        ]
+    },
+    {
+        "Idade": "14",
+        "Nome": "",
+        "Sexo": [
+            "Masculino",
+            "Feminino"
+        ],
+        "Fotografia": []
+    },
+    {
+        "Idade": "14",
+        "Nome": "",
+        "Sexo": [
+            "Masculino",
+            "Feminino"
+        ],
+        "Fotografia": "pessoa.jpeg"
+    },
+    {
+        "Idade": "14",
+        "Nome": "",
+        "Sexo": [
+            "Masculino",
+            "Feminino"
+        ],
+        "Fotografia": "pessoa(0).jpeg"
+    },
+    {
+        "Idade": "15",
+        "Nome": "ST",
+        "Sexo": "Feminino"
+    },
+    {
+        "Idade": "14",
+        "Nome": "S",
+        "Sexo": "Feminino",
+        "Cores": [
+            "Azul",
+            "Verde"
+        ],
+        "Esta\u00e7\u00e3o": "Primavera",
+        "Fotografia": "pessoa(2).jpeg"
+    },
+    {
+        "Idade": "14",
+        "Nome": "S",
+        "Sexo": "Feminino",
+        "Cores": [
+            "Azul",
+            "Verde"
+        ],
+        "Esta\u00e7\u00e3o": "Primavera",
+        "Fotografia": "pessoa(3).jpeg"
+    },
+    {
+        "Nome": "S",
+        "Idade": "15",
+        "Sexo": "Feminino",
+        "Cores": [
+            "Verde",
+            "Vermelho"
+        ],
+        "Estacao": "Verao"
     }
 ]

@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>Formulário Teste</title>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" type="text/css" href="w3.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <h3 class="w3-margin-left">Formulário Teste</h3>
+        <form class="w3-margin-left w3-container" action = "http://172.31.148.23:8000/upload" method = "POST" enctype = "multipart/form-data">
+
+            <p w3-margin-left>Idade </p>
+            <div class="form-group">
+                <input type="number" class="form-control" id="Idade" name="Idade">
+            </div>
+            
+            <p>Nome </p>
+            <div class="form-group">
+                <input type="text" class="form-control" id="Nome" name="Nome">
+            </div>
+            
+            <p>Sexo </p>
+        
+            <input type="radio" id="Masculino" name="Sexo" value="Masculino">
+            <label for="Sexo">Masculino</label>
+        
+            <input type="radio" id="Feminino" name="Sexo" value="Feminino">
+            <label for="Sexo">Feminino</label>
+        
+            <input type="radio" id="Outro" name="Sexo" value="Outro">
+            <label for="Sexo">Outro</label>
+                    
+            <p>Fotografia </p>
+            <div class="form-group">
+                <input type="file" class="form-control" id="Fotografia" name="Fotografia"
+            </div>
+            
+            <input type = "submit" />
+        </form>
+    </body>
+</html>

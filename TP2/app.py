@@ -2,6 +2,7 @@ import xmlParser
 import sys
 import os
 import json
+import unidecode
 
 from flask import Flask, render_template, request, redirect
 
@@ -29,7 +30,8 @@ def base():
 def upload():
     dic = {}
     first = True
-
+   
+    '''
     for x in info.values():
 
         if x["type"] == "file":
@@ -43,12 +45,38 @@ def upload():
                 f.save(os.path.join(app.config['UPLOAD_FOLDER'], newname))
                 dic[x["text"]] = newname
     
-        elif x["type"] == "select":
+        elif x["type"] == "select" or x["type"] == "radio":
             if x["title"] in request.form:
                 dic[x["title"]] = request.form[x["title"]] 
+        
+        elif x["type"] == "checkbox":
+            if x["title"] in request.form:
+                dic[x["title"]] = request.form.getlist(x["title"])
 
         elif x["text"] in request.form:
             dic[x["text"]] = request.form[x["text"]]
+    '''
+    
+    for key in request.form:
+        value = [unidecode.unidecode(x) for x in request.form.getlist(key)]
+        if len(value) == 1: value = value[0]
+        dic[unidecode.unidecode(key)] = value
+
+    for key in request.files:
+        if request.files[key]:
+            f = request.files[key]
+            newname = f.filename
+            i = 0
+            while os.path.isfile(f'{app.config["UPLOAD_FOLDER"]}/{newname}'):
+                newname = f'({i}).'.join(f.filename.split('.'))
+                i += 1
+            f.save(os.path.join(app.config['UPLOAD_FOLDER'], newname))
+            dic[unidecode.unidecode(key)] = unidecode.unidecode(newname)
+
+
+        
+
+    print(dic)
 
     if (results.split('.')[1] == "csv"):
         if (not os.path.isfile(f'./{results}')):
@@ -107,7 +135,7 @@ if __name__ == '__main__':
     }, 
     'item3': 
     {
-        'type': 'select', 
+        'type': 'radio', 
         'title': 'Sex', 
         'text1': 'Boy', 
         'text2': 'Girl', 
