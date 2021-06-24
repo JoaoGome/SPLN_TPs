@@ -99,3 +99,7 @@ Os resultados das submissões do formulário serem guardados num ficheiro à esc
          "Sexo": "Masculino"
      }
     ]
+
+  # Formulário resultante do ficheiro **XML** usado como exemplo.
+    
+![Screenshot 2021-06-24 at 15 36 37 (2)](https://user-images.githubusercontent.com/68651003/123281997-0c6c3100-d502-11eb-9cd6-bbf39d230e28.png)
