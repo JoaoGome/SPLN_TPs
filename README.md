@@ -51,7 +51,7 @@ Fá-lo, recebendo do User um ficheiro **XML** com o template do formulário, e c
 
 O ficheiro de input **XML** para ser aceite deve estar no seguinte formato:
 
-1. Tag <data> que encapsulará toda as outras tags.
+1. Tag data que encapsulará toda as outras tags.
 1. Tag <title> onde o User indica o título que o formulário vai ter.
 2. Uma lista de tags <item>. Cada uma representará um campo do formulário.
 3. Cada tag <item> deverá ter o atributo **type**, que determinará a funcionalidade deste campo do formulário.
